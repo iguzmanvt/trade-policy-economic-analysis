@@ -55,7 +55,7 @@ An expanded study would construct a monthly product–supplier panel, date statu
 
 ## Reproducibility, vintage and sources
 
-The accompanying repository draft contains 30 aggregated input rows, a standard-library Python script and unrounded results. Coverage and arithmetic were checked, including a separate recomputation. Earlier months retain their archived vintages, so these sums can differ from subsequently revised Census year-to-date fields. A fresh API verification was attempted but did not complete. Reproduction therefore applies to the included snapshot, not to the latest live release.
+The accompanying repository contains 30 aggregated input rows, a standard-library Python script and unrounded results. Coverage and arithmetic were checked, including a separate recomputation. Earlier months retain their archived vintages, so these sums can differ from subsequently revised Census year-to-date fields. A fresh API verification was attempted but did not complete. Reproduction therefore applies to the included snapshot, not to the latest live release.
 
 [[1] U.S. Census — International Trade Imports HS variable definitions](https://api.census.gov/data/timeseries/intltrade/imports/hs/variables.html)
 

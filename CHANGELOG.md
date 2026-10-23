@@ -9,3 +9,9 @@
 - Added an English portfolio index, source-specific rights notice, project notes, data dictionaries, reproducible results and a single offline execution command.
 
 The information cutoff is 22 October 2026. Each source retains its own reference period and archived vintage; no statistical source was silently refreshed to a later release. Source retrieval and verification limits are reported within each project.
+
+## Publication metadata update — 22 October 2026
+
+- Confirmed the public release of all five completed projects and retained the existing repository, paths and history.
+- Replaced outdated pending-approval and draft wording with the author's actual public-dissemination authorization.
+- Clarified the portfolio's applied trade-policy and reproducible-research positioning. No analytical code, input, result, statistical vintage or conclusion changed.

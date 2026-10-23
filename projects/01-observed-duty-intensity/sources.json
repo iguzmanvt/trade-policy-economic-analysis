@@ -1,7 +1,7 @@
 {
   "title": "Observed duty intensity and the interpretation of trade reallocation",
   "author": "Isaac Guzmán Valdivia Tovar",
-  "status": "Prepared for public portfolio; diffusion approval pending",
+  "status": "Published public portfolio; author dissemination authorized 22 October 2026",
   "prepared_date_local": "2026-10-22",
   "statistical_source": "U.S. Census Bureau, International Trade, imports for consumption",
   "source_status": "Aggregated from archived monthly extracts; no successful live refresh in this application workflow",
@@ -40,7 +40,7 @@
     "definitions": "https://www.census.gov/foreign-trade/guide/sec2.html",
     "api_guide": "https://www.census.gov/foreign-trade/reference/guides/Guide_to_International_Trade_Datasets.pdf"
   },
-  "release_status": "Independent note and script, public-statistics extract; no client deliverable or original client code included. Public diffusion approval remains pending.",
+  "release_status": "Independent note and script, public-statistics extract; no client deliverable or original client code included. Public dissemination authorized by the author on 22 October 2026.",
   "official_documentation_rechecked_local_date": "2026-10-22",
   "live_statistical_data_refresh_performed_in_this_portfolio": false
 }

@@ -2,7 +2,7 @@
 
 **Isaac Guzmán Valdivia Tovar** · Economist · Information cutoff: 22 October 2026
 
-Five reproducible examples connect trade measurement, external exposure, institutional evidence, production accounts and growth mechanisms. Each addresses a different question and states what its evidence can establish. The notes and results are in English. This is independent analytical work; no institutional endorsement is implied.
+This portfolio presents applied trade-policy analysis and reproducible policy research. Five examples connect trade measurement, external exposure, institutional evidence, production accounts and growth mechanisms. Each addresses a different question and states what its evidence can establish. The notes and results are in English. This is independent analytical work; no institutional endorsement is implied.
 
 ## Project index
 

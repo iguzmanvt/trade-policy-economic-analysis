@@ -35,6 +35,6 @@ The optional command downloads the three official PDFs if missing, verifies thei
 
 ## Interpretation and publication
 
-NTE reports present the U.S. government's reported concerns and policy perspective. A mention is neither a World Trade Organization finding nor an estimate of economic cost. Repeated language is not proof of continued enforcement; a changed legal citation is not proof of a new restriction. Market-access safeguards must not be coded as newly imposed barriers. No client reports, original client code, private actor records or full PDFs are included. This package is complete for its bounded sample and awaits the author's public-release approval.
+NTE reports present the U.S. government's reported concerns and policy perspective. A mention is neither a World Trade Organization finding nor an estimate of economic cost. Repeated language is not proof of continued enforcement; a changed legal citation is not proof of a new restriction. Market-access safeguards must not be coded as newly imposed barriers. No client reports, original client code, private actor records or full PDFs are included. This package is complete for its bounded sample; its public dissemination was authorized by the author on 22 October 2026.
 
 [Execution and verification record](EXECUTION.md).
