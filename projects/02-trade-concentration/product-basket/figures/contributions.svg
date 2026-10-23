@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="600" viewBox="0 0 1120 600">
+<rect width="1120" height="600" fill="white"/>
+<g font-family="Arial, sans-serif" fill="#172b4d">
+<text x="40" y="45" font-size="25" font-weight="bold">Three lines account for 99.6% of the increase</text>
+<text x="40" y="77" font-size="17">U.S. general imports from Mexico in a fixed HTS10 basket, grouped into 88 HS6 categories</text>
+<text x="40" y="104" font-size="16">Change: January-August 2026 minus January-August 2025; billions of nominal U.S. dollars</text>
+<text x="40" y="184" font-size="18">Processing units</text>
+<rect x="300.00" y="165" width="625.00" height="30" fill="#002060"/>
+<text x="934.00" y="186" font-size="18" font-weight="bold">+50.620</text>
+<text x="40" y="206" font-size="12" fill="#526277">8471500150</text>
+<text x="40" y="263" font-size="18">Storage units</text>
+<rect x="300.00" y="244" width="61.30" height="30" fill="#002060"/>
+<text x="370.30" y="265" font-size="18" font-weight="bold">+4.965</text>
+<text x="40" y="285" font-size="12" fill="#526277">8471709000</text>
+<text x="40" y="342" font-size="18">Switching and routing</text>
+<rect x="300.00" y="323" width="53.09" height="30" fill="#002060"/>
+<text x="362.09" y="344" font-size="18" font-weight="bold">+4.300</text>
+<text x="40" y="364" font-size="12" fill="#526277">8517620020</text>
+<text x="40" y="421" font-size="18">All other selected lines</text>
+<rect x="300.00" y="402" width="2.70" height="30" fill="#608aa7"/>
+<text x="311.70" y="423" font-size="18" font-weight="bold">+0.218</text>
+<text x="40" y="443" font-size="12" fill="#526277">REST</text>
+<line x1="300" y1="145" x2="300" y2="465" stroke="#6a7a8f"/>
+<text x="40" y="512" font-size="18" font-weight="bold">Total increase: +60.103 billion dollars (64.2%)</text>
+<text x="40" y="547" font-size="14">Source: U.S. Census Bureau archived monthly records; author calculations. Recovered archive; no fresh API verification.</text>
+<text x="40" y="570" font-size="14">The basket is selected and retrospective. Gross values do not identify final use, domestic value added or causality.</text>
+</g></svg>

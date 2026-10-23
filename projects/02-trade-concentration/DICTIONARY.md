@@ -1,5 +1,7 @@
 # Data dictionary and measurement rules
 
+This dictionary covers the **partner view** of P02. See the [product view](product-basket/README.md) and [common dictionary](../census-common/DATA_DICTIONARY.md) for the separate product dataset and flow bridge.
+
 ## Input: `data/partner_values.csv`
 
 | Field | Definition |

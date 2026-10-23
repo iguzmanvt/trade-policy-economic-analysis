@@ -6,11 +6,11 @@ Built a reproducible comparison of observed U.S. import duty intensity across th
 
 Distinguished supplier-specific duty gaps from statutory tariffs and causal claims about Mexico's trade expansion.
 
-## North American trade concentration and exposure
+## Trade concentration and exposure: partners and products
 
-Reconstructed all-goods U.S. supplier and export-destination concentration for January–August 2023–2026 using archived Census statistics.
+Measured all-goods U.S. supplier and destination exposure for January–August 2023–2026 and concentration within a fixed import basket from Mexico for 2025–2026.
 
-Measured partner HHI, North American shares and growth contributions while preserving flow definitions and statistical vintages.
+Reproduced concentration indices and signed growth contributions with separate partner/product denominators, archived vintages and a bridge between general and consumption imports.
 
 ## Non-tariff barriers in National Trade Estimate reports
 

@@ -501,6 +501,143 @@
       "duty_intensity_pct": "0.1531927511231064616197136906"
     }
   ],
+  "rate_changes": [
+    {
+      "hts10": "8471500150",
+      "product": "Processing units",
+      "country": "Mexico",
+      "period_basis": "JAN_AUG_MONTHLY_SUM",
+      "duty_intensity_2025_pct": "0.09567559079945080147007856845",
+      "duty_intensity_2026_pct": "0.02428792410650575645077061525",
+      "change_pp": "-0.07138766669294504501930795320"
+    },
+    {
+      "hts10": "8471500150",
+      "product": "Processing units",
+      "country": "China",
+      "period_basis": "JAN_AUG_MONTHLY_SUM",
+      "duty_intensity_2025_pct": "35.03903405333625141932093682",
+      "duty_intensity_2026_pct": "27.12474734930761145393772852",
+      "change_pp": "-7.91428670402863996538320830"
+    },
+    {
+      "hts10": "8471500150",
+      "product": "Processing units",
+      "country": "Taiwan",
+      "period_basis": "JAN_AUG_MONTHLY_SUM",
+      "duty_intensity_2025_pct": "0.02757329176665202676626717492",
+      "duty_intensity_2026_pct": "0.03164914050713277140460051743",
+      "change_pp": "0.00407584874048074463833334251"
+    },
+    {
+      "hts10": "8471500150",
+      "product": "Processing units",
+      "country": "Vietnam",
+      "period_basis": "JAN_AUG_MONTHLY_SUM",
+      "duty_intensity_2025_pct": "0.1204050990109986820397200867",
+      "duty_intensity_2026_pct": "0.1085686382880042478006720354",
+      "change_pp": "-0.0118364607229944342390480513"
+    },
+    {
+      "hts10": "8471500150",
+      "product": "Processing units",
+      "country": "Malaysia",
+      "period_basis": "JAN_AUG_MONTHLY_SUM",
+      "duty_intensity_2025_pct": "0.6908498586069278815055964584",
+      "duty_intensity_2026_pct": "0.3316302462690134151884763988",
+      "change_pp": "-0.3592196123379144663171200596"
+    },
+    {
+      "hts10": "8471709000",
+      "product": "Storage units",
+      "country": "Mexico",
+      "period_basis": "JAN_AUG_MONTHLY_SUM",
+      "duty_intensity_2025_pct": "0.2742014642093974510435720079",
+      "duty_intensity_2026_pct": "0.001988247552425662819123403201",
+      "change_pp": "-0.2722132166569717882244486047"
+    },
+    {
+      "hts10": "8471709000",
+      "product": "Storage units",
+      "country": "China",
+      "period_basis": "JAN_AUG_MONTHLY_SUM",
+      "duty_intensity_2025_pct": "33.96252030396727423582208049",
+      "duty_intensity_2026_pct": "27.66973049209694660380356062",
+      "change_pp": "-6.29278981187032763201851987"
+    },
+    {
+      "hts10": "8471709000",
+      "product": "Storage units",
+      "country": "Taiwan",
+      "period_basis": "JAN_AUG_MONTHLY_SUM",
+      "duty_intensity_2025_pct": "0.3345996372079603282061074215",
+      "duty_intensity_2026_pct": "0.1538732670966927981976592840",
+      "change_pp": "-0.1807263701112675300084481375"
+    },
+    {
+      "hts10": "8471709000",
+      "product": "Storage units",
+      "country": "Vietnam",
+      "period_basis": "JAN_AUG_MONTHLY_SUM",
+      "duty_intensity_2025_pct": "0.1682921606650193302238398040",
+      "duty_intensity_2026_pct": "0.006941776575929123224463177950",
+      "change_pp": "-0.1613503840890902069993766260"
+    },
+    {
+      "hts10": "8471709000",
+      "product": "Storage units",
+      "country": "Malaysia",
+      "period_basis": "JAN_AUG_MONTHLY_SUM",
+      "duty_intensity_2025_pct": "1.160919086459119850716993003",
+      "duty_intensity_2026_pct": "1.233032394308097949749097588",
+      "change_pp": "0.072113307848978099032104585"
+    },
+    {
+      "hts10": "8517620020",
+      "product": "Switching and routing apparatus",
+      "country": "Mexico",
+      "period_basis": "JAN_AUG_MONTHLY_SUM",
+      "duty_intensity_2025_pct": "3.216300930602756169116164284",
+      "duty_intensity_2026_pct": "0.1123015760446773280699223166",
+      "change_pp": "-3.103999354558078841046241967"
+    },
+    {
+      "hts10": "8517620020",
+      "product": "Switching and routing apparatus",
+      "country": "China",
+      "period_basis": "JAN_AUG_MONTHLY_SUM",
+      "duty_intensity_2025_pct": "41.09183277460544842291093808",
+      "duty_intensity_2026_pct": "26.38082954974868762177582970",
+      "change_pp": "-14.71100322485676080113510838"
+    },
+    {
+      "hts10": "8517620020",
+      "product": "Switching and routing apparatus",
+      "country": "Taiwan",
+      "period_basis": "JAN_AUG_MONTHLY_SUM",
+      "duty_intensity_2025_pct": "0.07712462323939256681858688106",
+      "duty_intensity_2026_pct": "0.01981944719349249636371493459",
+      "change_pp": "-0.05730517604590007045487194647"
+    },
+    {
+      "hts10": "8517620020",
+      "product": "Switching and routing apparatus",
+      "country": "Vietnam",
+      "period_basis": "JAN_AUG_MONTHLY_SUM",
+      "duty_intensity_2025_pct": "0.05745805512791636939731741362",
+      "duty_intensity_2026_pct": "0.01698065154743485672200267436",
+      "change_pp": "-0.04047740358048151267531473926"
+    },
+    {
+      "hts10": "8517620020",
+      "product": "Switching and routing apparatus",
+      "country": "Malaysia",
+      "period_basis": "JAN_AUG_MONTHLY_SUM",
+      "duty_intensity_2025_pct": "0.1107340301069469870144347936",
+      "duty_intensity_2026_pct": "0.01062211199185305366037786845",
+      "change_pp": "-0.1001119181150939333540569252"
+    }
+  ],
   "checks": {
     "exact_product_country_period_coverage": true,
     "unique_product_country_period_keys": true,
@@ -508,7 +645,9 @@
     "finite_nonnegative_numeric_inputs": true,
     "all_rows_explicitly_january_august_monthly_sums": true,
     "country_codes_match_country_names": true,
-    "aggregate_rates_use_ratio_of_sums": true
+    "aggregate_rates_use_ratio_of_sums": true,
+    "monthly_records_revalidated_in_this_run": false,
+    "live_census_refresh_performed_in_this_run": false
   },
   "limits": [
     "Archived monthly vintages can differ from subsequently revised official YTD totals.",

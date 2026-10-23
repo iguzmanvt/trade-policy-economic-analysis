@@ -38,9 +38,41 @@
   "official_references": {
     "variables": "https://api.census.gov/data/timeseries/intltrade/imports/hs/variables.html",
     "definitions": "https://www.census.gov/foreign-trade/guide/sec2.html",
-    "api_guide": "https://www.census.gov/foreign-trade/reference/guides/Guide_to_International_Trade_Datasets.pdf"
+    "api_guide": "https://www.census.gov/foreign-trade/reference/guides/Guide_to_International_Trade_Datasets.pdf",
+    "guide": "https://www.census.gov/foreign-trade/reference/guides/Guide_to_International_Trade_Datasets.pdf"
   },
   "release_status": "Independent note and script, public-statistics extract; no client deliverable or original client code included. Public dissemination authorized by the author on 22 October 2026.",
   "official_documentation_rechecked_local_date": "2026-10-22",
-  "live_statistical_data_refresh_performed_in_this_portfolio": false
+  "live_statistical_data_refresh_performed_in_this_portfolio": false,
+  "project": "P01 — Observed duties across suppliers of three equipment lines",
+  "input_file": "data/census_snapshot.csv",
+  "statistical_basis": "January–August totals reconstructed from archived monthly observations",
+  "periods": [
+    "January–August 2025",
+    "January–August 2026"
+  ],
+  "upstream_monthly_observations_reported": 240,
+  "upstream_monthly_observations_included": 0,
+  "upstream_monthly_observations_revalidated_in_this_run": 0,
+  "archive_update_label_inherited": "2026-10-13",
+  "archive_label_is_original_download_timestamp": false,
+  "live_refresh_performed_in_this_run": false,
+  "latest_revised_release_certified": false,
+  "dictionary": "../census-common/DATA_DICTIONARY.md",
+  "source_terms": "Source statistics and documents retain their applicable source terms; CODE_LICENSE.txt applies only to original code.",
+  "publication_scope": "Published public project retained in its canonical portfolio directory. Updated analytical presentation is integrated by the portfolio coordinator under the author's existing dissemination authorization; this analysis script performs no publication.",
+  "integration_revision_date_local": "2026-10-23",
+  "aggregate_rows_included_and_reproduced": 30,
+  "upstream_months_per_aggregate_documented_previously": 8,
+  "validation_scope": {
+    "included_aggregate_rows": 30,
+    "aggregate_arithmetic_reproduced": true,
+    "upstream_monthly_observations_documented_previously": 240,
+    "upstream_monthly_observations_included": 0,
+    "upstream_monthly_observations_revalidated_in_this_integration": 0,
+    "upstream_coverage_check_inherited_not_reexecuted": true,
+    "live_statistical_refresh_performed": false,
+    "latest_revised_release_certified": false
+  },
+  "integration_source_version": "Analytical presentation prepared on 22 October 2026; canonical integration on 23 October 2026."
 }

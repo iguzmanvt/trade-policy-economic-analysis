@@ -1,58 +1,54 @@
-# Observed duty intensity and the interpretation of trade reallocation
+# Observed duties across suppliers of three equipment lines
 
-**Isaac Guzmán Valdivia Tovar · Analytical sample · 22 October 2026**
+Isaac Guzmán Valdivia Tovar · 22 October 2026
 
-This bounded analytical example compares U.S. imports for consumption in three 10-digit Harmonized Tariff Schedule (HTS10) lines from Mexico, China, Taiwan, Vietnam and Malaysia. It is intended as an analytical writing sample. It is not an IMF publication, and no affiliation or endorsement is implied.
+This project measures observed calculated-duty intensity within the same Harmonized Tariff Schedule 10-digit (HTS10) product code across Mexico, China, Taiwan, Vietnam and Malaysia. It is a descriptive portfolio sample using U.S. imports for consumption in January–August 2025 and 2026.
 
-[Read the analytical note](NOTE.md).
+[Read the analytical note](NOTE.md) · [Method and limitations](METHODOLOGY.md) · [Validation record](VALIDATION.md)
 
-## Main finding
+## Result
 
-In the archived snapshot, U.S. imports for consumption from Mexico in the selected lines increased from **$53.90 billion** in January–August 2025 to **$113.10 billion** in the same months of 2026 (**109.8%**). Mexico's observed duty intensity in 2026 was far below China's, while the other selected Asian suppliers also had low ratios. These comparisons motivate a research question; they do not estimate a causal tariff effect.
+China's 2026 observed ratios exceeded Mexico's by **26.269–27.668 percentage points** across the three lines. Gaps against Taiwan, Vietnam and Malaysia were much smaller and sometimes negative: Mexico's switching and routing ratio was **0.092–0.102 points higher** than theirs. Supplier-specific comparisons matter; this exercise does not identify a causal tariff effect.
+
+![Observed duty intensity gaps relative to Mexico, 2026](figures/gaps_vs_mexico_2026.svg)
 
 ## Reproduce
 
-Requires Python 3.11 or later. No additional packages, credentials or network connection are required.
+Requires Python 3.11 or later, standard library only. No credentials, network access or additional packages are required.
 
 ```bash
 python analyze.py
 ```
 
-The script reproduces the tables from the bundled 30-row snapshot. The snapshot was reconstructed upstream from archived monthly observations. By default the script reads `data/census_snapshot.csv` and overwrites the reproducible result files in `results/`. It can also run from a different working directory or accept explicit paths:
+The script validates and reads the bundled **30 aggregate rows**, regenerates five CSV/JSON result files and an SVG chart. It can run from any working directory. To write alternative outputs:
 
 ```bash
 python analyze.py --input data/census_snapshot.csv --output results
 ```
 
-The script uses decimal arithmetic. Output decimals are unrounded strings; tables in the writing sample round only for presentation.
+The figure is written to `figures/` next to the output directory. Numeric outputs retain Decimal precision; presentation rounding does not affect calculations. Zero or missing denominators raise an error rather than producing a zero rate. A common dictionary and source definitions are maintained at [Census data dictionary](../census-common/DATA_DICTIONARY.md) and [Census sources](../census-common/SOURCES.md).
 
-## Contents
+## Data and outputs
 
-| File | Purpose |
-|---|---|
-| `data/census_snapshot.csv` | 30 aggregate product–country–period observations |
-| `analyze.py` | Coverage checks, calculated-duty ratios, gaps and import growth |
-| `results/duty_intensity_by_line.csv` | Product and supplier comparisons in both periods |
-| `results/mexico_import_growth.csv` | U.S. import values from Mexico and changes by product |
-| `results/weighted_duty_intensity.csv` | Country ratios across the three lines, using sums |
-| `results/results.json` | Full precision calculations and validation flags |
-| `METHODOLOGY.md` | Definitions, vintage treatment and inference limits |
-| `data/DICTIONARY.md` | Standalone input/output dictionary |
-| `EXECUTION.md` | Portfolio continuation execution record |
-| `sources.json` | Official reference links and provenance of the archived snapshot |
-| `VALIDATION.md` | Completed checks and limits of verification |
-| `NOTE.md` | Full analytical note readable on GitHub |
+| File | Contents |
+| --- | --- |
+| `data/census_snapshot.csv` | Unchanged 30-row archived aggregate snapshot |
+| `analyze.py` | Validation, duty ratios, gaps, changes, legacy trade totals and chart |
+| `results/duty_intensity_by_line.csv` | All 30 country–product–period ratios and gaps to Mexico |
+| `results/duty_intensity_changes.csv` | 15 changes from 2025 to 2026 in percentage points |
+| `results/weighted_duty_intensity.csv` | Ten country–period ratios of sums across three products |
+| `results/mexico_import_growth.csv` | Retained companion trade-value results; composition analysis is in P02 |
+| `results/results.json` | Full-precision results, input hash and explicitly scoped checks |
+| `figures/gaps_vs_mexico_2026.svg` | Dependency-free chart with separate, labeled comparison scales |
+| `sources.json` | Snapshot identity, source links and verification scope |
+| `data/DICTIONARY.md` | Retained local field reference and link to the common dictionary |
+| `EXECUTION.md` | Canonical integration checks and separately labeled historical execution |
+| `CODE_LICENSE.txt` | License scoped to original code; source-data terms remain separate |
 
-## Data basis
+## Coverage and vintage
 
-The input is a **January–August sum of archived monthly observations**, reconstructed separately for 2025 and 2026. It is not a direct download of Census's revised cumulative `_YR` variables. Earlier months retain their archived vintages. A fresh API check was attempted during preparation but did not complete; this package reproduces the included snapshot, not the latest live release.
+**January–August totals reconstructed from archived monthly observations.** This is the input's statistical basis, not a new reconstruction performed here. Earlier work reported 240 monthly observations; those records are not included and were not revalidated in this run. The executable reproduction starts from 30 aggregates. This project does not download official cumulative `_YR` fields or certify the latest revised Census release. Original download timestamps are not established by the archive's update label.
 
-Duty intensity is `100 × calculated duties / customs value of imports for consumption`. It is not a simple average of monthly rates. Country totals also use the ratio of sums. Output CSVs include the period basis; `2026-08` is the endpoint of January–August, not a single month.
+Exact product codes: `8471500150`, `8471709000`, `8517620020`. The sample is selected and bounded; it does not cover all electronics or identify data-center use. Values are gross and nominal. Calculated duties are neither legal tariff rates nor final net customs receipts.
 
-The three lines are 8471500150, 8471709000 and 8517620020. The shortened product labels are descriptive; these exact codes define the selection. This is not a comprehensive electronics or data-center basket, and the data do not identify final use.
-
-## Provenance and reuse
-
-The analytical note and script were prepared independently for this portfolio. Only a bounded extract of public statistics is included; employer reports and original client-project code are excluded. See the portfolio rights notice for source-specific conditions.
-
-The archived input and analytical results are preserved from the completed sample. This edition removes the redundant Word copy and adds a dictionary and execution record; it does not restart the tariff extraction.
+This is the published project's canonical directory. The analytical presentation, temporal changes and figure have been integrated under the author's existing public-dissemination authorization. The input vintage and central results are unchanged; private application and coordination packages remain separate.

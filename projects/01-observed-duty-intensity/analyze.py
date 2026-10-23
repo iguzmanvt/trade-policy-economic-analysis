@@ -12,6 +12,7 @@ from decimal import Decimal, InvalidOperation
 from pathlib import Path
 import hashlib
 import json
+from html import escape
 
 PRODUCTS = {
     '8471500150': 'Processing units',
@@ -22,6 +23,52 @@ COUNTRIES = {'2010':'Mexico','5700':'China','5830':'Taiwan','5520':'Vietnam','55
 PERIODS = ['2025-08','2026-08']
 BASIS = 'JAN_AUG_MONTHLY_SUM'
 REQUIRED = ['time','basis','cty_code','country','hts10','con_val_usd','calc_dut_usd']
+
+def gap_figure(path: Path, rates):
+    """Write an accessible, dependency-free SVG; panels use explicit scales."""
+    latest=[r for r in rates if r['period']=='2026-08' and r['country']!='Mexico']
+    colors={'Processing units':'#002060','Storage units':'#008285',
+            'Switching and routing apparatus':'#A15500'}
+    width,height=1200,700
+    parts=[f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-labelledby="title desc">',
+      '<title id="title">Observed duty intensity gaps relative to Mexico, January–August 2026</title>',
+      '<desc id="desc">Positive gaps indicate a higher supplier duty-to-value ratio than Mexico. China has gaps of about 26 to 28 percentage points. Gaps for Taiwan, Vietnam and Malaysia are between minus 0.102 and plus 1.231 points. Panels deliberately use different scales.</desc>',
+      '<rect width="1200" height="700" fill="white"/>',
+      '<style>text{font-family:Arial,sans-serif;fill:#182333}.title{font-size:25px;font-weight:bold}.sub{font-size:16px}.lab{font-size:15px}.axis{font-size:14px}.value{font-size:15px;font-weight:bold}</style>',
+      '<text x="38" y="43" class="title">Observed duty intensity gaps relative to Mexico</text>',
+      '<text x="38" y="71" class="sub">January–August 2026 · supplier ratio minus Mexico ratio · percentage points</text>',
+      '<text x="38" y="97" class="sub">Two panels with different scales preserve the smaller positive and negative gaps.</text>']
+    def panel(x0,y0,w,rows,lo,hi,ticks,title):
+        label_w=142
+        plot_x=x0+label_w; plot_w=w-label_w-76
+        transform=lambda v: plot_x+(v-lo)/(hi-lo)*plot_w
+        h=len(rows)*35
+        parts.append(f'<text x="{x0}" y="{y0-27}" class="sub" font-weight="bold">{escape(title)}</text>')
+        for tick in ticks:
+            x=transform(tick)
+            parts.append(f'<line x1="{x:.2f}" y1="{y0-11}" x2="{x:.2f}" y2="{y0+h-6}" stroke="#d9dee5"/>')
+            parts.append(f'<text x="{x:.2f}" y="{y0+h+16}" text-anchor="middle" class="axis">{tick:g}</text>')
+        zero=transform(0)
+        parts.append(f'<line x1="{zero:.2f}" y1="{y0-11}" x2="{zero:.2f}" y2="{y0+h-6}" stroke="#576575" stroke-width="1.8"/>')
+        for i,r in enumerate(rows):
+            y=y0+i*35+7; val=float(r['gap_vs_mexico_pp']); x=transform(val)
+            label=r['country']+' · '+{'Processing units':'P','Storage units':'S','Switching and routing apparatus':'N'}[r['product']]
+            parts.append(f'<text x="{plot_x-12}" y="{y+5}" text-anchor="end" class="lab">{label}</text>')
+            parts.append(f'<line x1="{zero:.2f}" y1="{y}" x2="{x:.2f}" y2="{y}" stroke="{colors[r["product"]]}" stroke-width="4"/>')
+            parts.append(f'<circle cx="{x:.2f}" cy="{y}" r="5" fill="{colors[r["product"]]}"/>')
+            # Keep a fixed label column rather than overlapping points near zero.
+            parts.append(f'<text x="{plot_x+plot_w+12}" y="{y+5}" class="value">{val:+.3f}</text>')
+    panel(38,170,540,[r for r in latest if r['country']=='China'],0,30,[0,10,20,30],'China')
+    panel(602,170,560,[r for c in ['Taiwan','Vietnam','Malaysia'] for r in latest if r['country']==c],-.2,1.4,[-.2,0,.4,.8,1.2],'Other selected suppliers')
+    parts += [
+      '<text x="38" y="552" class="lab">P: Processing units (8471500150)   S: Storage units (8471709000)</text>',
+      '<text x="38" y="578" class="lab">N: Switching and routing apparatus (8517620020)</text>',
+      '<text x="38" y="619" class="lab">Source: archived U.S. Census import aggregates; author’s calculations.</text>',
+      '<text x="38" y="644" class="lab">January–August totals reconstructed from archived monthly observations; 30 input aggregates.</text>',
+      '<text x="38" y="669" class="lab">Ratio: 100 × calculated duties / customs value of imports for consumption. No new monthly-source verification.</text>',
+      '</svg>']
+    path.parent.mkdir(parents=True,exist_ok=True)
+    path.write_text('\n'.join(parts),encoding='utf-8')
 
 def decimal_value(text: str, field: str, row: int) -> Decimal:
     try:
@@ -100,6 +147,19 @@ def analyze(path: Path, output: Path):
     write_csv(output/'duty_intensity_by_line.csv',list(rates[0]),rates)
     write_csv(output/'mexico_import_growth.csv',list(growth[0]),growth)
     write_csv(output/'weighted_duty_intensity.csv',list(country_totals[0]),country_totals)
+    rate_lookup={(r['period'],r['country'],r['hts10']):r for r in rates}
+    rate_changes=[]
+    for product in PRODUCTS:
+        for country in COUNTRIES.values():
+            before=rate_lookup['2025-08',country,product]
+            after=rate_lookup['2026-08',country,product]
+            rate_changes.append({'hts10':product,'product':PRODUCTS[product],
+                'country':country,'period_basis':BASIS,
+                'duty_intensity_2025_pct':before['duty_intensity_pct'],
+                'duty_intensity_2026_pct':after['duty_intensity_pct'],
+                'change_pp':str(Decimal(after['duty_intensity_pct'])-Decimal(before['duty_intensity_pct']))})
+    write_csv(output/'duty_intensity_changes.csv',list(rate_changes[0]),rate_changes)
+    gap_figure(output.parent/'figures'/'gaps_vs_mexico_2026.svg',rates)
     results={
         'input_sha256':hashlib.sha256(path.read_bytes()).hexdigest(),
         'records':len(rows),'period_basis':'January–August totals reconstructed from archived monthly observations; not revised Census _YR values',
@@ -107,7 +167,7 @@ def analyze(path: Path, output: Path):
         'mexico_total_2025_usd':str(total_old),'mexico_total_2026_usd':str(total_new),
         'mexico_change_usd':str(total_new-total_old),
         'mexico_change_pct':str(100*(total_new-total_old)/total_old),
-        'rates':rates,'growth':growth,'country_totals':country_totals,
+        'rates':rates,'growth':growth,'country_totals':country_totals,'rate_changes':rate_changes,
         'checks':{
             'exact_product_country_period_coverage':True,
             'unique_product_country_period_keys':True,
@@ -116,6 +176,8 @@ def analyze(path: Path, output: Path):
             'all_rows_explicitly_january_august_monthly_sums':True,
             'country_codes_match_country_names':True,
             'aggregate_rates_use_ratio_of_sums':True,
+            'monthly_records_revalidated_in_this_run':False,
+            'live_census_refresh_performed_in_this_run':False,
         },
         'limits':[
             'Archived monthly vintages can differ from subsequently revised official YTD totals.',

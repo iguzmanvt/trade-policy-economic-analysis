@@ -12,7 +12,7 @@ The exercise asks how a narrow product category connects to domestic production 
 
 The National Institute of Statistics and Geography (INEGI) publishes a symmetric input–output matrix (MIP, its Spanish acronym) for 2018. This exercise uses the product-by-product matrix at the six-digit level of the North American Industry Classification System, Mexico 2018 (SCIAN). Category 311513 covers dairy derivatives, fermented products and substitutes; it includes substantially more than cheese. The original classification definition is located on printed page 151, PDF page 170. It does not isolate individual common cheese names.
 
-The row records uses of products corresponding to 311513. Its 834 intermediate columns are homogeneous product groups, not a list of individual purchasing firms. The figures are monetary values at basic prices in millions of 2018 pesos. Domestic and imported identify the origin of the product. They do not identify an importing country or distinguish the United States from Europe.
+The row records uses of products corresponding to 311513. Its 834 intermediate columns are homogeneous product groups, not a list of individual purchasing firms. The figures are monetary values at basic prices in millions of 2018 pesos. Domestic and imported identify the origin of the product. They do not identify the country of origin of imported products or distinguish U.S. from European supply.
 
 For interpretation, gross uses equal domestic-origin uses plus imported-origin uses, with each split between intermediate and final uses. Ratios below are computed from the original values before rounding.
 

@@ -10,7 +10,7 @@
 
 ## Scope and selection
 
-The effective prior research covered editions 2007–2026 and mentions of cheese across countries and regions. This release reconstructs a **purposive recent sample** from official public PDFs, using new summaries, taxonomy and code. It does not release the earlier project corpus or claim comprehensive coverage of any edition. Selected issues demonstrate ingredient rules, conformity assessment, internal taxation, geographical indications and shelf-life regulation; repeated records support temporal comparisons. Names extend beyond any nine-name selection, including Danbo, Havarti and white cheeses.
+The recovered prior research scope identifies a 2007–2026 window for cheese-related mentions across countries and regions. This release reconstructs a **purposive recent sample** from official public PDFs, using new summaries, taxonomy and code. It does not release the earlier project corpus or claim comprehensive coverage of any edition. Selected issues demonstrate ingredient rules, conformity assessment, internal taxation, geographical indications and shelf-life regulation; repeated records support temporal comparisons. Names extend beyond any nine-name selection, including Danbo, Havarti and white cheeses.
 
 Chapters: Canada, Chile, Dominican Republic, European Union, Gulf Cooperation Council, Mexico and Vietnam. The Qatar records identify both the regional chapter and the actual jurisdiction. Every row has printed-page and physical PDF-page references. A year absent for an issue means **not coded in this sample**, not absence of a measure.
 

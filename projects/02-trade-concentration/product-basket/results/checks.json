@@ -1,0 +1,72 @@
+[
+  {
+    "check": "input_hash",
+    "passed": true,
+    "detail": "83904e5c96b3f26c289d63e3ec649a0a996f1f1f7ca8e90a5b2755c354d052b9"
+  },
+  {
+    "check": "basket_hash",
+    "passed": true,
+    "detail": "01c2805bd2daf50bd4b2e2181cb701b5beb912115b111946901b4a2374ca49cf"
+  },
+  {
+    "check": "basket_unique",
+    "passed": true,
+    "detail": "374 unique historical HTS10 codes"
+  },
+  {
+    "check": "monthly_unique",
+    "passed": true,
+    "detail": 4794
+  },
+  {
+    "check": "periods",
+    "passed": true,
+    "detail": "16 distinct month periods; unequal sparse row counts retained"
+  },
+  {
+    "check": "scope",
+    "passed": true,
+    "detail": "United States reporter; Mexico partner; general imports"
+  },
+  {
+    "check": "membership",
+    "passed": true,
+    "detail": "Exact published basket membership"
+  },
+  {
+    "check": "values",
+    "passed": true,
+    "detail": "Integer nominal dollars; no null amount in reported rows"
+  },
+  {
+    "check": "hs6_coverage",
+    "passed": true,
+    "detail": "All 88 selected HS6 observed in each January-August window"
+  },
+  {
+    "check": "contributions_add",
+    "passed": true,
+    "detail": 60103015180
+  },
+  {
+    "check": "composition_add",
+    "passed": true,
+    "detail": "Exact dollar reconciliation in both periods"
+  },
+  {
+    "check": "hhi_bounds",
+    "passed": true,
+    "detail": "HHI scale 0-10,000; 88 selected HS6"
+  },
+  {
+    "check": "hts_hs6_reconcile_2025",
+    "passed": true,
+    "detail": 93601850780
+  },
+  {
+    "check": "hts_hs6_reconcile_2026",
+    "passed": true,
+    "detail": 153704865960
+  }
+]

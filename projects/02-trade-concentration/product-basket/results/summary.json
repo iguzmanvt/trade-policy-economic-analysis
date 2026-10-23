@@ -1,0 +1,26 @@
+{
+  "reporter": "United States",
+  "partner": "Mexico",
+  "flow": "general_imports",
+  "period": "January-August of 2025 and 2026",
+  "basis": "ARCHIVED_MONTHLY_SUM",
+  "monthly_rows": 4794,
+  "basket_historical_hts10": 374,
+  "basket_hs6": 88,
+  "observed_hts10_union": 356,
+  "totals_usd": {
+    "2025": 93601850780,
+    "2026": 153704865960
+  },
+  "change_usd": 60103015180,
+  "growth_percent": "64.2113533858053484954819608108607957",
+  "hhi_hs6": {
+    "2025": "2853.09083940231240564986384385693402",
+    "2026": "4289.03736717994581130592860354052027"
+  },
+  "three_leading_lines_contribution_percent": "99.6366884883461515549210421492867273",
+  "observed_hts10_by_year": {
+    "2025": 328,
+    "2026": 344
+  }
+}

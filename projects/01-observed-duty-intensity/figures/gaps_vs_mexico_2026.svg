@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+<title id="title">Observed duty intensity gaps relative to Mexico, January–August 2026</title>
+<desc id="desc">Positive gaps indicate a higher supplier duty-to-value ratio than Mexico. China has gaps of about 26 to 28 percentage points. Gaps for Taiwan, Vietnam and Malaysia are between minus 0.102 and plus 1.231 points. Panels deliberately use different scales.</desc>
+<rect width="1200" height="700" fill="white"/>
+<style>text{font-family:Arial,sans-serif;fill:#182333}.title{font-size:25px;font-weight:bold}.sub{font-size:16px}.lab{font-size:15px}.axis{font-size:14px}.value{font-size:15px;font-weight:bold}</style>
+<text x="38" y="43" class="title">Observed duty intensity gaps relative to Mexico</text>
+<text x="38" y="71" class="sub">January–August 2026 · supplier ratio minus Mexico ratio · percentage points</text>
+<text x="38" y="97" class="sub">Two panels with different scales preserve the smaller positive and negative gaps.</text>
+<text x="38" y="143" class="sub" font-weight="bold">China</text>
+<line x1="180.00" y1="159" x2="180.00" y2="269" stroke="#d9dee5"/>
+<text x="180.00" y="291" text-anchor="middle" class="axis">0</text>
+<line x1="287.33" y1="159" x2="287.33" y2="269" stroke="#d9dee5"/>
+<text x="287.33" y="291" text-anchor="middle" class="axis">10</text>
+<line x1="394.67" y1="159" x2="394.67" y2="269" stroke="#d9dee5"/>
+<text x="394.67" y="291" text-anchor="middle" class="axis">20</text>
+<line x1="502.00" y1="159" x2="502.00" y2="269" stroke="#d9dee5"/>
+<text x="502.00" y="291" text-anchor="middle" class="axis">30</text>
+<line x1="180.00" y1="159" x2="180.00" y2="269" stroke="#576575" stroke-width="1.8"/>
+<text x="168" y="182" text-anchor="end" class="lab">China · P</text>
+<line x1="180.00" y1="177" x2="470.88" y2="177" stroke="#002060" stroke-width="4"/>
+<circle cx="470.88" cy="177" r="5" fill="#002060"/>
+<text x="514" y="182" class="value">+27.100</text>
+<text x="168" y="217" text-anchor="end" class="lab">China · S</text>
+<line x1="180.00" y1="212" x2="476.97" y2="212" stroke="#008285" stroke-width="4"/>
+<circle cx="476.97" cy="212" r="5" fill="#008285"/>
+<text x="514" y="217" class="value">+27.668</text>
+<text x="168" y="252" text-anchor="end" class="lab">China · N</text>
+<line x1="180.00" y1="247" x2="461.95" y2="247" stroke="#A15500" stroke-width="4"/>
+<circle cx="461.95" cy="247" r="5" fill="#A15500"/>
+<text x="514" y="252" class="value">+26.269</text>
+<text x="602" y="143" class="sub" font-weight="bold">Other selected suppliers</text>
+<line x1="744.00" y1="159" x2="744.00" y2="479" stroke="#d9dee5"/>
+<text x="744.00" y="501" text-anchor="middle" class="axis">-0.2</text>
+<line x1="786.75" y1="159" x2="786.75" y2="479" stroke="#d9dee5"/>
+<text x="786.75" y="501" text-anchor="middle" class="axis">0</text>
+<line x1="872.25" y1="159" x2="872.25" y2="479" stroke="#d9dee5"/>
+<text x="872.25" y="501" text-anchor="middle" class="axis">0.4</text>
+<line x1="957.75" y1="159" x2="957.75" y2="479" stroke="#d9dee5"/>
+<text x="957.75" y="501" text-anchor="middle" class="axis">0.8</text>
+<line x1="1043.25" y1="159" x2="1043.25" y2="479" stroke="#d9dee5"/>
+<text x="1043.25" y="501" text-anchor="middle" class="axis">1.2</text>
+<line x1="786.75" y1="159" x2="786.75" y2="479" stroke="#576575" stroke-width="1.8"/>
+<text x="732" y="182" text-anchor="end" class="lab">Taiwan · P</text>
+<line x1="786.75" y1="177" x2="788.32" y2="177" stroke="#002060" stroke-width="4"/>
+<circle cx="788.32" cy="177" r="5" fill="#002060"/>
+<text x="1098" y="182" class="value">+0.007</text>
+<text x="732" y="217" text-anchor="end" class="lab">Taiwan · S</text>
+<line x1="786.75" y1="212" x2="819.22" y2="212" stroke="#008285" stroke-width="4"/>
+<circle cx="819.22" cy="212" r="5" fill="#008285"/>
+<text x="1098" y="217" class="value">+0.152</text>
+<text x="732" y="252" text-anchor="end" class="lab">Taiwan · N</text>
+<line x1="786.75" y1="247" x2="766.98" y2="247" stroke="#A15500" stroke-width="4"/>
+<circle cx="766.98" cy="247" r="5" fill="#A15500"/>
+<text x="1098" y="252" class="value">-0.092</text>
+<text x="732" y="287" text-anchor="end" class="lab">Vietnam · P</text>
+<line x1="786.75" y1="282" x2="804.77" y2="282" stroke="#002060" stroke-width="4"/>
+<circle cx="804.77" cy="282" r="5" fill="#002060"/>
+<text x="1098" y="287" class="value">+0.084</text>
+<text x="732" y="322" text-anchor="end" class="lab">Vietnam · S</text>
+<line x1="786.75" y1="317" x2="787.81" y2="317" stroke="#008285" stroke-width="4"/>
+<circle cx="787.81" cy="317" r="5" fill="#008285"/>
+<text x="1098" y="322" class="value">+0.005</text>
+<text x="732" y="357" text-anchor="end" class="lab">Vietnam · N</text>
+<line x1="786.75" y1="352" x2="766.38" y2="352" stroke="#A15500" stroke-width="4"/>
+<circle cx="766.38" cy="352" r="5" fill="#A15500"/>
+<text x="1098" y="357" class="value">-0.095</text>
+<text x="732" y="392" text-anchor="end" class="lab">Malaysia · P</text>
+<line x1="786.75" y1="387" x2="852.44" y2="387" stroke="#002060" stroke-width="4"/>
+<circle cx="852.44" cy="387" r="5" fill="#002060"/>
+<text x="1098" y="392" class="value">+0.307</text>
+<text x="732" y="427" text-anchor="end" class="lab">Malaysia · S</text>
+<line x1="786.75" y1="422" x2="1049.89" y2="422" stroke="#008285" stroke-width="4"/>
+<circle cx="1049.89" cy="422" r="5" fill="#008285"/>
+<text x="1098" y="427" class="value">+1.231</text>
+<text x="732" y="462" text-anchor="end" class="lab">Malaysia · N</text>
+<line x1="786.75" y1="457" x2="765.02" y2="457" stroke="#A15500" stroke-width="4"/>
+<circle cx="765.02" cy="457" r="5" fill="#A15500"/>
+<text x="1098" y="462" class="value">-0.102</text>
+<text x="38" y="552" class="lab">P: Processing units (8471500150)   S: Storage units (8471709000)</text>
+<text x="38" y="578" class="lab">N: Switching and routing apparatus (8517620020)</text>
+<text x="38" y="619" class="lab">Source: archived U.S. Census import aggregates; author’s calculations.</text>
+<text x="38" y="644" class="lab">January–August totals reconstructed from archived monthly observations; 30 input aggregates.</text>
+<text x="38" y="669" class="lab">Ratio: 100 × calculated duties / customs value of imports for consumption. No new monthly-source verification.</text>
+</svg>

@@ -1,23 +1,28 @@
 # Validation record
 
-Prepared 22 October 2026. This record describes checks performed during preparation, not an independent audit of the original Census statistical release.
+Analytical validation initially executed 22 October 2026, America/Mexico_City. The canonical integration was reproduced on 23 October 2026. This record covers the delivered aggregate snapshot and derived results, rather than an independent audit of the original Census statistical release.
 
-## Completed
+## Checks executed for this version
 
-- The archived source was filtered to imports for consumption, the three exact HTS10 codes, five partner codes, and January–August of each comparison year.
-- Extraction returned 240 monthly observations, no duplicate monthly product–partner keys and eight months in every comparison cell.
-- The included snapshot has exactly 30 unique product–partner–period combinations, complete expected coverage, matching country codes, positive import denominators and finite nonnegative numeric inputs.
-- The period basis is explicitly an archived January–August monthly sum.
-- The script uses decimal arithmetic and ratios of sums, with no averaging of monthly or product rates.
-- A separate calculation in pandas recomputed all 30 duty-intensity ratios and the Mexico totals and growth, matching the script to floating-point tolerance. An independent review also checked all 30 gaps, ten country-period aggregates, three Mexico growth calculations and the input hash.
-- Input values and labels were inspected; output tables are generated from the included data, not manually entered estimates.
-- The input SHA256 in `results/results.json` and `sources.json` identifies the included snapshot.
+- Ran `python analyze.py` successfully on the bundled data. The 30 keys are unique and exhaust three products × five origin partners × two periods. Codes and names match, all numeric values are finite and nonnegative, import-value denominators are positive, and every row explicitly uses `JAN_AUG_MONTHLY_SUM`.
+- Recomputed all 30 duty ratios and all 30 gaps using Python `Fraction` arithmetic independently of the script's `Decimal` calculation. Differences after float conversion were below `1e-12` percentage points.
+- Independently summed duties and values for all ten country–period groups and checked their ratios of sums. Integer totals matched exactly; rates agreed within `1e-12` percentage points.
+- Compared core results against the supplied predecessor: all 30 rates and gaps, ten country totals, three Mexico import changes, and the Mexico grand totals and growth were unchanged. The three retained CSV result files are byte-for-byte identical to their predecessors.
+- Verified the input SHA256: `b68c40d953e13a6a15c9babc17b76ab3a39129dcbd56a819a259b7387ac147ca`.
+- Checked that zero, missing and nonfinite denominator values in temporary modified inputs are rejected rather than converted into zero rates.
+- Parsed the generated SVG as XML, rendered it to a temporary PNG and inspected the chart at its intended 1200 × 700 reading size. Titles, separate scales, signed values, code labels and source note are legible and unclipped. The PNG is an internal preview; the delivered SVG is the reproducible figure.
 
-## Not established by these checks
+## Inherited evidence kept separate
 
-- A live Census refresh did not complete; current revised source values are not certified.
-- The full upstream files were not rehashed in this workflow. The upstream hashes in `sources.json` were read from the archive manifest.
-- The 240 monthly observations are not included, so a reader can reproduce arithmetic on the 30 aggregates but cannot reconstruct those aggregates solely from this package.
-- Statistical validation does not establish legal tariff eligibility, causality, publication rights or employer approval.
+Previous preparation reported 240 monthly observations, no duplicate monthly keys and eight months per aggregate. Those observations are not included in this project. Their coverage and source concordance were **not newly checked in this run**. The archive update label is not treated as an independently verified original download timestamp.
 
-The portfolio execution record adds a fresh arithmetic reproduction without changing the archived statistical input. Public diffusion approval is handled separately from statistical validation.
+## Not established
+
+- No fresh statistical API extraction, current revised Census cumulative `_YR` comparison, or new reconstruction of the 30 aggregate values from monthly records was performed.
+- Upstream full-source hashes were not recomputed. Only the included snapshot identity was verified.
+- Numerical reproduction does not establish legal tariff rates, final net receipts, tariff eligibility, causal effects, origin compliance, transshipment or final use.
+- This analytical validation does not certify a GitHub publication. Publication identity is recorded separately by the portfolio coordinator; the existing published project and author dissemination authorization are retained.
+
+## Canonical integration check — 23 October 2026
+
+The enhanced script ran successfully from the canonical project directory. The input hash remained unchanged, the three previously published CSV tables were reproduced byte for byte, and every previously reported core value in `results.json` was retained. The integration adds 15 temporal rate changes, the source-return figure, and more explicit validation-scope fields. The prior source basenames, column mapping, product/partner codes and two inherited upstream hashes remain in the merged source register. No original monthly consumption rows were included or revalidated, and no statistical refresh was performed.
