@@ -1,0 +1,39 @@
+{
+  "information_cutoff_local": "2026-10-22",
+  "publication_scope": "Independent purposive public sample: 2024\u20132026, within recovered 2007\u20132026 research window. Not a full corpus release.",
+  "sources": [
+    {
+      "source_id": "NTE-2024",
+      "edition_year": 2024,
+      "title": "2024 National Trade Estimate Report on Foreign Trade Barriers",
+      "publisher": "Office of the United States Trade Representative",
+      "url": "https://ustr.gov/sites/default/files/2024%20NTE%20Report.pdf",
+      "pdf_pages": 392,
+      "sha256": "438559e830b73dbbf11e94655a6294c3d6eb46c7e12a5fb20faa833d10da6f9d",
+      "retrieval_date_local": "2026-10-22",
+      "retrieval_status": "Downloaded official PDF; HTTP 200; selected pages read in full"
+    },
+    {
+      "source_id": "NTE-2025",
+      "edition_year": 2025,
+      "title": "2025 National Trade Estimate Report on Foreign Trade Barriers",
+      "publisher": "Office of the United States Trade Representative",
+      "url": "https://ustr.gov/sites/default/files/files/Press/Reports/2025NTE.pdf",
+      "pdf_pages": 397,
+      "sha256": "4679fd39708d729f90951c68a50e33eb4987508a71a8c58b5cc76be0b9c937b8",
+      "retrieval_date_local": "2026-10-22",
+      "retrieval_status": "Downloaded official PDF; HTTP 200; selected pages read in full"
+    },
+    {
+      "source_id": "NTE-2026",
+      "edition_year": 2026,
+      "title": "2026 National Trade Estimate Report on Foreign Trade Barriers",
+      "publisher": "Office of the United States Trade Representative",
+      "url": "https://www.ustr.gov/sites/default/files/files/Press/Releases/2026/National%20Trade%20Estimate%20Report%202026.pdf",
+      "pdf_pages": 534,
+      "sha256": "b5aff347c87bb8f15f870209df028920dced42c37e59d83c5feb376102f8f30b",
+      "retrieval_date_local": "2026-10-22",
+      "retrieval_status": "Downloaded official PDF; HTTP 200; selected pages read in full"
+    }
+  ]
+}

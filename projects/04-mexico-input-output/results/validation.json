@@ -1,0 +1,11 @@
+{
+  "input_rows": 2557,
+  "input_sha256": "28fbf1b5591ac22062606b0c5707d18b8193575d131a0e0187e56bcf86de5d02",
+  "MIP_product_destinations": 834,
+  "MIP_positive_destinations": 89,
+  "all_uses_million_MXN": "124245.757",
+  "intermediate_million_MXN": "18072.048",
+  "final_million_MXN": "106173.709",
+  "imported_share_intermediate_pct": "41.54000144311259022773733226",
+  "checks": "Passed: unique keys, full destination coverage, D+M=T cell identities, use totals, final components, import-netting bridge, COU origin identities"
+}

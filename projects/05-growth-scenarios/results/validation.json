@@ -1,0 +1,14 @@
+{
+  "input_sha256": "377e5cab03428bf04f9a86ff3a373b27bfffc39b1441bc4aeb731ffff2a992d4",
+  "rows": 204,
+  "scenario_count": 4,
+  "years_including_initial": 51,
+  "duplicate_keys": 0,
+  "finite_values": true,
+  "shared_initial_capital": 4.904979593447764,
+  "max_ode_residual": 1.3183898417423734e-16,
+  "max_accounting_residual": 4.440892098500626e-16,
+  "baseline_stationarity_checked": true,
+  "same_initial_output_checked": true,
+  "method": "Closed-form continuous-time transition; no discretization step or numerical solver"
+}

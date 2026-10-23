@@ -1,0 +1,11 @@
+{
+  "input_sha256": "77448ef448029e4a7a21869446aae065daa29079428247249bab2a5dde4be664",
+  "rows": 1846,
+  "unique_keys": 1846,
+  "groups": 8,
+  "nonnegative_values": true,
+  "shares_sum_to_100": true,
+  "hhi_individual_partners": true,
+  "growth_contributions_sum_to_100": true,
+  "basis": "JAN_AUG_ARCHIVED_MONTHLY_SUM"
+}

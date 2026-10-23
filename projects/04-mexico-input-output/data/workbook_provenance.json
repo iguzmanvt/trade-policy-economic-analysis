@@ -1,0 +1,50 @@
+[
+  {
+    "file": "MIP_19.xlsx",
+    "sha256": "db2495edfb946340c4155e384004fa18bce1818a808215b0d49662184da86cd9",
+    "table_title": "Matriz simétrica de insumo producto. Producto por producto/ Economía total / Origen doméstico/ Clase SCIAN/ Millones de pesos a precios básicos",
+    "source_row": 196,
+    "metadata_update": "2023-08-29",
+    "reference_year": 2018
+  },
+  {
+    "file": "MIP_38.xlsx",
+    "sha256": "a448da74c3b5e6416d4b1f0b8a55f3ad19119109e36214de27577ea2c530b521",
+    "table_title": "Matriz simétrica de insumo producto. Producto por producto/ Economía total / Origen importado/ Clase SCIAN/ Millones de pesos a precios básicos",
+    "source_row": 196,
+    "metadata_update": "2023-08-29",
+    "reference_year": 2018
+  },
+  {
+    "file": "MIP_10.xlsx",
+    "sha256": "61fb9ef0697d7be3ce10a78f1a0412dcd8867448295685d2c1ed14b0ba11cd9d",
+    "table_title": "Matriz simétrica de insumo producto. Producto por producto/ Economía total / Origen doméstico e importado/ Clase SCIAN/ Millones de pesos a precios básicos",
+    "source_row": 196,
+    "metadata_update": "2023-08-29",
+    "reference_year": 2018
+  },
+  {
+    "file": "COU_177.xlsx",
+    "sha256": "f4e75013790de0b566f620eac0b2ff754c55981d2158a9b1a2a424b29e036480",
+    "table_title": "Utilización de bienes y servicios a precios básicos/ Economía total / Origen doméstico/ Rama SCIAN/ Millones de pesos a precios de 2018",
+    "source_row": 48,
+    "metadata_update": "2023-08-29",
+    "reference_year": 2018
+  },
+  {
+    "file": "COU_184.xlsx",
+    "sha256": "60d6a9534775d314746714ce3188f9de05eded44051284e6a946ae9199f4980f",
+    "table_title": "Utilización de bienes y servicios a precios básicos/ Economía total / Origen importado/ Rama SCIAN/ Millones de pesos a precios de 2018",
+    "source_row": 48,
+    "metadata_update": "2023-08-29",
+    "reference_year": 2018
+  },
+  {
+    "file": "COU_170.xlsx",
+    "sha256": "5ee11c3b632368ba0d7147cd05b8e6ff693b027e371dce1adfb13ad8945f2b68",
+    "table_title": "Utilización de bienes y servicios a precios básicos/ Economía total / Origen doméstico e importado/ Rama SCIAN/ Millones de pesos a precios de 2018",
+    "source_row": 48,
+    "metadata_update": "2023-08-29",
+    "reference_year": 2018
+  }
+]

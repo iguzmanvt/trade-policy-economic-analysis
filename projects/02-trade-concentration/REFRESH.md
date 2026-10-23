@@ -1,0 +1,20 @@
+# Source query specification and archive continuity
+
+Offline reproduction uses the included `data/partner_values.csv` and is fully executed by `python analyze.py`. A new Census retrieval is a **new vintage**, not a byte-for-byte recreation of the archive. This file documents the upstream scope; no live download is claimed or required.
+
+## Public source query scope
+
+1. Use the official [imports HS](https://api.census.gov/data/timeseries/intltrade/imports/hs.html) and [exports HS](https://api.census.gov/data/timeseries/intltrade/exports/hs.html) datasets. Read their current variable lists and [Census API guide](https://www.census.gov/foreign-trade/reference/guides/Guide_to_International_Trade_Datasets.pdf) before constructing requests. The official examples now state that an API key is required. Keep any key outside the repository and logs.
+2. Retrieve January through August separately for each year 2023–2026. Retain exact time, commodity code, Census country identifier and label, and monthly value. For general imports use `GEN_VAL_MO`; for total exports use `ALL_VAL_MO`, with total exports covering domestic exports and reexports. If retrieving the two export components separately, add them once and do not add their sum again to an already total series.
+3. Request all individual ten-digit products in each flow, with all individual Census country partners. Split commodity requests as needed to comply with current API row limits. Do not aggregate two-, four-, six- and ten-digit product rows together. Imports use HTS10; exports use Schedule B10. There is no crosswalk between detailed codes in this project: products are summed independently within each flow.
+4. Check uniqueness of product–country–month keys, numeric values, product lengths and complete requested monthly coverage. Retain individual Census partner codes 1000–7999. Exclude world/regional aggregate or unallocated identifiers if returned. The original archive validation reported that its detailed partner rows already lay within this range. Save source JSON/CSV, source URLs without keys, retrieval timestamp, response metadata and SHA-256 hashes.
+5. Aggregate products and then January–August values for each individual flow–country–year. Map to the six columns defined in `DICTIONARY.md`. The denominator is the sum of these retained individual partner values. Reconcile to the official all-goods world total for the same vintage, documenting any omitted confidential/unallocated/special records. The present continuation did not perform a new reconciliation to live world totals.
+6. Run `python analyze.py --input NEW_EXTRACT.csv --output NEW_RESULTS`. Compare vintages explicitly. Do not silently replace the included archive or relabel revised `_YR` fields as sums of previously downloaded months.
+
+## What the inherited archive establishes
+
+The effective prior all-goods extraction was inspected. It aggregates all reported ten-digit product–partner observations separately for general imports and total exports, preserves each month, and checks ten-digit codes, unique keys and numeric nonnegative values. The bounded input here selects only its January–August all-goods partner sums; prior sector/basket selections and prior code are excluded.
+
+`sources.json` preserves 64 source partition filenames, periods, sizes, record counts and recorded hashes. Their source prefixes have been removed so no local private paths are distributed. The two August 2026 actual raw files were rehashed in this continuation and matched. The remaining recorded source hashes and the upstream completeness checks were inherited, not rerun. The full product-month files are not included; readers can reproduce all downstream measures from the partner totals, or produce a new independently retrieved vintage using the scope above.
+
+Official examples: [imports](https://api.census.gov/data/timeseries/intltrade/imports/hs/examples.html) and [exports](https://api.census.gov/data/timeseries/intltrade/exports/hs/examples.html). These document API entrypoints and authentication; the proposed new retrieval above was not executed in this continuation.

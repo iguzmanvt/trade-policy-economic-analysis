@@ -1,0 +1,6 @@
+topic,definition,coding_rule
+composition_standard,Technical rule limiting ingredients used to manufacture cheese.,Classify the production requirement rather than automatically treating it as sanitary protection.
+discriminatory_internal_tax,Reported different internal tax treatment of imported and domestic cheese.,Internal tax is distinct from the border tariff; this sample does not adjudicate discrimination.
+geographical_indication,"Name protection, common-name access or prior-user safeguards affecting cheese.",Record assurances and mitigation separately from allegations; no inference of legal breach.
+shelf_life_regulation,Shelf-life restrictions and associated transparency concerns.,Do not infer an economic effect from text alone.
+conformity_assessment,"Testing, certification or information requirements to demonstrate cheese conformity.",Retain proposed versus implemented distinction.

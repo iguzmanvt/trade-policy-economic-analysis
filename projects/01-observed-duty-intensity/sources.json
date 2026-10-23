@@ -1,0 +1,46 @@
+{
+  "title": "Observed duty intensity and the interpretation of trade reallocation",
+  "author": "Isaac Guzmán Valdivia Tovar",
+  "status": "Prepared for public portfolio; diffusion approval pending",
+  "prepared_date_local": "2026-10-22",
+  "statistical_source": "U.S. Census Bureau, International Trade, imports for consumption",
+  "source_status": "Aggregated from archived monthly extracts; no successful live refresh in this application workflow",
+  "observed_through": "2026-08",
+  "input_period_basis": "January–August totals reconstructed from archived monthly observations; not direct revised _YR fields",
+  "archive_update_label": "2026-10-13",
+  "archive_label_limit": "Archive label is not an independently verified original download timestamp.",
+  "immediate_source_basename": "consumo_focal_actualizado.csv.gz",
+  "source_columns_mapped": {
+    "customs_value_usd": "con_val_usd",
+    "calculated_duty_usd": "calc_dut_usd"
+  },
+  "underlying_monthly_observations": 240,
+  "aggregate_rows": 30,
+  "months_per_cell": 8,
+  "product_codes": [
+    "8471500150",
+    "8471709000",
+    "8517620020"
+  ],
+  "countries": {
+    "2010": "Mexico",
+    "5700": "China",
+    "5830": "Taiwan",
+    "5520": "Vietnam",
+    "5570": "Malaysia"
+  },
+  "input_sha256": "b68c40d953e13a6a15c9babc17b76ab3a39129dcbd56a819a259b7387ac147ca",
+  "upstream_hashes_recorded_in_archive_manifest": {
+    "August 2026 imports-for-consumption monthly source": "f57a26b259c999bc31da9d8f85242cecb59567119bf01065eb36adbf7f92c630",
+    "Earlier focal source used for January–July": "2cdcd2d641406193383f53dccfe256084c11a7af43fe6dad7447a8c621d81a04"
+  },
+  "hash_scope": "Upstream hashes were read from the archive manifest, not recomputed from full upstream files in this workflow. The included input hash was recomputed.",
+  "official_references": {
+    "variables": "https://api.census.gov/data/timeseries/intltrade/imports/hs/variables.html",
+    "definitions": "https://www.census.gov/foreign-trade/guide/sec2.html",
+    "api_guide": "https://www.census.gov/foreign-trade/reference/guides/Guide_to_International_Trade_Datasets.pdf"
+  },
+  "release_status": "Independent note and script, public-statistics extract; no client deliverable or original client code included. Public diffusion approval remains pending.",
+  "official_documentation_rechecked_local_date": "2026-10-22",
+  "live_statistical_data_refresh_performed_in_this_portfolio": false
+}

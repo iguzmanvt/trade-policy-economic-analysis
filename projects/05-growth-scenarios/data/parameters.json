@@ -1,0 +1,16 @@
+{
+  "parameter_status": "Illustrative teaching values; not an empirical calibration of Mexico",
+  "time_convention": "Continuous time, years; annual samples of exact solution",
+  "alpha": 0.3,
+  "depreciation": 0.05,
+  "labor_growth": 0.011,
+  "initial_efficiency": 1.0,
+  "horizon_years": 50,
+  "initial_condition": "All scenarios start at baseline steady capital per effective worker",
+  "scenarios": [
+    {"id": "baseline", "label": "Baseline", "investment_share": 0.249, "efficiency_growth": 0.0208},
+    {"id": "investment", "label": "Higher investment", "investment_share": 0.279, "efficiency_growth": 0.0208},
+    {"id": "productivity", "label": "Faster efficiency growth", "investment_share": 0.249, "efficiency_growth": 0.0258},
+    {"id": "combined", "label": "Both changes", "investment_share": 0.279, "efficiency_growth": 0.0258}
+  ]
+}

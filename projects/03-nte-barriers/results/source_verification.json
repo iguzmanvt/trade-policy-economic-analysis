@@ -1,0 +1,41 @@
+{
+  "source_hashes_verified": [
+    {
+      "source_id": "NTE-2024",
+      "sha256": "438559e830b73dbbf11e94655a6294c3d6eb46c7e12a5fb20faa833d10da6f9d",
+      "pdf_pages": 392
+    },
+    {
+      "source_id": "NTE-2025",
+      "sha256": "4679fd39708d729f90951c68a50e33eb4987508a71a8c58b5cc76be0b9c937b8",
+      "pdf_pages": 397
+    },
+    {
+      "source_id": "NTE-2026",
+      "sha256": "b5aff347c87bb8f15f870209df028920dced42c37e59d83c5feb376102f8f30b",
+      "pdf_pages": 534
+    }
+  ],
+  "page_anchors_verified": 18,
+  "record_ids": [
+    "CAN-COMPOSITION-2024",
+    "CAN-COMPOSITION-2025",
+    "CAN-COMPOSITION-2026",
+    "DOM-INTERNAL-TAX-2024",
+    "DOM-INTERNAL-TAX-2025",
+    "EU-GI-NAMES-2024",
+    "EU-GI-NAMES-2025",
+    "EU-GI-NAMES-2026",
+    "QAT-SHELF-LIFE-2024",
+    "QAT-SHELF-LIFE-2025",
+    "QAT-SHELF-LIFE-2026",
+    "MEX-GI-SIDE-LETTER-2024",
+    "MEX-GI-SIDE-LETTER-2025",
+    "MEX-GI-SIDE-LETTER-2026",
+    "MEX-CONFORMITY-2024",
+    "CHL-PRIOR-USERS-2025",
+    "CHL-PRIOR-USERS-2026",
+    "VNM-PRIOR-USERS-2026"
+  ],
+  "scope": "Hashes and anchor presence supplement manual context review; automated checks do not validate legal claims or coding judgments."
+}

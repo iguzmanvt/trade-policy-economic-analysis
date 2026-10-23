@@ -1,0 +1,420 @@
+{
+  "title": "North American exposure in the U.S. goods trade network",
+  "prepared_date": "2026-10-22",
+  "statistical_source": "U.S. Census Bureau International Trade, general imports and total exports",
+  "observation_periods": [
+    "January\u2013August 2023",
+    "January\u2013August 2024",
+    "January\u2013August 2025",
+    "January\u2013August 2026"
+  ],
+  "basis": "JAN_AUG_ARCHIVED_MONTHLY_SUM",
+  "universe": "All reported individual ten-digit merchandise product codes and individual Census country codes, aggregated within each flow; no selected sector basket",
+  "flows": {
+    "M": "General imports, customs value",
+    "X": "Total exports, domestic exports plus reexports (DF1 + DF2), FAS value"
+  },
+  "input_rows": 1846,
+  "input_sha256": "77448ef448029e4a7a21869446aae065daa29079428247249bab2a5dde4be664",
+  "derivation": "Public statistical partner totals recovered from an existing all-goods country aggregation; filtered to January\u2013August sums. Newly written analysis code reproduces concentration and exposure from this bounded extract. Full product-month partitions are not redistributed.",
+  "archive_generation_date": "2026-10-14",
+  "vintage_limit": "Archive generation date is not each source download date. Earlier monthly observations retain their archived vintages. No new live Census refresh was performed. This is not a direct revised _YR extract.",
+  "upstream_country_components_sha256": "549a870cf802693f84c77f65a48d5fd6225e8e56cc50aea53b6dfbc0496f77ca",
+  "upstream_hash_status": "64 recorded monthly partition hashes retained as provenance; two August 2026 raw source hashes independently recomputed and matched in this continuation. Other upstream hashes were not recomputed here.",
+  "august_2026_rehashed_sources": {
+    "general_imports.csv.gz": "b2cc8ff9fa6b4c9a58fa91089c93501ae6257c715d9c1d2ef72b2f73c074040e",
+    "exports_total.csv.gz": "686fd993640f7519e3e47584cb4a083c662533bb5357c0a0007bbca5428d1ca8"
+  },
+  "official_references": {
+    "definitions": "https://www.census.gov/foreign-trade/guide/sec2.html",
+    "imports_variables": "https://api.census.gov/data/timeseries/intltrade/imports/hs/variables.html",
+    "exports_variables": "https://api.census.gov/data/timeseries/intltrade/exports/hs/variables.html",
+    "api_guide": "https://www.census.gov/foreign-trade/reference/guides/Guide_to_International_Trade_Datasets.pdf"
+  },
+  "recorded_upstream_sources": [
+    {
+      "flow": "M",
+      "size_bytes": 8227874,
+      "sha256": "a4db0806e9f06fc3c51c3e451bba0da6338845704c93329f83dc74934ebf9764",
+      "source_file": "/year=2023/month=01/general_imports.csv.gz"
+    },
+    {
+      "flow": "M",
+      "size_bytes": 8056312,
+      "sha256": "f3184da5f221c6a10f36dc89f8dbfe84d4bbdcd1cda85216d8c31e07c29c4181",
+      "source_file": "/year=2023/month=02/general_imports.csv.gz"
+    },
+    {
+      "flow": "M",
+      "size_bytes": 8474328,
+      "sha256": "d25e60e0f7f5e6f3e9609f7d4fa9addbfe3b0b64a3e78da11e21fca53584a365",
+      "source_file": "/year=2023/month=03/general_imports.csv.gz"
+    },
+    {
+      "flow": "M",
+      "size_bytes": 8282605,
+      "sha256": "fd6c49a2c07e9baff3219df57321b604ef5e415dc96b97d253306a43bcc444f1",
+      "source_file": "/year=2023/month=04/general_imports.csv.gz"
+    },
+    {
+      "flow": "M",
+      "size_bytes": 8417654,
+      "sha256": "00a96672b8ddb84cc3ff9b41e705eda073d4d2bf57bd6e825a2c4b677bf2ea86",
+      "source_file": "/year=2023/month=05/general_imports.csv.gz"
+    },
+    {
+      "flow": "M",
+      "size_bytes": 8376139,
+      "sha256": "89a55a4f40f695b7917e8eac35cf6c095157c4adef5c5a0984af223df55c58d1",
+      "source_file": "/year=2023/month=06/general_imports.csv.gz"
+    },
+    {
+      "flow": "M",
+      "size_bytes": 8404227,
+      "sha256": "6a198fbb3f5193555e794e3798b9473917c6677f9ef22d1cd0c6cb27c409ac2b",
+      "source_file": "/year=2023/month=07/general_imports.csv.gz"
+    },
+    {
+      "flow": "M",
+      "size_bytes": 8497445,
+      "sha256": "6b84c695938445916fe29591ada34f1149f4505920621ead2cc870e6cb616424",
+      "source_file": "/year=2023/month=08/general_imports.csv.gz"
+    },
+    {
+      "flow": "M",
+      "size_bytes": 8206043,
+      "sha256": "f03ce44fc2717a8303b716aa00ee17d4ad43e68eb9e8254d4ece0076468c9100",
+      "source_file": "/year=2024/month=01/general_imports.csv.gz"
+    },
+    {
+      "flow": "M",
+      "size_bytes": 8270394,
+      "sha256": "1feaf9b5b7dcc1fa1b9d29e359ea381eba2d01f190cdb702d6f210a634289cfd",
+      "source_file": "/year=2024/month=02/general_imports.csv.gz"
+    },
+    {
+      "flow": "M",
+      "size_bytes": 8448605,
+      "sha256": "afee14fb5b8c46720b79c6e68f4fa570f3522f055fd1509c0925244ccfd580b9",
+      "source_file": "/year=2024/month=03/general_imports.csv.gz"
+    },
+    {
+      "flow": "M",
+      "size_bytes": 8437419,
+      "sha256": "b36a8f11136ef2b4927f0c2831123896f8e6d76f05860d013bc2e31a9c2c190e",
+      "source_file": "/year=2024/month=04/general_imports.csv.gz"
+    },
+    {
+      "flow": "M",
+      "size_bytes": 8465889,
+      "sha256": "f43ffae30086c32b1959ac490f339306002b261cbf3f67c82893c277bb8f034e",
+      "source_file": "/year=2024/month=05/general_imports.csv.gz"
+    },
+    {
+      "flow": "M",
+      "size_bytes": 8336538,
+      "sha256": "d80dcf4ec3c70e9888a1405490257993998d351a2f90b02d170de6b216042922",
+      "source_file": "/year=2024/month=06/general_imports.csv.gz"
+    },
+    {
+      "flow": "M",
+      "size_bytes": 8580786,
+      "sha256": "672ef7bc96872686e5bca095fdb64b53b4988b90221ae914e9a07201c7c67320",
+      "source_file": "/year=2024/month=07/general_imports.csv.gz"
+    },
+    {
+      "flow": "M",
+      "size_bytes": 8512448,
+      "sha256": "869ed9af697bedd860d059fa3e4091eed0ed904db1a5c4e68ecf8a5ee9c54a06",
+      "source_file": "/year=2024/month=08/general_imports.csv.gz"
+    },
+    {
+      "flow": "M",
+      "size_bytes": 8318446,
+      "sha256": "303ebb2e0f6008b2081e9402f5f0ef4f1cdc5ec0490ee143706756c66cd08d03",
+      "source_file": "/year=2025/month=01/general_imports.csv.gz"
+    },
+    {
+      "flow": "M",
+      "size_bytes": 8267671,
+      "sha256": "28d11066e869591c1c0bba4a957fd96623cb872c7be5ce1f8ba267f2f0423ea1",
+      "source_file": "/year=2025/month=02/general_imports.csv.gz"
+    },
+    {
+      "flow": "M",
+      "size_bytes": 8609168,
+      "sha256": "cb06c2e401c6b3a00c5483a877040f119ec8c7650d8f33568df445db332bd2e1",
+      "source_file": "/year=2025/month=03/general_imports.csv.gz"
+    },
+    {
+      "flow": "M",
+      "size_bytes": 8597506,
+      "sha256": "61dfca8247e853f19dda9e404d330099de15063e281d5ae72a6199caacc418a7",
+      "source_file": "/year=2025/month=04/general_imports.csv.gz"
+    },
+    {
+      "flow": "M",
+      "size_bytes": 8480758,
+      "sha256": "5a0e633d84105b348b469eb8f935dc62e00960bead6cb40e7fd91a8ac6ac6068",
+      "source_file": "/year=2025/month=05/general_imports.csv.gz"
+    },
+    {
+      "flow": "M",
+      "size_bytes": 8478275,
+      "sha256": "21bfcca52fb646bf0265d3857e9fa73b88304d8b5bc13759c6e2d9a52815c0be",
+      "source_file": "/year=2025/month=06/general_imports.csv.gz"
+    },
+    {
+      "flow": "M",
+      "size_bytes": 8760833,
+      "sha256": "dd51e8c39f2be11c191862f080d07f894c3da5c74973d7e4c8a643507bf6c79b",
+      "source_file": "/year=2025/month=07/general_imports.csv.gz"
+    },
+    {
+      "flow": "M",
+      "size_bytes": 8487679,
+      "sha256": "fe645967cb41b23a83ea22d7747ad49c470c40de34cb3c656ed768ab07512415",
+      "source_file": "/year=2025/month=08/general_imports.csv.gz"
+    },
+    {
+      "flow": "M",
+      "size_bytes": 8475090,
+      "sha256": "6d0b45357ca0cff8b9951f192890f4dee9ddb9578e5fa5691a1d5f381df1491d",
+      "source_file": "/year=2026/month=01/general_imports.csv.gz"
+    },
+    {
+      "flow": "M",
+      "size_bytes": 8487345,
+      "sha256": "4c43bdcbd67439bbef7068a5a79cdfbc89c26afa5e448308c427790ca1ab4f16",
+      "source_file": "/year=2026/month=02/general_imports.csv.gz"
+    },
+    {
+      "flow": "M",
+      "size_bytes": 9138828,
+      "sha256": "623ee54488bd3cbcabd1fd323d6d76d26175754ba1d0e0656fc5d131954f11e9",
+      "source_file": "/year=2026/month=03/general_imports.csv.gz"
+    },
+    {
+      "flow": "M",
+      "size_bytes": 8902390,
+      "sha256": "360db330511b0f234beab4c28d9d7c54ff1983edc05f4e2e7d56dd54c862cffe",
+      "source_file": "/year=2026/month=04/general_imports.csv.gz"
+    },
+    {
+      "flow": "M",
+      "size_bytes": 9001011,
+      "sha256": "f04f747f4b5d0714048e8e1aa266883cedb2e615f8a3b372cb80a6b8327d4f13",
+      "source_file": "/year=2026/month=05/general_imports.csv.gz"
+    },
+    {
+      "flow": "M",
+      "size_bytes": 8973396,
+      "sha256": "a7a79328a8f233aafb9d847488be8932efffdc603baf9a44a29bfc3b74085d81",
+      "source_file": "/year=2026/month=06/general_imports.csv.gz"
+    },
+    {
+      "flow": "M",
+      "size_bytes": 7322086,
+      "sha256": "c2550ee4f3f493861e0788813a238ef31ed43d3237c34b165685ab3192ac28b7",
+      "source_file": "/year=2026/month=07/general_imports.csv.gz"
+    },
+    {
+      "flow": "M",
+      "size_bytes": 7276076,
+      "sha256": "b2cc8ff9fa6b4c9a58fa91089c93501ae6257c715d9c1d2ef72b2f73c074040e",
+      "source_file": "/year=2026/month=08/general_imports.csv.gz"
+    },
+    {
+      "flow": "X",
+      "size_bytes": 4907263,
+      "sha256": "984e10416883c0f0a68c4204142aafe5a0243efe28d18d241331e67119bed456",
+      "source_file": "/year=2023/month=01/exports_total.csv.gz"
+    },
+    {
+      "flow": "X",
+      "size_bytes": 4976470,
+      "sha256": "87f60f7fee489086000823cf7c48543b86609793bd8b276c5578f33cb09ef62b",
+      "source_file": "/year=2023/month=02/exports_total.csv.gz"
+    },
+    {
+      "flow": "X",
+      "size_bytes": 5360736,
+      "sha256": "2efbeeac19b5a8e39e335eab621f9986b4f7326f5cbeef73adb28006641d7255",
+      "source_file": "/year=2023/month=03/exports_total.csv.gz"
+    },
+    {
+      "flow": "X",
+      "size_bytes": 5091095,
+      "sha256": "bd2bab853a57770d002623fed2b1a54fc31e09913ae979e2553ad7f12a33741a",
+      "source_file": "/year=2023/month=04/exports_total.csv.gz"
+    },
+    {
+      "flow": "X",
+      "size_bytes": 5128586,
+      "sha256": "28f525ae4cc0f804ffcd1e4ba7ae5252e7d91cefa44158961f8cdebc650ce6fb",
+      "source_file": "/year=2023/month=05/exports_total.csv.gz"
+    },
+    {
+      "flow": "X",
+      "size_bytes": 5133289,
+      "sha256": "d987a1f7ba6ae6f440ef9f6cb101622b0a6b0dc3d4f531c4866cdc20cc05fa0e",
+      "source_file": "/year=2023/month=06/exports_total.csv.gz"
+    },
+    {
+      "flow": "X",
+      "size_bytes": 4997601,
+      "sha256": "c25c6f925544b6fe512ea8b98e90f7ef4234fa57e2f1f2c31af20658d881e194",
+      "source_file": "/year=2023/month=07/exports_total.csv.gz"
+    },
+    {
+      "flow": "X",
+      "size_bytes": 5115637,
+      "sha256": "b69547eb918c0c1e3e46196df496745254c1255c938e6f92282d19ec68cf21e6",
+      "source_file": "/year=2023/month=08/exports_total.csv.gz"
+    },
+    {
+      "flow": "X",
+      "size_bytes": 4874072,
+      "sha256": "a939fd8fbdd2428848ff22a40684f0f238ad75183f2cff4aa901178f9fe314be",
+      "source_file": "/year=2024/month=01/exports_total.csv.gz"
+    },
+    {
+      "flow": "X",
+      "size_bytes": 5084318,
+      "sha256": "d824fca5f6e9d1cdb0dd5317629a04ebabaeafbf11cbe3448b370eeb6ec6ed6c",
+      "source_file": "/year=2024/month=02/exports_total.csv.gz"
+    },
+    {
+      "flow": "X",
+      "size_bytes": 5281622,
+      "sha256": "a8a24b6073bae17e32d357adfe8372d59746d1d78d5a33c7417a87d19e463634",
+      "source_file": "/year=2024/month=03/exports_total.csv.gz"
+    },
+    {
+      "flow": "X",
+      "size_bytes": 5136745,
+      "sha256": "45a2028c75988993df88f9c71111219524358b06455744befca4135d44ebd45d",
+      "source_file": "/year=2024/month=04/exports_total.csv.gz"
+    },
+    {
+      "flow": "X",
+      "size_bytes": 5191190,
+      "sha256": "d067cacdc02f1acfc612c6ad1af0004a0f3481b8734551d78832504a14914fc8",
+      "source_file": "/year=2024/month=05/exports_total.csv.gz"
+    },
+    {
+      "flow": "X",
+      "size_bytes": 5097037,
+      "sha256": "1d4f7e1236ad9a3b8eb92c4cebb4a807428fab8810afcde5fd900b0b82526333",
+      "source_file": "/year=2024/month=06/exports_total.csv.gz"
+    },
+    {
+      "flow": "X",
+      "size_bytes": 5052673,
+      "sha256": "e9f7b6a7d48ed871ce95f5e9c0ee9225120442e798f67e214a38bfdfd47cc696",
+      "source_file": "/year=2024/month=07/exports_total.csv.gz"
+    },
+    {
+      "flow": "X",
+      "size_bytes": 5202942,
+      "sha256": "3ce2c76535cc004e2a02774871a20387db2d36ef91a18100b2f626dc389f56cb",
+      "source_file": "/year=2024/month=08/exports_total.csv.gz"
+    },
+    {
+      "flow": "X",
+      "size_bytes": 4872896,
+      "sha256": "8a3252070926cb01eb66d558922fb8153d7413b4721f55b0cff18c82e8079d76",
+      "source_file": "/year=2025/month=01/exports_total.csv.gz"
+    },
+    {
+      "flow": "X",
+      "size_bytes": 5018270,
+      "sha256": "4cd07f9bfc79291a681b62327d68eabb342f83f386fb33e7b19277ca06b7ce37",
+      "source_file": "/year=2025/month=02/exports_total.csv.gz"
+    },
+    {
+      "flow": "X",
+      "size_bytes": 5290611,
+      "sha256": "5bba8caddbad6649faced48821e0352000758df12f30de0f298fd6bf2960a791",
+      "source_file": "/year=2025/month=03/exports_total.csv.gz"
+    },
+    {
+      "flow": "X",
+      "size_bytes": 5131852,
+      "sha256": "c66f66e5e6f3375693fd4daf12e9873240774d92b805de499ee60aba3e84b058",
+      "source_file": "/year=2025/month=04/exports_total.csv.gz"
+    },
+    {
+      "flow": "X",
+      "size_bytes": 5157285,
+      "sha256": "4773d1cb9c3433b9949f01a395b2cbf5be4fa9da15e06ec978eb753837ba906b",
+      "source_file": "/year=2025/month=05/exports_total.csv.gz"
+    },
+    {
+      "flow": "X",
+      "size_bytes": 5042609,
+      "sha256": "8f5be8d5c9cef88da93cdb844b08c8e230bb8c1ca44442fda300f3024cd77e63",
+      "source_file": "/year=2025/month=06/exports_total.csv.gz"
+    },
+    {
+      "flow": "X",
+      "size_bytes": 5078448,
+      "sha256": "393c5ce815ac1c0dbd46a75de975d2a82475901abb3c6ed19fb8f8d7c911acac",
+      "source_file": "/year=2025/month=07/exports_total.csv.gz"
+    },
+    {
+      "flow": "X",
+      "size_bytes": 5130379,
+      "sha256": "64e16976c6ee29593123ab1ba9f8b818deaf48818afb183d1cbefaf1d2843d49",
+      "source_file": "/year=2025/month=08/exports_total.csv.gz"
+    },
+    {
+      "flow": "X",
+      "size_bytes": 4832800,
+      "sha256": "abe39853fd47b1f039048ef55401a6512ecb4ec10dac0ac33f3b118669aa5071",
+      "source_file": "/year=2026/month=01/exports_total.csv.gz"
+    },
+    {
+      "flow": "X",
+      "size_bytes": 4922237,
+      "sha256": "547efae6d715e1e3b39ba7a51a5315693f4fab1789b8c6bcd78fc1881345cad6",
+      "source_file": "/year=2026/month=02/exports_total.csv.gz"
+    },
+    {
+      "flow": "X",
+      "size_bytes": 5128115,
+      "sha256": "370772d87d16001130c0450a237db48389979e5f94126d4a8d7b25de3c866d91",
+      "source_file": "/year=2026/month=03/exports_total.csv.gz"
+    },
+    {
+      "flow": "X",
+      "size_bytes": 5051043,
+      "sha256": "532b7392acd55b98043c5849e058a479864cda7db3c0b037abd2b5048db0e826",
+      "source_file": "/year=2026/month=04/exports_total.csv.gz"
+    },
+    {
+      "flow": "X",
+      "size_bytes": 5108998,
+      "sha256": "0c25325e10a461d8ea742eddf4ee628c1b28f93ce0ed45a1c724a59d78e41598",
+      "source_file": "/year=2026/month=05/exports_total.csv.gz"
+    },
+    {
+      "flow": "X",
+      "size_bytes": 5063040,
+      "sha256": "591d99b2bcd8deb549c38ca66be585c31b565d45ec506fa4fff5d544f60bd8a8",
+      "source_file": "/year=2026/month=06/exports_total.csv.gz"
+    },
+    {
+      "flow": "X",
+      "size_bytes": 5055958,
+      "sha256": "5c0e29a62f5967c5fc0a03ad5576e1dc3ee7c2a2d870dc5fdc7844ebf007db07",
+      "source_file": "/year=2026/month=07/exports_total.csv.gz"
+    },
+    {
+      "flow": "X",
+      "size_bytes": 5043639,
+      "sha256": "686fd993640f7519e3e47584cb4a083c662533bb5357c0a0007bbca5428d1ca8",
+      "source_file": "/year=2026/month=08/exports_total.csv.gz"
+    }
+  ]
+}

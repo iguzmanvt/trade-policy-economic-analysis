@@ -1,0 +1,521 @@
+{
+  "input_sha256": "b68c40d953e13a6a15c9babc17b76ab3a39129dcbd56a819a259b7387ac147ca",
+  "records": 30,
+  "period_basis": "January–August totals reconstructed from archived monthly observations; not revised Census _YR values",
+  "products": {
+    "8471500150": "Processing units",
+    "8471709000": "Storage units",
+    "8517620020": "Switching and routing apparatus"
+  },
+  "countries": {
+    "2010": "Mexico",
+    "5700": "China",
+    "5830": "Taiwan",
+    "5520": "Vietnam",
+    "5570": "Malaysia"
+  },
+  "mexico_total_2025_usd": "53900413045",
+  "mexico_total_2026_usd": "113096986963",
+  "mexico_change_usd": "59196573918",
+  "mexico_change_pct": "109.8258261371362372275119548",
+  "rates": [
+    {
+      "period": "2025-08",
+      "period_label": "January–August 2025",
+      "period_basis": "JAN_AUG_MONTHLY_SUM",
+      "hts10": "8471500150",
+      "product": "Processing units",
+      "country": "Mexico",
+      "imports_usd": "49044581390",
+      "calculated_duties_usd": "46923693",
+      "duty_intensity_pct": "0.09567559079945080147007856845",
+      "gap_vs_mexico_pp": "0E-29"
+    },
+    {
+      "period": "2025-08",
+      "period_label": "January–August 2025",
+      "period_basis": "JAN_AUG_MONTHLY_SUM",
+      "hts10": "8471500150",
+      "product": "Processing units",
+      "country": "China",
+      "imports_usd": "258242333",
+      "calculated_duties_usd": "90485619",
+      "duty_intensity_pct": "35.03903405333625141932093682",
+      "gap_vs_mexico_pp": "34.94335846253680061785085825"
+    },
+    {
+      "period": "2025-08",
+      "period_label": "January–August 2025",
+      "period_basis": "JAN_AUG_MONTHLY_SUM",
+      "hts10": "8471500150",
+      "product": "Processing units",
+      "country": "Taiwan",
+      "imports_usd": "36187873702",
+      "calculated_duties_usd": "9978188",
+      "duty_intensity_pct": "0.02757329176665202676626717492",
+      "gap_vs_mexico_pp": "-0.06810229903279877470381139353"
+    },
+    {
+      "period": "2025-08",
+      "period_label": "January–August 2025",
+      "period_basis": "JAN_AUG_MONTHLY_SUM",
+      "hts10": "8471500150",
+      "product": "Processing units",
+      "country": "Vietnam",
+      "imports_usd": "685642059",
+      "calculated_duties_usd": "825548",
+      "duty_intensity_pct": "0.1204050990109986820397200867",
+      "gap_vs_mexico_pp": "0.02472950821154788056964151825"
+    },
+    {
+      "period": "2025-08",
+      "period_label": "January–August 2025",
+      "period_basis": "JAN_AUG_MONTHLY_SUM",
+      "hts10": "8471500150",
+      "product": "Processing units",
+      "country": "Malaysia",
+      "imports_usd": "180065753",
+      "calculated_duties_usd": "1243984",
+      "duty_intensity_pct": "0.6908498586069278815055964584",
+      "gap_vs_mexico_pp": "0.5951742678074770800355178900"
+    },
+    {
+      "period": "2025-08",
+      "period_label": "January–August 2025",
+      "period_basis": "JAN_AUG_MONTHLY_SUM",
+      "hts10": "8471709000",
+      "product": "Storage units",
+      "country": "Mexico",
+      "imports_usd": "1950538089",
+      "calculated_duties_usd": "5348404",
+      "duty_intensity_pct": "0.2742014642093974510435720079",
+      "gap_vs_mexico_pp": "0E-28"
+    },
+    {
+      "period": "2025-08",
+      "period_label": "January–August 2025",
+      "period_basis": "JAN_AUG_MONTHLY_SUM",
+      "hts10": "8471709000",
+      "product": "Storage units",
+      "country": "China",
+      "imports_usd": "8721202",
+      "calculated_duties_usd": "2961940",
+      "duty_intensity_pct": "33.96252030396727423582208049",
+      "gap_vs_mexico_pp": "33.68831883975787678477850848"
+    },
+    {
+      "period": "2025-08",
+      "period_label": "January–August 2025",
+      "period_basis": "JAN_AUG_MONTHLY_SUM",
+      "hts10": "8471709000",
+      "product": "Storage units",
+      "country": "Taiwan",
+      "imports_usd": "78723337",
+      "calculated_duties_usd": "263408",
+      "duty_intensity_pct": "0.3345996372079603282061074215",
+      "gap_vs_mexico_pp": "0.0603981729985628771625354136"
+    },
+    {
+      "period": "2025-08",
+      "period_label": "January–August 2025",
+      "period_basis": "JAN_AUG_MONTHLY_SUM",
+      "hts10": "8471709000",
+      "product": "Storage units",
+      "country": "Vietnam",
+      "imports_usd": "95723413",
+      "calculated_duties_usd": "161095",
+      "duty_intensity_pct": "0.1682921606650193302238398040",
+      "gap_vs_mexico_pp": "-0.1059093035443781208197322039"
+    },
+    {
+      "period": "2025-08",
+      "period_label": "January–August 2025",
+      "period_basis": "JAN_AUG_MONTHLY_SUM",
+      "hts10": "8471709000",
+      "product": "Storage units",
+      "country": "Malaysia",
+      "imports_usd": "12867908",
+      "calculated_duties_usd": "149386",
+      "duty_intensity_pct": "1.160919086459119850716993003",
+      "gap_vs_mexico_pp": "0.8867176222497223996734209951"
+    },
+    {
+      "period": "2025-08",
+      "period_label": "January–August 2025",
+      "period_basis": "JAN_AUG_MONTHLY_SUM",
+      "hts10": "8517620020",
+      "product": "Switching and routing apparatus",
+      "country": "Mexico",
+      "imports_usd": "2905293566",
+      "calculated_duties_usd": "93442984",
+      "duty_intensity_pct": "3.216300930602756169116164284",
+      "gap_vs_mexico_pp": "0E-27"
+    },
+    {
+      "period": "2025-08",
+      "period_label": "January–August 2025",
+      "period_basis": "JAN_AUG_MONTHLY_SUM",
+      "hts10": "8517620020",
+      "product": "Switching and routing apparatus",
+      "country": "China",
+      "imports_usd": "246812155",
+      "calculated_duties_usd": "101419638",
+      "duty_intensity_pct": "41.09183277460544842291093808",
+      "gap_vs_mexico_pp": "37.87553184400269225379477380"
+    },
+    {
+      "period": "2025-08",
+      "period_label": "January–August 2025",
+      "period_basis": "JAN_AUG_MONTHLY_SUM",
+      "hts10": "8517620020",
+      "product": "Switching and routing apparatus",
+      "country": "Taiwan",
+      "imports_usd": "1873467823",
+      "calculated_duties_usd": "1444905",
+      "duty_intensity_pct": "0.07712462323939256681858688106",
+      "gap_vs_mexico_pp": "-3.139176307363363602297577403"
+    },
+    {
+      "period": "2025-08",
+      "period_label": "January–August 2025",
+      "period_basis": "JAN_AUG_MONTHLY_SUM",
+      "hts10": "8517620020",
+      "product": "Switching and routing apparatus",
+      "country": "Vietnam",
+      "imports_usd": "6523459577",
+      "calculated_duties_usd": "3748253",
+      "duty_intensity_pct": "0.05745805512791636939731741362",
+      "gap_vs_mexico_pp": "-3.158842875474839799718846870"
+    },
+    {
+      "period": "2025-08",
+      "period_label": "January–August 2025",
+      "period_basis": "JAN_AUG_MONTHLY_SUM",
+      "hts10": "8517620020",
+      "product": "Switching and routing apparatus",
+      "country": "Malaysia",
+      "imports_usd": "1206181152",
+      "calculated_duties_usd": "1335653",
+      "duty_intensity_pct": "0.1107340301069469870144347936",
+      "gap_vs_mexico_pp": "-3.105566900495809182101729490"
+    },
+    {
+      "period": "2026-08",
+      "period_label": "January–August 2026",
+      "period_basis": "JAN_AUG_MONTHLY_SUM",
+      "hts10": "8471500150",
+      "product": "Processing units",
+      "country": "Mexico",
+      "imports_usd": "99003854321",
+      "calculated_duties_usd": "24045981",
+      "duty_intensity_pct": "0.02428792410650575645077061525",
+      "gap_vs_mexico_pp": "0E-29"
+    },
+    {
+      "period": "2026-08",
+      "period_label": "January–August 2026",
+      "period_basis": "JAN_AUG_MONTHLY_SUM",
+      "hts10": "8471500150",
+      "product": "Processing units",
+      "country": "China",
+      "imports_usd": "209094519",
+      "calculated_duties_usd": "56716360",
+      "duty_intensity_pct": "27.12474734930761145393772852",
+      "gap_vs_mexico_pp": "27.10045942520110569748695790"
+    },
+    {
+      "period": "2026-08",
+      "period_label": "January–August 2026",
+      "period_basis": "JAN_AUG_MONTHLY_SUM",
+      "hts10": "8471500150",
+      "product": "Processing units",
+      "country": "Taiwan",
+      "imports_usd": "77118451272",
+      "calculated_duties_usd": "24407327",
+      "duty_intensity_pct": "0.03164914050713277140460051743",
+      "gap_vs_mexico_pp": "0.00736121640062701495382990218"
+    },
+    {
+      "period": "2026-08",
+      "period_label": "January–August 2026",
+      "period_basis": "JAN_AUG_MONTHLY_SUM",
+      "hts10": "8471500150",
+      "product": "Processing units",
+      "country": "Vietnam",
+      "imports_usd": "2285621372",
+      "calculated_duties_usd": "2481468",
+      "duty_intensity_pct": "0.1085686382880042478006720354",
+      "gap_vs_mexico_pp": "0.08428071418149849134990142015"
+    },
+    {
+      "period": "2026-08",
+      "period_label": "January–August 2026",
+      "period_basis": "JAN_AUG_MONTHLY_SUM",
+      "hts10": "8471500150",
+      "product": "Processing units",
+      "country": "Malaysia",
+      "imports_usd": "713361651",
+      "calculated_duties_usd": "2365723",
+      "duty_intensity_pct": "0.3316302462690134151884763988",
+      "gap_vs_mexico_pp": "0.3073423221625076587377057836"
+    },
+    {
+      "period": "2026-08",
+      "period_label": "January–August 2026",
+      "period_basis": "JAN_AUG_MONTHLY_SUM",
+      "hts10": "8471709000",
+      "product": "Storage units",
+      "country": "Mexico",
+      "imports_usd": "6893004839",
+      "calculated_duties_usd": "137050",
+      "duty_intensity_pct": "0.001988247552425662819123403201",
+      "gap_vs_mexico_pp": "0E-30"
+    },
+    {
+      "period": "2026-08",
+      "period_label": "January–August 2026",
+      "period_basis": "JAN_AUG_MONTHLY_SUM",
+      "hts10": "8471709000",
+      "product": "Storage units",
+      "country": "China",
+      "imports_usd": "14181291",
+      "calculated_duties_usd": "3923925",
+      "duty_intensity_pct": "27.66973049209694660380356062",
+      "gap_vs_mexico_pp": "27.66774224454452094098443722"
+    },
+    {
+      "period": "2026-08",
+      "period_label": "January–August 2026",
+      "period_basis": "JAN_AUG_MONTHLY_SUM",
+      "hts10": "8471709000",
+      "product": "Storage units",
+      "country": "Taiwan",
+      "imports_usd": "227166815",
+      "calculated_duties_usd": "349549",
+      "duty_intensity_pct": "0.1538732670966927981976592840",
+      "gap_vs_mexico_pp": "0.1518850195442671353785358808"
+    },
+    {
+      "period": "2026-08",
+      "period_label": "January–August 2026",
+      "period_basis": "JAN_AUG_MONTHLY_SUM",
+      "hts10": "8471709000",
+      "product": "Storage units",
+      "country": "Vietnam",
+      "imports_usd": "780304572",
+      "calculated_duties_usd": "54167",
+      "duty_intensity_pct": "0.006941776575929123224463177950",
+      "gap_vs_mexico_pp": "0.004953529023503460405339774749"
+    },
+    {
+      "period": "2026-08",
+      "period_label": "January–August 2026",
+      "period_basis": "JAN_AUG_MONTHLY_SUM",
+      "hts10": "8471709000",
+      "product": "Storage units",
+      "country": "Malaysia",
+      "imports_usd": "19369483",
+      "calculated_duties_usd": "238832",
+      "duty_intensity_pct": "1.233032394308097949749097588",
+      "gap_vs_mexico_pp": "1.231044146755672286929974185"
+    },
+    {
+      "period": "2026-08",
+      "period_label": "January–August 2026",
+      "period_basis": "JAN_AUG_MONTHLY_SUM",
+      "hts10": "8517620020",
+      "product": "Switching and routing apparatus",
+      "country": "Mexico",
+      "imports_usd": "7200127803",
+      "calculated_duties_usd": "8085857",
+      "duty_intensity_pct": "0.1123015760446773280699223166",
+      "gap_vs_mexico_pp": "0E-28"
+    },
+    {
+      "period": "2026-08",
+      "period_label": "January–August 2026",
+      "period_basis": "JAN_AUG_MONTHLY_SUM",
+      "hts10": "8517620020",
+      "product": "Switching and routing apparatus",
+      "country": "China",
+      "imports_usd": "189012775",
+      "calculated_duties_usd": "49863138",
+      "duty_intensity_pct": "26.38082954974868762177582970",
+      "gap_vs_mexico_pp": "26.26852797370401029370590738"
+    },
+    {
+      "period": "2026-08",
+      "period_label": "January–August 2026",
+      "period_basis": "JAN_AUG_MONTHLY_SUM",
+      "hts10": "8517620020",
+      "product": "Switching and routing apparatus",
+      "country": "Taiwan",
+      "imports_usd": "3923772406",
+      "calculated_duties_usd": "777670",
+      "duty_intensity_pct": "0.01981944719349249636371493459",
+      "gap_vs_mexico_pp": "-0.09248212885118483170620738201"
+    },
+    {
+      "period": "2026-08",
+      "period_label": "January–August 2026",
+      "period_basis": "JAN_AUG_MONTHLY_SUM",
+      "hts10": "8517620020",
+      "product": "Switching and routing apparatus",
+      "country": "Vietnam",
+      "imports_usd": "13689386379",
+      "calculated_duties_usd": "2324547",
+      "duty_intensity_pct": "0.01698065154743485672200267436",
+      "gap_vs_mexico_pp": "-0.09532092449724247134791964224"
+    },
+    {
+      "period": "2026-08",
+      "period_label": "January–August 2026",
+      "period_basis": "JAN_AUG_MONTHLY_SUM",
+      "hts10": "8517620020",
+      "product": "Switching and routing apparatus",
+      "country": "Malaysia",
+      "imports_usd": "1039529616",
+      "calculated_duties_usd": "110420",
+      "duty_intensity_pct": "0.01062211199185305366037786845",
+      "gap_vs_mexico_pp": "-0.1016794640528242744095444482"
+    }
+  ],
+  "growth": [
+    {
+      "hts10": "8471500150",
+      "product": "Processing units",
+      "period_basis": "JAN_AUG_MONTHLY_SUM",
+      "imports_2025_usd": "49044581390",
+      "imports_2026_usd": "99003854321",
+      "change_usd": "49959272931",
+      "change_pct": "101.8650205895864819410175416"
+    },
+    {
+      "hts10": "8471709000",
+      "product": "Storage units",
+      "period_basis": "JAN_AUG_MONTHLY_SUM",
+      "imports_2025_usd": "1950538089",
+      "imports_2026_usd": "6893004839",
+      "change_usd": "4942466750",
+      "change_pct": "253.3899121413157905269698120"
+    },
+    {
+      "hts10": "8517620020",
+      "product": "Switching and routing apparatus",
+      "period_basis": "JAN_AUG_MONTHLY_SUM",
+      "imports_2025_usd": "2905293566",
+      "imports_2026_usd": "7200127803",
+      "change_usd": "4294834237",
+      "change_pct": "147.8278920678269247232415480"
+    }
+  ],
+  "country_totals": [
+    {
+      "period": "2025-08",
+      "period_label": "January–August 2025",
+      "period_basis": "JAN_AUG_MONTHLY_SUM",
+      "country": "Mexico",
+      "imports_usd": "53900413045",
+      "calculated_duties_usd": "145715081",
+      "duty_intensity_pct": "0.2703413068065849735456326873"
+    },
+    {
+      "period": "2025-08",
+      "period_label": "January–August 2025",
+      "period_basis": "JAN_AUG_MONTHLY_SUM",
+      "country": "China",
+      "imports_usd": "513775690",
+      "calculated_duties_usd": "194867197",
+      "duty_intensity_pct": "37.92845803973325401986224767"
+    },
+    {
+      "period": "2025-08",
+      "period_label": "January–August 2025",
+      "period_basis": "JAN_AUG_MONTHLY_SUM",
+      "country": "Taiwan",
+      "imports_usd": "38140064862",
+      "calculated_duties_usd": "11686501",
+      "duty_intensity_pct": "0.03064100976829639246878321158"
+    },
+    {
+      "period": "2025-08",
+      "period_label": "January–August 2025",
+      "period_basis": "JAN_AUG_MONTHLY_SUM",
+      "country": "Vietnam",
+      "imports_usd": "7304825049",
+      "calculated_duties_usd": "4734896",
+      "duty_intensity_pct": "0.06481874607863726265129885111"
+    },
+    {
+      "period": "2025-08",
+      "period_label": "January–August 2025",
+      "period_basis": "JAN_AUG_MONTHLY_SUM",
+      "country": "Malaysia",
+      "imports_usd": "1399114813",
+      "calculated_duties_usd": "2729023",
+      "duty_intensity_pct": "0.1950535420426572240143954505"
+    },
+    {
+      "period": "2026-08",
+      "period_label": "January–August 2026",
+      "period_basis": "JAN_AUG_MONTHLY_SUM",
+      "country": "Mexico",
+      "imports_usd": "113096986963",
+      "calculated_duties_usd": "32268888",
+      "duty_intensity_pct": "0.02853204923183042729138067851"
+    },
+    {
+      "period": "2026-08",
+      "period_label": "January–August 2026",
+      "period_basis": "JAN_AUG_MONTHLY_SUM",
+      "country": "China",
+      "imports_usd": "412288585",
+      "calculated_duties_usd": "110503423",
+      "duty_intensity_pct": "26.80244542787911530463546547"
+    },
+    {
+      "period": "2026-08",
+      "period_label": "January–August 2026",
+      "period_basis": "JAN_AUG_MONTHLY_SUM",
+      "country": "Taiwan",
+      "imports_usd": "81269390493",
+      "calculated_duties_usd": "25534546",
+      "duty_intensity_pct": "0.03141963517272763902676363093"
+    },
+    {
+      "period": "2026-08",
+      "period_label": "January–August 2026",
+      "period_basis": "JAN_AUG_MONTHLY_SUM",
+      "country": "Vietnam",
+      "imports_usd": "16755312323",
+      "calculated_duties_usd": "4860182",
+      "duty_intensity_pct": "0.02900681232499875973812965134"
+    },
+    {
+      "period": "2026-08",
+      "period_label": "January–August 2026",
+      "period_basis": "JAN_AUG_MONTHLY_SUM",
+      "country": "Malaysia",
+      "imports_usd": "1772260750",
+      "calculated_duties_usd": "2714975",
+      "duty_intensity_pct": "0.1531927511231064616197136906"
+    }
+  ],
+  "checks": {
+    "exact_product_country_period_coverage": true,
+    "unique_product_country_period_keys": true,
+    "positive_import_value_denominators": true,
+    "finite_nonnegative_numeric_inputs": true,
+    "all_rows_explicitly_january_august_monthly_sums": true,
+    "country_codes_match_country_names": true,
+    "aggregate_rates_use_ratio_of_sums": true
+  },
+  "limits": [
+    "Archived monthly vintages can differ from subsequently revised official YTD totals.",
+    "Selected product lines, not the universe of electronics or data-center inputs.",
+    "Gross nominal imports for consumption, not domestic value added or GDP.",
+    "Calculated duty intensity is not a legal tariff schedule or final net revenue.",
+    "Contemporaneous comparisons do not identify causal effects of tariffs.",
+    "Coverage checks do not independently verify the original statistical source."
+  ]
+}

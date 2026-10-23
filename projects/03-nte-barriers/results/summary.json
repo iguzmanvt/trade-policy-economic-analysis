@@ -1,0 +1,37 @@
+{
+  "records": 18,
+  "distinct_issues": 8,
+  "editions": [
+    2024,
+    2025,
+    2026
+  ],
+  "chapters": [
+    "Canada",
+    "Chile",
+    "Dominican Republic",
+    "European Union",
+    "Gulf Cooperation Council",
+    "Mexico",
+    "Vietnam"
+  ],
+  "jurisdictions": [
+    "Canada",
+    "Chile",
+    "Dominican Republic",
+    "European Union",
+    "Mexico",
+    "Qatar",
+    "Vietnam"
+  ],
+  "topics": 5,
+  "reported_status_counts": {
+    "concern_with_market_access_assurance": 3,
+    "market_access_arrangement_reported": 2,
+    "ongoing_concern": 12,
+    "prior_user_safeguard_monitoring": 1
+  },
+  "input_sha256": "c3a746a6f324e8114546e038d73c058bbd1cb44fb200d53408ec909c7c09c56e",
+  "interpretation": "Purposive coded sample counts, not barrier prevalence, severity, economic cost or legal findings.",
+  "validation": "Passed uniqueness, populated fields, taxonomy, edition and page bounds checks."
+}

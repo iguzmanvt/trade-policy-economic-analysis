@@ -1,0 +1,102 @@
+{
+  "title": "Mexico dairy linkages: public accounting reconstruction",
+  "author": "Isaac Guzmán Valdivia Tovar",
+  "prepared_date_local": "2026-10-22",
+  "reference_year": 2018,
+  "metadata_update": "2023-08-29",
+  "unit": "million Mexican pesos at 2018 basic prices",
+  "source_credit": "Source: INEGI, Matriz de Insumo Producto 2018 and Cuadros de Oferta y Utilización 2018, metadata update 29 August 2023. Author extraction, aggregation, translation and analysis.",
+  "source_verification": "Original workbook bytes and metadata inspected from recovered archive; no fresh binary download completed. Official pages and classification were opened.",
+  "reuse_terms": {
+    "url": "https://www.inegi.org.mx/inegi/terminos.html",
+    "locator": "Del libre uso de la información del INEGI, section 1",
+    "application": "Public statistical extracts, original metadata and credit retained. Analysis is identified as the author's transformation, without endorsement."
+  },
+  "official_tables": [
+    {
+      "file": "MIP_19.xlsx",
+      "sha256": "db2495edfb946340c4155e384004fa18bce1818a808215b0d49662184da86cd9",
+      "table_title": "Matriz simétrica de insumo producto. Producto por producto/ Economía total / Origen doméstico/ Clase SCIAN/ Millones de pesos a precios básicos",
+      "source_row": 196,
+      "metadata_update": "2023-08-29",
+      "reference_year": 2018,
+      "url": "https://www.inegi.org.mx/programas/mip/2018/",
+      "locator": "Tabulado!D196:AFE196; B196,C196,AFF196:AFM196",
+      "dimensions": "symmetric product by product, class SCIAN 2018",
+      "metadata_locator": "MetaInfo!C11:C14; Tabulado!A3"
+    },
+    {
+      "file": "MIP_38.xlsx",
+      "sha256": "a448da74c3b5e6416d4b1f0b8a55f3ad19119109e36214de27577ea2c530b521",
+      "table_title": "Matriz simétrica de insumo producto. Producto por producto/ Economía total / Origen importado/ Clase SCIAN/ Millones de pesos a precios básicos",
+      "source_row": 196,
+      "metadata_update": "2023-08-29",
+      "reference_year": 2018,
+      "url": "https://www.inegi.org.mx/programas/mip/2018/",
+      "locator": "Tabulado!D196:AFE196; B196,C196,AFF196:AFM196",
+      "dimensions": "symmetric product by product, class SCIAN 2018",
+      "metadata_locator": "MetaInfo!C11:C14; Tabulado!A3"
+    },
+    {
+      "file": "MIP_10.xlsx",
+      "sha256": "61fb9ef0697d7be3ce10a78f1a0412dcd8867448295685d2c1ed14b0ba11cd9d",
+      "table_title": "Matriz simétrica de insumo producto. Producto por producto/ Economía total / Origen doméstico e importado/ Clase SCIAN/ Millones de pesos a precios básicos",
+      "source_row": 196,
+      "metadata_update": "2023-08-29",
+      "reference_year": 2018,
+      "url": "https://www.inegi.org.mx/programas/mip/2018/",
+      "locator": "Tabulado!D196:AFE196; B196,C196,AFF196:AFM196",
+      "dimensions": "symmetric product by product, class SCIAN 2018",
+      "metadata_locator": "MetaInfo!C11:C14; Tabulado!A3"
+    },
+    {
+      "file": "COU_177.xlsx",
+      "sha256": "f4e75013790de0b566f620eac0b2ff754c55981d2158a9b1a2a424b29e036480",
+      "table_title": "Utilización de bienes y servicios a precios básicos/ Economía total / Origen doméstico/ Rama SCIAN/ Millones de pesos a precios de 2018",
+      "source_row": 48,
+      "metadata_update": "2023-08-29",
+      "reference_year": 2018,
+      "url": "https://www.inegi.org.mx/programas/cou/2018/",
+      "locator": "Tabulado!B48,C48,JG48:JM48",
+      "dimensions": "product by buyer industry, branch SCIAN 2018",
+      "metadata_locator": "MetaInfo!C11:C14; Tabulado!A3"
+    },
+    {
+      "file": "COU_184.xlsx",
+      "sha256": "60d6a9534775d314746714ce3188f9de05eded44051284e6a946ae9199f4980f",
+      "table_title": "Utilización de bienes y servicios a precios básicos/ Economía total / Origen importado/ Rama SCIAN/ Millones de pesos a precios de 2018",
+      "source_row": 48,
+      "metadata_update": "2023-08-29",
+      "reference_year": 2018,
+      "url": "https://www.inegi.org.mx/programas/cou/2018/",
+      "locator": "Tabulado!B48,C48,JG48:JM48",
+      "dimensions": "product by buyer industry, branch SCIAN 2018",
+      "metadata_locator": "MetaInfo!C11:C14; Tabulado!A3"
+    },
+    {
+      "file": "COU_170.xlsx",
+      "sha256": "5ee11c3b632368ba0d7147cd05b8e6ff693b027e371dce1adfb13ad8945f2b68",
+      "table_title": "Utilización de bienes y servicios a precios básicos/ Economía total / Origen doméstico e importado/ Rama SCIAN/ Millones de pesos a precios de 2018",
+      "source_row": 48,
+      "metadata_update": "2023-08-29",
+      "reference_year": 2018,
+      "url": "https://www.inegi.org.mx/programas/cou/2018/",
+      "locator": "Tabulado!B48,C48,JG48:JM48",
+      "dimensions": "product by buyer industry, branch SCIAN 2018",
+      "metadata_locator": "MetaInfo!C11:C14; Tabulado!A3"
+    }
+  ],
+  "classification": {
+    "title": "SCIAN Mexico 2018",
+    "url": "https://inegi.org.mx/contenidos/productos/prod_serv/contenidos/espanol/bvinegi/productos/nueva_estruc/702825099695.pdf",
+    "locator": "Printed page 151, PDF page 170, category 311513; parent 3115 on printed page 150",
+    "verified": "Official parsed PDF definition checked; 311513 includes dairy derivatives and imitation cheese; not exclusively cheese."
+  },
+  "reconstruction_procedure": [
+    "From the official MIP 2018 tables, obtain the symmetric product-by-product class-level domestic, imported, and combined-origin workbooks. Archived file identifiers are MIP_19, MIP_38, MIP_10.",
+    "From the official COU 2018 tables, obtain basic-price use at branch level for domestic, imported and combined origin. Archived file identifiers are COU_177, COU_184, COU_170.",
+    "Match table titles and source vintage metadata before re-extraction. Verify the SHA256 hashes listed here if reproducing the exact archived snapshot. A newer revision may differ.",
+    "Place workbooks in a source directory under the recorded basenames. Run python extract_cells.py SOURCE_DIRECTORY then python analyze.py. The latter uses only the included snapshot and works fully offline."
+  ],
+  "excluded_scope": "Bilateral origins, named cheese allocation, retail channels, Leontief multipliers, price pass-through and policy counterfactuals are not estimated."
+}
