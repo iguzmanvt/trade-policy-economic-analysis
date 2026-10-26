@@ -1,0 +1,46 @@
+check_id,record_id,source_id,pdf_page,printed_page,anchor,anchor_type
+L001,CAN-COMPOSITION-2024,NTE-2024,53,45,Compositional Standards for Cheese,heading
+L002,CAN-COMPOSITION-2024,NTE-2024,53,45,dry milk protein products,mechanism
+L003,CAN-COMPOSITION-2025,NTE-2025,51,43,Compositional Standards for Cheese,heading
+L004,CAN-COMPOSITION-2025,NTE-2025,51,43,dry milk protein products,mechanism
+L005,CAN-COMPOSITION-2026,NTE-2026,72,64,Compositional Standards for Cheese,heading
+L006,CAN-COMPOSITION-2026,NTE-2026,72,64,dry milk protein products,mechanism
+L007,CHL-PRIOR-USERS-2024,NTE-2024-ALT394,57,49,Certain Cheese and Meat Products,heading
+L008,CHL-PRIOR-USERS-2024,NTE-2024-ALT394,57,49,ratified,stage
+L009,CHL-PRIOR-USERS-2025,NTE-2025,54,46,Certain Cheese and Meat Products,heading
+L010,CHL-PRIOR-USERS-2025,NTE-2025,54,46,"September 3, 2024",approval
+L011,CHL-PRIOR-USERS-2025,NTE-2025,54,46,"December 29, 2024",entry_into_force
+L012,CHL-PRIOR-USERS-2026,NTE-2026,78,70,September 2024,approval
+L013,CHL-PRIOR-USERS-2026,NTE-2026,78,70,prior users of certain terms for cheeses,scope
+L014,DOM-INTERNAL-TAX-2024,NTE-2024,113,105,Cheese importers,product
+L015,DOM-INTERNAL-TAX-2024,NTE-2024,113,105,ITBIS of 18 percent,rate
+L016,DOM-INTERNAL-TAX-2025,NTE-2025,115,107,Cheese importers,product
+L017,DOM-INTERNAL-TAX-2025,NTE-2025,115,107,ITBIS of 18 percent,rate
+L018,EU-GI-NAMES-2024,NTE-2024,154,146,1151/2012,instrument
+L019,EU-GI-NAMES-2024,NTE-2024,155,147,danbo,product
+L020,EU-GI-NAMES-2024,NTE-2024,155,147,havarti,product
+L021,EU-GI-NAMES-2025,NTE-2025,156,148,2024/1143,instrument
+L022,EU-GI-NAMES-2025,NTE-2025,156,148,danbo,product
+L023,EU-GI-NAMES-2025,NTE-2025,156,148,havarti,product
+L024,EU-GI-NAMES-2026,NTE-2026,201,193,2024/1143,instrument
+L025,EU-GI-NAMES-2026,NTE-2026,201,193,Danbo,product
+L026,EU-GI-NAMES-2026,NTE-2026,201,193,Havarti,product
+L027,MEX-CONFORMITY-2024,NTE-2024,258,252,NOM-223,instrument
+L028,MEX-CONFORMITY-2024,NTE-2024,258,252,proposed modifications,stage
+L029,MEX-CONFORMITY-2024,NTE-2024,259,253,cheese conformity,mechanism
+L030,MEX-GI-SIDE-LETTER-2024,NTE-2024,260,254,USMCA side letter,instrument
+L031,MEX-GI-SIDE-LETTER-2024,NTE-2024,260,254,certain individual cheese,scope
+L032,MEX-GI-SIDE-LETTER-2025,NTE-2025,273,265,side letter,instrument
+L033,MEX-GI-SIDE-LETTER-2025,NTE-2025,273,265,certain individual cheese,scope
+L034,MEX-GI-SIDE-LETTER-2026,NTE-2026,363,355,USMCA side letter,instrument
+L035,MEX-GI-SIDE-LETTER-2026,NTE-2026,363,355,certain individual cheese,scope
+L036,MEX-GI-SIDE-LETTER-2026,NTE-2026,364,356,terms. Mexico has,continuation
+L037,QAT-SHELF-LIFE-2024,NTE-2024,183,175,white cheeses,product
+L038,QAT-SHELF-LIFE-2024,NTE-2024,183,175,Qatar,jurisdiction
+L039,QAT-SHELF-LIFE-2025,NTE-2025,188,180,white cheeses,product
+L040,QAT-SHELF-LIFE-2025,NTE-2025,188,180,May 2022,history
+L041,QAT-SHELF-LIFE-2026,NTE-2026,247,239,white cheeses,product
+L042,QAT-SHELF-LIFE-2026,NTE-2026,247,239,45 days,duration
+L043,QAT-SHELF-LIFE-2026,NTE-2026,248,240,repeal or amend,position
+L044,VNM-PRIOR-USERS-2026,NTE-2026,519,511,grandfathered prior users,scope
+L045,VNM-PRIOR-USERS-2026,NTE-2026,519,511,"January 1, 2017",eligibility_cutoff

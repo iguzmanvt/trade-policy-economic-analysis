@@ -1,0 +1,23 @@
+term,role,matching,decision_rule
+cheese,direct_product,case-insensitive; normalized whitespace; manual context required,Direct product terms generate candidates; context terms alone are insufficient to code cheese evidence.
+cheeses,direct_product,case-insensitive; normalized whitespace; manual context required,Direct product terms generate candidates; context terms alone are insufficient to code cheese evidence.
+cheese making,direct_product,case-insensitive; normalized whitespace; manual context required,Direct product terms generate candidates; context terms alone are insufficient to code cheese evidence.
+cheesemaking,direct_product,case-insensitive; normalized whitespace; manual context required,Direct product terms generate candidates; context terms alone are insufficient to code cheese evidence.
+queso,direct_product,case-insensitive; normalized whitespace; manual context required,Direct product terms generate candidates; context terms alone are insufficient to code cheese evidence.
+fromage,direct_product,case-insensitive; normalized whitespace; manual context required,Direct product terms generate candidates; context terms alone are insufficient to code cheese evidence.
+danbo,direct_product,case-insensitive; normalized whitespace; manual context required,Direct product terms generate candidates; context terms alone are insufficient to code cheese evidence.
+havarti,direct_product,case-insensitive; normalized whitespace; manual context required,Direct product terms generate candidates; context terms alone are insufficient to code cheese evidence.
+white cheese,direct_product,case-insensitive; normalized whitespace; manual context required,Direct product terms generate candidates; context terms alone are insufficient to code cheese evidence.
+cream cheese,direct_product,case-insensitive; normalized whitespace; manual context required,Direct product terms generate candidates; context terms alone are insufficient to code cheese evidence.
+mozzarella,direct_product,case-insensitive; normalized whitespace; manual context required,Direct product terms generate candidates; context terms alone are insufficient to code cheese evidence.
+dry milk protein,mechanism_context,case-insensitive; normalized whitespace; manual context required,Direct product terms generate candidates; context terms alone are insufficient to code cheese evidence.
+compositional standards,mechanism_context,case-insensitive; normalized whitespace; manual context required,Direct product terms generate candidates; context terms alone are insufficient to code cheese evidence.
+NOM-223,mechanism_context,case-insensitive; normalized whitespace; manual context required,Direct product terms generate candidates; context terms alone are insufficient to code cheese evidence.
+conformity assessment,mechanism_context,case-insensitive; normalized whitespace; manual context required,Direct product terms generate candidates; context terms alone are insufficient to code cheese evidence.
+ITBIS,mechanism_context,case-insensitive; normalized whitespace; manual context required,Direct product terms generate candidates; context terms alone are insufficient to code cheese evidence.
+shelf-life,mechanism_context,case-insensitive; normalized whitespace; manual context required,Direct product terms generate candidates; context terms alone are insufficient to code cheese evidence.
+geographical indication,mechanism_context,case-insensitive; normalized whitespace; manual context required,Direct product terms generate candidates; context terms alone are insufficient to code cheese evidence.
+common names,mechanism_context,case-insensitive; normalized whitespace; manual context required,Direct product terms generate candidates; context terms alone are insufficient to code cheese evidence.
+prior users,mechanism_context,case-insensitive; normalized whitespace; manual context required,Direct product terms generate candidates; context terms alone are insufficient to code cheese evidence.
+grandfather,mechanism_context,case-insensitive; normalized whitespace; manual context required,Direct product terms generate candidates; context terms alone are insufficient to code cheese evidence.
+side letter,mechanism_context,case-insensitive; normalized whitespace; manual context required,Direct product terms generate candidates; context terms alone are insufficient to code cheese evidence.

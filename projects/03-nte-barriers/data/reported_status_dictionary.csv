@@ -1,0 +1,6 @@
+reported_status,definition
+ongoing_concern,USTR reports a concern; no inference about illegality or present implementation beyond the passage.
+prospective_market_access_concern,USTR describes a potential access problem under an agreement not yet ratified in the passage.
+concern_with_market_access_assurance,The passage combines a concern with an assurance for specified products or terms.
+market_access_arrangement_reported,The report describes an access arrangement or its earlier approval; not a new barrier.
+prior_user_safeguard_monitoring,The report monitors a conditional safeguard for qualifying prior users.

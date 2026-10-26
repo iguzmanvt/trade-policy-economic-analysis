@@ -1,5 +1,6 @@
 {
-  "records": 18,
+  "status": "PASS",
+  "records": 19,
   "distinct_issues": 8,
   "editions": [
     2024,
@@ -25,13 +26,30 @@
     "Vietnam"
   ],
   "topics": 5,
+  "source_documents": 4,
   "reported_status_counts": {
     "concern_with_market_access_assurance": 3,
     "market_access_arrangement_reported": 2,
     "ongoing_concern": 12,
-    "prior_user_safeguard_monitoring": 1
+    "prior_user_safeguard_monitoring": 1,
+    "prospective_market_access_concern": 1
   },
-  "input_sha256": "c3a746a6f324e8114546e038d73c058bbd1cb44fb200d53408ec909c7c09c56e",
-  "interpretation": "Purposive coded sample counts, not barrier prevalence, severity, economic cost or legal findings.",
-  "validation": "Passed uniqueness, populated fields, taxonomy, edition and page bounds checks."
+  "coverage_cells": 24,
+  "coverage_status_counts": {
+    "CODED_SOURCE_REVIEWED": 19,
+    "SECTION_REVIEWED_NO_MENTION": 5
+  },
+  "locator_check_rows": 45,
+  "input_sha256": "24442676f67b90a1cb1131344af2b4c39e1e92b36cacf675cc378402578a7dc7",
+  "input_hashes": {
+    "sources.json": "058b45b1e85bbee8d87fa296695e83e28e20eb02ff2624e8c456bcdcc2b8dc5c",
+    "data/nte_cheese_sample.csv": "24442676f67b90a1cb1131344af2b4c39e1e92b36cacf675cc378402578a7dc7",
+    "data/taxonomy.csv": "22060a58cc8f0b01b3cc5740b598fb0e8785464785f317ac0df8291386941050",
+    "data/reported_status_dictionary.csv": "35b1c61e6cba72d8b7513fad32fb1896cc9a3a80978b9e21e0b8f66b607628ec",
+    "data/selected_issues.csv": "4090f5c5f7c91c447116a9c7102e8ac1e04ce6a298dbc1d1ab930b278ea1fbee",
+    "data/coverage_review.csv": "22b102e39ca1f991ff2eadcb40e3eb66e6c94da53920d98b09b058f2d59334a1",
+    "data/locator_checks.csv": "41158d2a0f483fd6a9afd021b46380dc7e094770ae742b1121909c6cffe33229"
+  },
+  "interpretation": "Purposive coded sample counts, not barrier prevalence, severity, economic cost or legal findings. No-mention cells describe documented review, not zero barriers or repeal.",
+  "validation": "Passed explicit structural, date, catalogue, source, page-range and complete selected-issue coverage checks. PDF bytes and page anchors are checked separately by verify_sources.py."
 }

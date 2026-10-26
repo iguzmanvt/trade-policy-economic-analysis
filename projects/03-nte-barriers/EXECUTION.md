@@ -1,20 +1,51 @@
-# Execution and source-review record
+# Execution and verification record
 
-Prepared 22 October 2026, America/Mexico_City. Information cutoff: 22 October 2026; source editions: 2024–2026.
+**Execution date:** 26 October 2026, America/Mexico_City.  
+**Report editions:** 2024–2026.  
+**Status:** ready to integrate within the declared eight-issue scope.
 
-## Completed
+## Source and content work actually completed
 
-- Recovered and read the effective prior research's consolidated source index and scope. It identifies a 2007–2026 window. Used it to establish continuity and scope, not as public numerical/textual input.
-- Downloaded the three official USTR PDFs from the URLs in `sources.json`; all returned HTTP 200. The public package includes hashes and locators, not the PDFs or the prior corpus.
-- Independently read the selected official pages in full and wrote the 18 new English summaries and status codes. Both printed and physical PDF page numbers were recorded. Taxonomy and issue identifiers were newly prepared for this sample.
-- Executed `python analyze.py` successfully with Python 3.11-compatible standard-library code. Passed populated-field, unique record/key, topic, source/edition and page-bounds checks. Outputs: 18 records, eight issue identifiers, five topics, seven chapters.
-- Executed `python verify_sources.py --source-dir <official-pdf-directory>` successfully with pypdf 6.10.0. All three source SHA256 digests/page counts and all 18 page anchors passed. The machine-readable result is `results/source_verification.json`.
-- Kept the underlying internal research packages, original client code/text, private actor data, source PDFs, extracted full text and local paths outside the release folder.
+- Retrieved the earlier public P03 at portfolio commit `93a9540649188edca2cc3276aad429f87ad6f0ad`; preserved its 18 record identifiers and original source metadata.
+- Downloaded four official National Trade Estimate (NTE) PDFs from the Office of the United States Trade Representative (USTR): the 392-page and 394-page 2024 files, the 397-page 2025 file and the 534-page 2026 file. Their bytes match the hashes in `sources.json`.
+- Re-read the selected positive passages, including the continuation of Qatar 2026 on printed page 240. Added Chile 2024 from the separately identified 394-page source.
+- Read five full chapters to resolve the remaining cells: Dominican Republic 2026, Mexico 2025/2026 and Vietnam 2024/2025. Recorded selected-issue non-mentions without inferring repeal or measure absence.
+- Read the USTR Chile approval announcement, the June 2024 exchange of letters and Chile's Decree 191 through official web sources. These three corroborating sources are outside the four-PDF verification count and the NTE panel.
+- Independently reviewed the note and classification boundaries. Confirmed Chile's chronology, EU instrument references, the input channel in Canada and the distinction between a proposal and implementation in Mexico.
 
-## Reproduction boundary
+## Commands actually executed on the final project
 
-`analyze.py` reproduces descriptive summaries from the released coding. It does not reproduce human judgment or claim an automatic extraction of every NTE mention. `verify_sources.py` supplements the manual review with file identity and anchor checks; an anchor match does not validate a legal conclusion. Core arithmetic requires no network, accounts or additional packages. Optional source downloads may fail or change; hash mismatch fails explicitly.
+The project was invoked from outside its own directory, confirming that relative input/output resolution uses the script location. Python 3.12.14 and `pypdf` 6.10.0 were used.
 
-## Closed for this release
+```bash
+python -O path/to/project/analyze.py
+python -O path/to/project/verify_sources.py --source-dir path/to/nte-pdfs
+python -O path/to/project/verify_sources.py --source-dir path/to/empty-cache --download
+```
 
-A full public reconstruction of the 20-edition worldwide corpus is outside this bounded release. Economic-cost estimates, legal eligibility decisions and violation adjudication lack the necessary evidence here and are not delivered. These exclusions do not count as additional completed projects.
+| Check | Result |
+|---|---:|
+| Positive edition–issue records | 19 |
+| Distinct selected issues | 8 |
+| Mechanism categories | 5 |
+| Country/regional chapters in the sample | 7 |
+| Issue–edition coverage cells | 24 |
+| Positively coded cells | 19 |
+| Chapter-reviewed non-mentions | 5 |
+| Official PDF hashes and page counts | 4 / 4 passed |
+| Page-specific text-anchor checks | 45 / 45 passed |
+| Printed-page label checks | 45 / 45 passed |
+| Distinct physical pages used by positive locators | 23 |
+| Records with all locators verified | 19 / 19 passed |
+
+Detailed receipts are `results/validation.json`, `results/summary.json` and `results/source_verification.json`. Anchor and page checks establish inspectable locations; the source summaries and classification remain human analytical judgments.
+
+Two controls were executed on isolated copies: an inverted physical page range fails under Python's optimized mode, and deliberately incorrect cached PDF bytes fail even with `--download` while remaining unchanged. No actual evidence or official PDFs were modified. The scripts do not use removable `assert` statements for validation.
+
+The downloader was also executed end to end from an empty cache: all four official files were downloaded, their pinned hashes and page counts passed, and all 45 locator checks passed. This verifies the published recovery command as well as offline verification. The supporting web materials were read, not downloaded into the project.
+
+## Note and packaging
+
+`NOTE.pdf` contains three pages and seven clickable official-source links. Every rendered page was visually inspected for clipping, spacing and readability. `NOTE.md` retains the editable content. The public files contain no personal filesystem paths, professional source packages or correspondence.
+
+This work produces an integration candidate. Publication of this revision is handled separately by the portfolio coordinator; this execution record is not a claim that this revision was pushed to GitHub.

@@ -1,26 +1,52 @@
-# Data dictionary and coding contract
+# Data dictionary
 
-Unit: one selected issue, jurisdiction and NTE edition. Each row has one primary mechanism; a paragraph may discuss several concerns. Summaries are new English paraphrases.
+All CSV files are UTF-8, comma-delimited, with a header. Blank `record_id` in a reviewed non-mention is intentional; it is not a numeric zero. Printed and physical page ranges use an en dash; physical PDF pages are one-based.
 
-| Field | Meaning |
+## `data/nte_cheese_sample.csv`
+
+One row per positively observed edition–issue. The original 18 record identifiers are preserved; Chile 2024 is the only added positive record.
+
+| Field | Definition |
 |---|---|
-| `record_id` | Unique stable issue identifier plus edition year |
-| `edition_year` | NTE report edition; distinct from a legal measure's adoption date |
-| `report_chapter` | Official country/regional chapter containing the passage |
-| `jurisdiction` | Actual jurisdiction discussed; Qatar is within the Gulf Cooperation Council chapter |
-| `issue_id` | Stable identifier joining repeated discussion of the same selected issue |
-| `topic` | One of five mutually exclusive primary mechanism categories in `taxonomy.csv` |
-| `product` | Product scope of the passage, including broader cheese/dairy inputs when explicitly connected |
-| `printed_pages` | Page label printed within the report; en dash denotes inclusive range |
-| `pdf_pages` | Physical PDF page number, starting at 1; en dash denotes inclusive range |
-| `source_id` | Key to `sources.json` |
-| `source_url` | Official report PDF URL |
-| `anchor` | Short literal phrase used by the optional source check to locate the reviewed passage |
-| `reported_status` | Analytical status of the passage, defined below |
-| `source_instrument` | Instrument cited in the passage, or `Not separately identified in coded passage`; not independently verified law |
-| `summary` | Original concise paraphrase attributed to USTR's report |
-| `verification` | Page-level reading and anchor verification status |
+| `record_id` | Stable unique identifier of the edition–issue observation. |
+| `edition_year` | NTE edition label, not adoption or enforcement year. |
+| `report_chapter` | Country or regional chapter in the report. |
+| `jurisdiction` | Jurisdiction of the selected measure. Qatar is distinct from the Gulf Cooperation Council chapter. |
+| `issue_id` | Stable policy-problem identifier; does not imply the same legal instrument over time. |
+| `topic` | Primary analytical mechanism, defined in `taxonomy.csv`. Not an adjudicated legal category. |
+| `product` | Product or input scope identified by the passage. |
+| `printed_pages` | Numbers printed on the report pages. |
+| `pdf_pages` | Physical PDF pages, one-based, in the exact source variant. |
+| `source_id` | Foreign key to a core official file in `sources.json`. |
+| `source_url` | Exact official URL for the source file. |
+| `anchor` | Legacy short locator for continuity. More specific page-level checks are in `locator_checks.csv`. |
+| `reported_status` | Author's classification of the source statement, defined in `reported_status_dictionary.csv`. |
+| `source_instrument` | Instrument expressly identified in the selected passage; not an independent legal-status opinion. |
+| `summary` | Concise original summary attributed to USTR. |
+| `verification` | Human source-review description; automated results are separate. |
+| `report_subsection` | Heading verified from the public source, with no inherited extraction label. |
+| `verification_date` | Date of this review in America/Mexico_City. |
+| `source_description` | What measure, proposal or arrangement the source describes. |
+| `ustr_position` | Concern, request or assurance expressed in the U.S. account. |
+| `analyst_interpretation` | The author's inference and limits, distinct from the source assertion. |
+| `measure_stage` | Descriptive stage as reported, such as proposed modification or recalled approval. |
 
-`ongoing_concern` means the report expresses a continuing concern without a selected safeguard in the coded passage. `concern_with_market_access_assurance` retains both the concern and an assurance. `market_access_arrangement_reported` records an arrangement that mitigates the concern. `prior_user_safeguard_monitoring` records monitoring of eligibility/access under a prior-user provision. These are textual classifications, not legal adjudications or severity rankings.
+## Other input tables
 
-There are no zero-filled country–year cells. An unlisted issue/edition is outside the released coding. All 18 records are verified positives. Repeated editions share an `issue_id`; they must not be summed as distinct measures. The taxonomy groups heterogeneous mechanisms for documentation, not for estimating a common ad valorem equivalent.
+| File | Grain and fields |
+|---|---|
+| `selected_issues.csv` | Eight issue rows: chapter, jurisdiction, topic, label, selection reason, follow-up evidence and continuity rule. |
+| `coverage_review.csv` | 24 issue–edition cells: coverage status, source, printed/PDF review ranges, positive record ID when applicable, scope, review note and date. |
+| `locator_checks.csv` | Short check per record/source/page: `check_id`, `record_id`, `source_id`, `pdf_page`, `printed_page`, `anchor`, `anchor_type`. Multiple anchors can check the same page. |
+| `search_terms.csv` | Candidate term, direct/context role, matching method and manual inclusion rule. Context hits alone are insufficient. |
+| `taxonomy.csv` | Mechanism codes and analytical inclusion rules inherited from the public sample, with author-coded classification. |
+| `reported_status_dictionary.csv` | Five allowed source-status codes and definitions. |
+| `chile_event_chronology.csv` | Four corroborated dates, event, supporting source ID, locator and interpretation; not extra NTE rows. |
+
+Coverage states are documented in [METHOD.md](METHOD.md). A chapter-reviewed non-mention differs from a search with no match and from an unreviewed document. No unreviewed or unresolved cells remain inside the fixed 24-cell grid.
+
+## Sources and outputs
+
+`sources.json` distinguishes four core NTE PDFs from three supporting official sources. Core source fields include a unique local cache filename, edition, publisher, URL, SHA-256, physical page count, retrieval date and review scope. The old retrieval metadata is retained separately from the 26 October re-verification. Supplementary official materials have human-readable locators and reading method; no local-file hash is claimed when no file was downloaded.
+
+`results/topic_summary.csv` and `selected_coverage.csv` describe the selected coding only. `issue_continuity.csv` links positive observations. `coverage_matrix.csv` exposes all cells and their states. `comparison_table.csv` provides one row per issue and a source/status/page mapping for every edition. `temporal_cases.csv` shows the instrument and statement status for EU and Chile records. JSON receipts describe actual table checks and optional official-source checks. None of these outputs is a barrier index or an estimate of effect size.

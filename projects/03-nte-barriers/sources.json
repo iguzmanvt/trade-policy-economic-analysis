@@ -1,6 +1,5 @@
 {
   "information_cutoff_local": "2026-10-22",
-  "publication_scope": "Independent purposive public sample: 2024\u20132026, within recovered 2007\u20132026 research window. Not a full corpus release.",
   "sources": [
     {
       "source_id": "NTE-2024",
@@ -11,7 +10,26 @@
       "pdf_pages": 392,
       "sha256": "438559e830b73dbbf11e94655a6294c3d6eb46c7e12a5fb20faa833d10da6f9d",
       "retrieval_date_local": "2026-10-22",
-      "retrieval_status": "Downloaded official PDF; HTTP 200; selected pages read in full"
+      "retrieval_status": "Downloaded official PDF; HTTP 200; selected pages read in full",
+      "filename": "NTE2024.pdf",
+      "latest_verification_date_local": "2026-10-26",
+      "latest_verification_scope": "Official bytes redownloaded and hash matched; selected passages manually read and locators checked. Full report not semantically audited.",
+      "downloaded_bytes": 3001896
+    },
+    {
+      "source_id": "NTE-2024-ALT394",
+      "edition_year": 2024,
+      "title": "2024 National Trade Estimate Report on Foreign Trade Barriers — additional official 394-page variant",
+      "publisher": "Office of the United States Trade Representative",
+      "url": "https://ustr.gov/sites/default/files/2024%20NTE%20Report_1.pdf",
+      "pdf_pages": 394,
+      "sha256": "b8ff16beb3937d4c9423f266860a7060520a725228d315c017025b69beee692d",
+      "retrieval_date_local": "2026-10-26",
+      "retrieval_status": "Downloaded official PDF; HTTP 200; Chile chapter read in full",
+      "filename": "NTE2024_ALT394.pdf",
+      "latest_verification_date_local": "2026-10-26",
+      "latest_verification_scope": "Chile chapter and selected variant differences checked; no date or supersession inference.",
+      "downloaded_bytes": 2892279
     },
     {
       "source_id": "NTE-2025",
@@ -22,7 +40,11 @@
       "pdf_pages": 397,
       "sha256": "4679fd39708d729f90951c68a50e33eb4987508a71a8c58b5cc76be0b9c937b8",
       "retrieval_date_local": "2026-10-22",
-      "retrieval_status": "Downloaded official PDF; HTTP 200; selected pages read in full"
+      "retrieval_status": "Downloaded official PDF; HTTP 200; selected pages read in full",
+      "filename": "NTE2025.pdf",
+      "latest_verification_date_local": "2026-10-26",
+      "latest_verification_scope": "Official bytes redownloaded and hash matched; selected passages manually read and locators checked. Full report not semantically audited.",
+      "downloaded_bytes": 3313223
     },
     {
       "source_id": "NTE-2026",
@@ -33,7 +55,53 @@
       "pdf_pages": 534,
       "sha256": "b5aff347c87bb8f15f870209df028920dced42c37e59d83c5feb376102f8f30b",
       "retrieval_date_local": "2026-10-22",
-      "retrieval_status": "Downloaded official PDF; HTTP 200; selected pages read in full"
+      "retrieval_status": "Downloaded official PDF; HTTP 200; selected pages read in full",
+      "filename": "NTE2026.pdf",
+      "latest_verification_date_local": "2026-10-26",
+      "latest_verification_scope": "Official bytes redownloaded and hash matched; selected passages manually read and locators checked. Full report not semantically audited.",
+      "downloaded_bytes": 5561842
+    }
+  ],
+  "prior_release_scope": "Independent purposive public sample: 2024–2026, within recovered 2007–2026 research window. Not a full corpus release.",
+  "publication_scope": "Eight selected issues in seven NTE chapters, 2024–2026: 24 issue-edition cells reviewed, 19 positive records and five chapter-reviewed non-mentions. Four official PDF files, including two explicitly distinguished 2024 variants. Not exhaustive across countries, chapters or all cheese measures.",
+  "reference_date_local": "2026-10-22",
+  "execution_date_local": "2026-10-26",
+  "source_version_caveat": "The 2024 additional variant was retrieved on 2026-10-26; its revision date and exact historical availability as of the reference date were not established. Its suffix is not a chronology.",
+  "supporting_sources": [
+    {
+      "source_id": "CHL-EOL-20240621",
+      "publisher": "Office of the United States Trade Representative",
+      "title": "Exchange of Letters, United States–Chile, June21,2024",
+      "url": "https://ustr.gov/sites/default/files/U.S.-Chile%20EOL%20WEBSITE%20VERSION%20EOL.pdf",
+      "pdf_page_count": 6,
+      "locators": "PDF pp1–2 (paragraphs1–3); PDF p3 (entry-into-force condition)",
+      "reviewed_content": "The letters protect access against restrictions based merely on listed individual terms; set out the prior-user understanding; treat the exchange as integral to the FTA including dispute settlement. They specify entry into force90 days after the last notification of completed domestic legal procedures. The signing date alone is not the effective date.",
+      "scope": "Supplementary triangulation; not an NTE panel row.",
+      "retrieval_date_local": "2026-10-26",
+      "verification_method": "Official web page/PDF opened and read; supporting material excluded from NTE record counts."
+    },
+    {
+      "source_id": "CHL-DECREE191-2024",
+      "publisher": "Diario Oficial de la República de Chile / Ministry of Foreign Affairs",
+      "title": "Decreto191, November6,2024, published December20,2024; CVE2585103",
+      "url": "https://www.diariooficial.interior.gob.cl/publicaciones/2024/12/20/44029/01/2585103.pdf",
+      "pdf_page_count": 5,
+      "locators": "PDF p1, recitals and artículo único",
+      "reviewed_content": "The decree promulgates the June21,2024 exchange of letters and states that entry into force is December29,2024. It cites a congressional approval communication, Oficio19.817 of September4,2024; that communication date should not be conflated with the Senate vote on September3.",
+      "scope": "Supplementary primary-source corroboration of entry into force; not an NTE panel row.",
+      "retrieval_date_local": "2026-10-26",
+      "verification_method": "Official web page/PDF opened and read; supporting material excluded from NTE record counts."
+    },
+    {
+      "source_id": "USTR-CHL-APPROVAL-20240904",
+      "publisher": "Office of the United States Trade Representative",
+      "title": "Chile Approves Agreement with U.S. to Protect Market Access for U.S. Cheese and Meat Products",
+      "url": "https://ustr.gov/about-us/policy-offices/press-office/press-releases/2024/september/chile-approves-agreement-us-protect-market-access-us-cheese-and-meat-products",
+      "locators": "September4,2024 release, opening paragraph",
+      "reviewed_content": "USTR reports congressional approval on September3,2024. It describes preservation of access and prior-user terms; this release precedes entry into force.",
+      "scope": "Supplementary chronology check; not an NTE panel row.",
+      "retrieval_date_local": "2026-10-26",
+      "verification_method": "Official web page/PDF opened and read; supporting material excluded from NTE record counts."
     }
   ]
 }

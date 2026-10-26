@@ -14,9 +14,9 @@ Reproduced concentration indices and signed growth contributions with separate p
 
 ## Non-tariff barriers in National Trade Estimate reports
 
-Created an auditable, page-verified sample of cheese market-access issues across official 2024–2026 National Trade Estimate reports.
+Compared eight selected market-access issues across the 2024–2026 National Trade Estimate editions, distinguishing reported concerns, access safeguards and changes in reporting.
 
-Coded institutional mechanisms and traced European Union and Chilean cases over time, distinguishing reported concerns from legal findings and measured economic costs.
+Built a 24-cell panel with 19 positive evidence records and five chapter-reviewed non-mentions, preserving source-specific locators and tracing institutional changes over time.
 
 ## Mexico input–output linkages
 

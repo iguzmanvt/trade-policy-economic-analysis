@@ -1,41 +1,727 @@
 {
+  "status": "PASS",
   "source_hashes_verified": [
     {
       "source_id": "NTE-2024",
       "sha256": "438559e830b73dbbf11e94655a6294c3d6eb46c7e12a5fb20faa833d10da6f9d",
-      "pdf_pages": 392
+      "pdf_pages": 392,
+      "filename": "NTE2024.pdf"
+    },
+    {
+      "source_id": "NTE-2024-ALT394",
+      "sha256": "b8ff16beb3937d4c9423f266860a7060520a725228d315c017025b69beee692d",
+      "pdf_pages": 394,
+      "filename": "NTE2024_ALT394.pdf"
     },
     {
       "source_id": "NTE-2025",
       "sha256": "4679fd39708d729f90951c68a50e33eb4987508a71a8c58b5cc76be0b9c937b8",
-      "pdf_pages": 397
+      "pdf_pages": 397,
+      "filename": "NTE2025.pdf"
     },
     {
       "source_id": "NTE-2026",
       "sha256": "b5aff347c87bb8f15f870209df028920dced42c37e59d83c5feb376102f8f30b",
-      "pdf_pages": 534
+      "pdf_pages": 534,
+      "filename": "NTE2026.pdf"
     }
   ],
-  "page_anchors_verified": 18,
+  "source_checks": [
+    {
+      "source_id": "NTE-2024",
+      "filename": "NTE2024.pdf",
+      "status": "PASS",
+      "expected_sha256": "438559e830b73dbbf11e94655a6294c3d6eb46c7e12a5fb20faa833d10da6f9d",
+      "expected_pdf_pages": 392,
+      "actual_sha256": "438559e830b73dbbf11e94655a6294c3d6eb46c7e12a5fb20faa833d10da6f9d",
+      "actual_pdf_pages": 392
+    },
+    {
+      "source_id": "NTE-2024-ALT394",
+      "filename": "NTE2024_ALT394.pdf",
+      "status": "PASS",
+      "expected_sha256": "b8ff16beb3937d4c9423f266860a7060520a725228d315c017025b69beee692d",
+      "expected_pdf_pages": 394,
+      "actual_sha256": "b8ff16beb3937d4c9423f266860a7060520a725228d315c017025b69beee692d",
+      "actual_pdf_pages": 394
+    },
+    {
+      "source_id": "NTE-2025",
+      "filename": "NTE2025.pdf",
+      "status": "PASS",
+      "expected_sha256": "4679fd39708d729f90951c68a50e33eb4987508a71a8c58b5cc76be0b9c937b8",
+      "expected_pdf_pages": 397,
+      "actual_sha256": "4679fd39708d729f90951c68a50e33eb4987508a71a8c58b5cc76be0b9c937b8",
+      "actual_pdf_pages": 397
+    },
+    {
+      "source_id": "NTE-2026",
+      "filename": "NTE2026.pdf",
+      "status": "PASS",
+      "expected_sha256": "b5aff347c87bb8f15f870209df028920dced42c37e59d83c5feb376102f8f30b",
+      "expected_pdf_pages": 534,
+      "actual_sha256": "b5aff347c87bb8f15f870209df028920dced42c37e59d83c5feb376102f8f30b",
+      "actual_pdf_pages": 534
+    }
+  ],
+  "page_anchors_verified": 19,
+  "locator_checks_verified": 45,
+  "printed_page_checks_verified": 45,
   "record_ids": [
     "CAN-COMPOSITION-2024",
     "CAN-COMPOSITION-2025",
     "CAN-COMPOSITION-2026",
+    "CHL-PRIOR-USERS-2024",
+    "CHL-PRIOR-USERS-2025",
+    "CHL-PRIOR-USERS-2026",
     "DOM-INTERNAL-TAX-2024",
     "DOM-INTERNAL-TAX-2025",
     "EU-GI-NAMES-2024",
     "EU-GI-NAMES-2025",
     "EU-GI-NAMES-2026",
-    "QAT-SHELF-LIFE-2024",
-    "QAT-SHELF-LIFE-2025",
-    "QAT-SHELF-LIFE-2026",
+    "MEX-CONFORMITY-2024",
     "MEX-GI-SIDE-LETTER-2024",
     "MEX-GI-SIDE-LETTER-2025",
     "MEX-GI-SIDE-LETTER-2026",
-    "MEX-CONFORMITY-2024",
-    "CHL-PRIOR-USERS-2025",
-    "CHL-PRIOR-USERS-2026",
+    "QAT-SHELF-LIFE-2024",
+    "QAT-SHELF-LIFE-2025",
+    "QAT-SHELF-LIFE-2026",
     "VNM-PRIOR-USERS-2026"
   ],
-  "scope": "Hashes and anchor presence supplement manual context review; automated checks do not validate legal claims or coding judgments."
+  "locator_checks": [
+    {
+      "check_id": "L001",
+      "record_id": "CAN-COMPOSITION-2024",
+      "source_id": "NTE-2024",
+      "pdf_page": 53,
+      "expected_printed_page": 45,
+      "anchor_type": "heading",
+      "status": "PASS",
+      "observed_printed_pages": [
+        45
+      ],
+      "printed_page_match": true,
+      "anchor_match": true
+    },
+    {
+      "check_id": "L002",
+      "record_id": "CAN-COMPOSITION-2024",
+      "source_id": "NTE-2024",
+      "pdf_page": 53,
+      "expected_printed_page": 45,
+      "anchor_type": "mechanism",
+      "status": "PASS",
+      "observed_printed_pages": [
+        45
+      ],
+      "printed_page_match": true,
+      "anchor_match": true
+    },
+    {
+      "check_id": "L003",
+      "record_id": "CAN-COMPOSITION-2025",
+      "source_id": "NTE-2025",
+      "pdf_page": 51,
+      "expected_printed_page": 43,
+      "anchor_type": "heading",
+      "status": "PASS",
+      "observed_printed_pages": [
+        43
+      ],
+      "printed_page_match": true,
+      "anchor_match": true
+    },
+    {
+      "check_id": "L004",
+      "record_id": "CAN-COMPOSITION-2025",
+      "source_id": "NTE-2025",
+      "pdf_page": 51,
+      "expected_printed_page": 43,
+      "anchor_type": "mechanism",
+      "status": "PASS",
+      "observed_printed_pages": [
+        43
+      ],
+      "printed_page_match": true,
+      "anchor_match": true
+    },
+    {
+      "check_id": "L005",
+      "record_id": "CAN-COMPOSITION-2026",
+      "source_id": "NTE-2026",
+      "pdf_page": 72,
+      "expected_printed_page": 64,
+      "anchor_type": "heading",
+      "status": "PASS",
+      "observed_printed_pages": [
+        64
+      ],
+      "printed_page_match": true,
+      "anchor_match": true
+    },
+    {
+      "check_id": "L006",
+      "record_id": "CAN-COMPOSITION-2026",
+      "source_id": "NTE-2026",
+      "pdf_page": 72,
+      "expected_printed_page": 64,
+      "anchor_type": "mechanism",
+      "status": "PASS",
+      "observed_printed_pages": [
+        64
+      ],
+      "printed_page_match": true,
+      "anchor_match": true
+    },
+    {
+      "check_id": "L007",
+      "record_id": "CHL-PRIOR-USERS-2024",
+      "source_id": "NTE-2024-ALT394",
+      "pdf_page": 57,
+      "expected_printed_page": 49,
+      "anchor_type": "heading",
+      "status": "PASS",
+      "observed_printed_pages": [
+        49
+      ],
+      "printed_page_match": true,
+      "anchor_match": true
+    },
+    {
+      "check_id": "L008",
+      "record_id": "CHL-PRIOR-USERS-2024",
+      "source_id": "NTE-2024-ALT394",
+      "pdf_page": 57,
+      "expected_printed_page": 49,
+      "anchor_type": "stage",
+      "status": "PASS",
+      "observed_printed_pages": [
+        49
+      ],
+      "printed_page_match": true,
+      "anchor_match": true
+    },
+    {
+      "check_id": "L009",
+      "record_id": "CHL-PRIOR-USERS-2025",
+      "source_id": "NTE-2025",
+      "pdf_page": 54,
+      "expected_printed_page": 46,
+      "anchor_type": "heading",
+      "status": "PASS",
+      "observed_printed_pages": [
+        46
+      ],
+      "printed_page_match": true,
+      "anchor_match": true
+    },
+    {
+      "check_id": "L010",
+      "record_id": "CHL-PRIOR-USERS-2025",
+      "source_id": "NTE-2025",
+      "pdf_page": 54,
+      "expected_printed_page": 46,
+      "anchor_type": "approval",
+      "status": "PASS",
+      "observed_printed_pages": [
+        46
+      ],
+      "printed_page_match": true,
+      "anchor_match": true
+    },
+    {
+      "check_id": "L011",
+      "record_id": "CHL-PRIOR-USERS-2025",
+      "source_id": "NTE-2025",
+      "pdf_page": 54,
+      "expected_printed_page": 46,
+      "anchor_type": "entry_into_force",
+      "status": "PASS",
+      "observed_printed_pages": [
+        46
+      ],
+      "printed_page_match": true,
+      "anchor_match": true
+    },
+    {
+      "check_id": "L012",
+      "record_id": "CHL-PRIOR-USERS-2026",
+      "source_id": "NTE-2026",
+      "pdf_page": 78,
+      "expected_printed_page": 70,
+      "anchor_type": "approval",
+      "status": "PASS",
+      "observed_printed_pages": [
+        70
+      ],
+      "printed_page_match": true,
+      "anchor_match": true
+    },
+    {
+      "check_id": "L013",
+      "record_id": "CHL-PRIOR-USERS-2026",
+      "source_id": "NTE-2026",
+      "pdf_page": 78,
+      "expected_printed_page": 70,
+      "anchor_type": "scope",
+      "status": "PASS",
+      "observed_printed_pages": [
+        70
+      ],
+      "printed_page_match": true,
+      "anchor_match": true
+    },
+    {
+      "check_id": "L014",
+      "record_id": "DOM-INTERNAL-TAX-2024",
+      "source_id": "NTE-2024",
+      "pdf_page": 113,
+      "expected_printed_page": 105,
+      "anchor_type": "product",
+      "status": "PASS",
+      "observed_printed_pages": [
+        105
+      ],
+      "printed_page_match": true,
+      "anchor_match": true
+    },
+    {
+      "check_id": "L015",
+      "record_id": "DOM-INTERNAL-TAX-2024",
+      "source_id": "NTE-2024",
+      "pdf_page": 113,
+      "expected_printed_page": 105,
+      "anchor_type": "rate",
+      "status": "PASS",
+      "observed_printed_pages": [
+        105
+      ],
+      "printed_page_match": true,
+      "anchor_match": true
+    },
+    {
+      "check_id": "L016",
+      "record_id": "DOM-INTERNAL-TAX-2025",
+      "source_id": "NTE-2025",
+      "pdf_page": 115,
+      "expected_printed_page": 107,
+      "anchor_type": "product",
+      "status": "PASS",
+      "observed_printed_pages": [
+        107
+      ],
+      "printed_page_match": true,
+      "anchor_match": true
+    },
+    {
+      "check_id": "L017",
+      "record_id": "DOM-INTERNAL-TAX-2025",
+      "source_id": "NTE-2025",
+      "pdf_page": 115,
+      "expected_printed_page": 107,
+      "anchor_type": "rate",
+      "status": "PASS",
+      "observed_printed_pages": [
+        107
+      ],
+      "printed_page_match": true,
+      "anchor_match": true
+    },
+    {
+      "check_id": "L018",
+      "record_id": "EU-GI-NAMES-2024",
+      "source_id": "NTE-2024",
+      "pdf_page": 154,
+      "expected_printed_page": 146,
+      "anchor_type": "instrument",
+      "status": "PASS",
+      "observed_printed_pages": [
+        146
+      ],
+      "printed_page_match": true,
+      "anchor_match": true
+    },
+    {
+      "check_id": "L019",
+      "record_id": "EU-GI-NAMES-2024",
+      "source_id": "NTE-2024",
+      "pdf_page": 155,
+      "expected_printed_page": 147,
+      "anchor_type": "product",
+      "status": "PASS",
+      "observed_printed_pages": [
+        147
+      ],
+      "printed_page_match": true,
+      "anchor_match": true
+    },
+    {
+      "check_id": "L020",
+      "record_id": "EU-GI-NAMES-2024",
+      "source_id": "NTE-2024",
+      "pdf_page": 155,
+      "expected_printed_page": 147,
+      "anchor_type": "product",
+      "status": "PASS",
+      "observed_printed_pages": [
+        147
+      ],
+      "printed_page_match": true,
+      "anchor_match": true
+    },
+    {
+      "check_id": "L021",
+      "record_id": "EU-GI-NAMES-2025",
+      "source_id": "NTE-2025",
+      "pdf_page": 156,
+      "expected_printed_page": 148,
+      "anchor_type": "instrument",
+      "status": "PASS",
+      "observed_printed_pages": [
+        148
+      ],
+      "printed_page_match": true,
+      "anchor_match": true
+    },
+    {
+      "check_id": "L022",
+      "record_id": "EU-GI-NAMES-2025",
+      "source_id": "NTE-2025",
+      "pdf_page": 156,
+      "expected_printed_page": 148,
+      "anchor_type": "product",
+      "status": "PASS",
+      "observed_printed_pages": [
+        148
+      ],
+      "printed_page_match": true,
+      "anchor_match": true
+    },
+    {
+      "check_id": "L023",
+      "record_id": "EU-GI-NAMES-2025",
+      "source_id": "NTE-2025",
+      "pdf_page": 156,
+      "expected_printed_page": 148,
+      "anchor_type": "product",
+      "status": "PASS",
+      "observed_printed_pages": [
+        148
+      ],
+      "printed_page_match": true,
+      "anchor_match": true
+    },
+    {
+      "check_id": "L024",
+      "record_id": "EU-GI-NAMES-2026",
+      "source_id": "NTE-2026",
+      "pdf_page": 201,
+      "expected_printed_page": 193,
+      "anchor_type": "instrument",
+      "status": "PASS",
+      "observed_printed_pages": [
+        193
+      ],
+      "printed_page_match": true,
+      "anchor_match": true
+    },
+    {
+      "check_id": "L025",
+      "record_id": "EU-GI-NAMES-2026",
+      "source_id": "NTE-2026",
+      "pdf_page": 201,
+      "expected_printed_page": 193,
+      "anchor_type": "product",
+      "status": "PASS",
+      "observed_printed_pages": [
+        193
+      ],
+      "printed_page_match": true,
+      "anchor_match": true
+    },
+    {
+      "check_id": "L026",
+      "record_id": "EU-GI-NAMES-2026",
+      "source_id": "NTE-2026",
+      "pdf_page": 201,
+      "expected_printed_page": 193,
+      "anchor_type": "product",
+      "status": "PASS",
+      "observed_printed_pages": [
+        193
+      ],
+      "printed_page_match": true,
+      "anchor_match": true
+    },
+    {
+      "check_id": "L027",
+      "record_id": "MEX-CONFORMITY-2024",
+      "source_id": "NTE-2024",
+      "pdf_page": 258,
+      "expected_printed_page": 252,
+      "anchor_type": "instrument",
+      "status": "PASS",
+      "observed_printed_pages": [
+        252
+      ],
+      "printed_page_match": true,
+      "anchor_match": true
+    },
+    {
+      "check_id": "L028",
+      "record_id": "MEX-CONFORMITY-2024",
+      "source_id": "NTE-2024",
+      "pdf_page": 258,
+      "expected_printed_page": 252,
+      "anchor_type": "stage",
+      "status": "PASS",
+      "observed_printed_pages": [
+        252
+      ],
+      "printed_page_match": true,
+      "anchor_match": true
+    },
+    {
+      "check_id": "L029",
+      "record_id": "MEX-CONFORMITY-2024",
+      "source_id": "NTE-2024",
+      "pdf_page": 259,
+      "expected_printed_page": 253,
+      "anchor_type": "mechanism",
+      "status": "PASS",
+      "observed_printed_pages": [
+        253
+      ],
+      "printed_page_match": true,
+      "anchor_match": true
+    },
+    {
+      "check_id": "L030",
+      "record_id": "MEX-GI-SIDE-LETTER-2024",
+      "source_id": "NTE-2024",
+      "pdf_page": 260,
+      "expected_printed_page": 254,
+      "anchor_type": "instrument",
+      "status": "PASS",
+      "observed_printed_pages": [
+        254
+      ],
+      "printed_page_match": true,
+      "anchor_match": true
+    },
+    {
+      "check_id": "L031",
+      "record_id": "MEX-GI-SIDE-LETTER-2024",
+      "source_id": "NTE-2024",
+      "pdf_page": 260,
+      "expected_printed_page": 254,
+      "anchor_type": "scope",
+      "status": "PASS",
+      "observed_printed_pages": [
+        254
+      ],
+      "printed_page_match": true,
+      "anchor_match": true
+    },
+    {
+      "check_id": "L032",
+      "record_id": "MEX-GI-SIDE-LETTER-2025",
+      "source_id": "NTE-2025",
+      "pdf_page": 273,
+      "expected_printed_page": 265,
+      "anchor_type": "instrument",
+      "status": "PASS",
+      "observed_printed_pages": [
+        265
+      ],
+      "printed_page_match": true,
+      "anchor_match": true
+    },
+    {
+      "check_id": "L033",
+      "record_id": "MEX-GI-SIDE-LETTER-2025",
+      "source_id": "NTE-2025",
+      "pdf_page": 273,
+      "expected_printed_page": 265,
+      "anchor_type": "scope",
+      "status": "PASS",
+      "observed_printed_pages": [
+        265
+      ],
+      "printed_page_match": true,
+      "anchor_match": true
+    },
+    {
+      "check_id": "L034",
+      "record_id": "MEX-GI-SIDE-LETTER-2026",
+      "source_id": "NTE-2026",
+      "pdf_page": 363,
+      "expected_printed_page": 355,
+      "anchor_type": "instrument",
+      "status": "PASS",
+      "observed_printed_pages": [
+        355
+      ],
+      "printed_page_match": true,
+      "anchor_match": true
+    },
+    {
+      "check_id": "L035",
+      "record_id": "MEX-GI-SIDE-LETTER-2026",
+      "source_id": "NTE-2026",
+      "pdf_page": 363,
+      "expected_printed_page": 355,
+      "anchor_type": "scope",
+      "status": "PASS",
+      "observed_printed_pages": [
+        355
+      ],
+      "printed_page_match": true,
+      "anchor_match": true
+    },
+    {
+      "check_id": "L036",
+      "record_id": "MEX-GI-SIDE-LETTER-2026",
+      "source_id": "NTE-2026",
+      "pdf_page": 364,
+      "expected_printed_page": 356,
+      "anchor_type": "continuation",
+      "status": "PASS",
+      "observed_printed_pages": [
+        356
+      ],
+      "printed_page_match": true,
+      "anchor_match": true
+    },
+    {
+      "check_id": "L037",
+      "record_id": "QAT-SHELF-LIFE-2024",
+      "source_id": "NTE-2024",
+      "pdf_page": 183,
+      "expected_printed_page": 175,
+      "anchor_type": "product",
+      "status": "PASS",
+      "observed_printed_pages": [
+        175
+      ],
+      "printed_page_match": true,
+      "anchor_match": true
+    },
+    {
+      "check_id": "L038",
+      "record_id": "QAT-SHELF-LIFE-2024",
+      "source_id": "NTE-2024",
+      "pdf_page": 183,
+      "expected_printed_page": 175,
+      "anchor_type": "jurisdiction",
+      "status": "PASS",
+      "observed_printed_pages": [
+        175
+      ],
+      "printed_page_match": true,
+      "anchor_match": true
+    },
+    {
+      "check_id": "L039",
+      "record_id": "QAT-SHELF-LIFE-2025",
+      "source_id": "NTE-2025",
+      "pdf_page": 188,
+      "expected_printed_page": 180,
+      "anchor_type": "product",
+      "status": "PASS",
+      "observed_printed_pages": [
+        180
+      ],
+      "printed_page_match": true,
+      "anchor_match": true
+    },
+    {
+      "check_id": "L040",
+      "record_id": "QAT-SHELF-LIFE-2025",
+      "source_id": "NTE-2025",
+      "pdf_page": 188,
+      "expected_printed_page": 180,
+      "anchor_type": "history",
+      "status": "PASS",
+      "observed_printed_pages": [
+        180
+      ],
+      "printed_page_match": true,
+      "anchor_match": true
+    },
+    {
+      "check_id": "L041",
+      "record_id": "QAT-SHELF-LIFE-2026",
+      "source_id": "NTE-2026",
+      "pdf_page": 247,
+      "expected_printed_page": 239,
+      "anchor_type": "product",
+      "status": "PASS",
+      "observed_printed_pages": [
+        239
+      ],
+      "printed_page_match": true,
+      "anchor_match": true
+    },
+    {
+      "check_id": "L042",
+      "record_id": "QAT-SHELF-LIFE-2026",
+      "source_id": "NTE-2026",
+      "pdf_page": 247,
+      "expected_printed_page": 239,
+      "anchor_type": "duration",
+      "status": "PASS",
+      "observed_printed_pages": [
+        239
+      ],
+      "printed_page_match": true,
+      "anchor_match": true
+    },
+    {
+      "check_id": "L043",
+      "record_id": "QAT-SHELF-LIFE-2026",
+      "source_id": "NTE-2026",
+      "pdf_page": 248,
+      "expected_printed_page": 240,
+      "anchor_type": "position",
+      "status": "PASS",
+      "observed_printed_pages": [
+        240
+      ],
+      "printed_page_match": true,
+      "anchor_match": true
+    },
+    {
+      "check_id": "L044",
+      "record_id": "VNM-PRIOR-USERS-2026",
+      "source_id": "NTE-2026",
+      "pdf_page": 519,
+      "expected_printed_page": 511,
+      "anchor_type": "scope",
+      "status": "PASS",
+      "observed_printed_pages": [
+        511
+      ],
+      "printed_page_match": true,
+      "anchor_match": true
+    },
+    {
+      "check_id": "L045",
+      "record_id": "VNM-PRIOR-USERS-2026",
+      "source_id": "NTE-2026",
+      "pdf_page": 519,
+      "expected_printed_page": 511,
+      "anchor_type": "eligibility_cutoff",
+      "status": "PASS",
+      "observed_printed_pages": [
+        511
+      ],
+      "printed_page_match": true,
+      "anchor_match": true
+    }
+  ],
+  "errors": [],
+  "scope": "Pinned byte hashes, PDF page counts, printed-page footer/header labels and per-page anchor presence supplement manual context review. They do not validate summaries, coding judgments, policy implementation, economic effects or legal claims.",
+  "records_with_all_locators_verified": 19,
+  "physical_pages_extracted": 23
 }

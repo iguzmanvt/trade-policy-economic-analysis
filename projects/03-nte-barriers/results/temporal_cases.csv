@@ -1,6 +1,7 @@
-issue_id,edition_year,source_instrument,reported_status,printed_pages,pdf_pages,source_url
-EU-GI-NAMES,2024,Regulation (EU) 1151/2012,ongoing_concern,146–147,154–155,https://ustr.gov/sites/default/files/2024%20NTE%20Report.pdf
-EU-GI-NAMES,2025,Regulation (EU) 2024/1143,ongoing_concern,148,156,https://ustr.gov/sites/default/files/files/Press/Reports/2025NTE.pdf
-EU-GI-NAMES,2026,Regulation (EU) 2024/1143,ongoing_concern,193,201,https://www.ustr.gov/sites/default/files/files/Press/Releases/2026/National%20Trade%20Estimate%20Report%202026.pdf
-CHL-PRIOR-USERS,2025,Chile Market Access and Prior Users for Cheese and Meats agreement,market_access_arrangement_reported,46,54,https://ustr.gov/sites/default/files/files/Press/Reports/2025NTE.pdf
-CHL-PRIOR-USERS,2026,FTA side letter,market_access_arrangement_reported,70,78,https://www.ustr.gov/sites/default/files/files/Press/Releases/2026/National%20Trade%20Estimate%20Report%202026.pdf
+issue_id,edition_year,source_instrument,reported_status,printed_pages,pdf_pages,source_url,measure_stage
+CHL-PRIOR-USERS,2024,"EU–Chile Advanced Framework Agreement signed December 13, 2023",prospective_market_access_concern,49,57,https://ustr.gov/sites/default/files/2024%20NTE%20Report_1.pdf,prospective_concern_under_signed_agreement
+CHL-PRIOR-USERS,2025,Chile Market Access and Prior Users for Cheese and Meats agreement,market_access_arrangement_reported,46,54,https://ustr.gov/sites/default/files/files/Press/Reports/2025NTE.pdf,entry_into_force_reported
+CHL-PRIOR-USERS,2026,FTA side letter,market_access_arrangement_reported,70,78,https://www.ustr.gov/sites/default/files/files/Press/Releases/2026/National%20Trade%20Estimate%20Report%202026.pdf,prior_approval_recalled
+EU-GI-NAMES,2024,Regulation (EU) 1151/2012,ongoing_concern,146–147,154–155,https://ustr.gov/sites/default/files/2024%20NTE%20Report.pdf,protection_framework_reported
+EU-GI-NAMES,2025,Regulation (EU) 2024/1143,ongoing_concern,148,156,https://ustr.gov/sites/default/files/files/Press/Reports/2025NTE.pdf,protection_framework_reported
+EU-GI-NAMES,2026,Regulation (EU) 2024/1143,ongoing_concern,193,201,https://www.ustr.gov/sites/default/files/files/Press/Releases/2026/National%20Trade%20Estimate%20Report%202026.pdf,protection_framework_reported

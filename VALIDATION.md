@@ -32,6 +32,16 @@ Executed `python reproduce.py` with Python 3.12.14 in a clean copy of the integr
 
 The supplied integration review is distinct from a formal external audit verdict. Optional product-coverage sensitivities are not included in this release. The original selection, archived statistical vintages and inference limits remain unchanged.
 
+## P03 integration — 26 October 2026
+
+Executed `python projects/03-nte-barriers/analyze.py` from the repository root with Python 3.12.14. Exit status was zero; all bundled outputs reproduced without byte differences or undeclared new files. The existing general runner still invokes this canonical entry point. Other project scripts were not rerun for this update.
+
+The current P03 result is **19 positive records, eight selected issues, seven chapters, five mechanisms, three editions (2024–2026) and four distinct official source PDFs**. Its **24 reviewed cells equal 19 positive cells plus five chapter-reviewed non-mentions**. All 18 earlier record IDs remain, and the only added ID is `CHL-PRIOR-USERS-2024`. These are sample and coverage counts, not numbers of independent barriers.
+
+Original metadata of the three prior core sources is preserved. The additional `NTE-2024-ALT394` retains its own URL, hash, page count and locators. The original and alternate 2024 PDFs are not treated as the same file or as a dated official replacement. `NOTE.pdf` is copied unchanged from the reviewed input; its three-page visual review was already completed before integration.
+
+Input manifests, affected relative links, code entry, coverage states, private/public separation and file identities were checked. The underlying source verification and manual review recorded in P03 are retained evidence; the four official PDF files were not downloaded again and their page-level verification was not repeated in this integration. This update is not a reconstruction of the website as of 22 October 2026.
+
 ## Public-release content checks
 
 The release folder contains project notes, independently prepared code, bounded public inputs, generated results, source registers and execution records. Application documents, contact details, student data, original client reports/scripts, private paths, credentials, full source PDFs and original teaching files are excluded. File inventory and SHA256 manifest identify the exact release contents.
