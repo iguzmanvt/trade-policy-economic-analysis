@@ -32,3 +32,11 @@ The information cutoff is 22 October 2026. Each source retains its own reference
 - Preserved the original source metadata and added the separately identified `NTE-2024-ALT394` file. Three editions correspond to four official source PDF files; no dated supersession of the two 2024 variants is inferred.
 - Added the original three-page `NOTE.pdf`, expanded comparative/coverage outputs and source-specific locators. Full official reports and private coordination/application files are excluded.
 - Reproduced only P03's affected outputs and checked the existing general runner's P03 entry, navigation and file identities. No other project or source vintage was reopened. Historical execution dates remain unchanged; this update is dated 26 October 2026.
+
+## P04 recovery and publication update — 26 October 2026
+
+- Integrated the reviewed CHAT04 return in the existing `projects/04-mexico-input-output/` directory, preserving its history and `analyze.py` entry point. The public extract, historical workbook provenance and four numerical tables remain byte-identical.
+- Added the dated recovery of six official INEGI workbooks: all six hashes and 2,557 selected values match the historical snapshot. Source-history fields remain preserved. Data year is still 2018; metadata remain dated 29 August 2023.
+- Replaced optimization-sensitive assertions with explicit validation and added pre-extraction checks for all six pinned workbook hashes. Normal and `python -O` execution and ten extract-based acceptance cases passed at integration; no official workbook re-extraction was performed by the integrator.
+- Added the reviewed three-page note PDF, a reproducible destination-origin figure in PNG/SVG, publication builder and isolated tests. Optional publication generation reproduced the reviewed bytes in an integration copy. Economic figures and their distinct denominators are unchanged.
+- Updated only P04’s general navigation, source guide, two-line description, validation history and repository manifest. The general runner is unchanged; the other projects were not reopened or reaudited.

@@ -1,0 +1,15 @@
+{
+  "data_year": 2018,
+  "project_review_date": "2026-10-26",
+  "builder": "build_publication.py",
+  "figure_source": "results/intermediate_destination_groups.csv",
+  "figure_source_sha256": "41a1aca59b3fe3772a74fe465687c1157092bcf0b004bb5e1f8369cf79cd7667",
+  "input_sha256": "28fbf1b5591ac22062606b0c5707d18b8193575d131a0e0187e56bcf86de5d02",
+  "outputs": {
+    "NOTE.md": "3b1bf7ab9f76f698576bc7878fa9aa595e10a83037703d86344d560c375fceb4",
+    "NOTE.pdf": "77d4a7750d9e7fa40c58b99a92cec10c2ed1c28317665ed31ccdc67eba2495fc",
+    "figures/intermediate_destination_origins.png": "a78ac23e74bb9edb13d1fbece5be7d850aad135b41ed27fa0d3b880d9d3a95c9",
+    "figures/intermediate_destination_origins.svg": "b6ec2be70c3748d648f77a0ed4a301e96e128d63c75ea83391094d8a59aa7e5f"
+  },
+  "scope": "Numerical text, tables and figure generated from validated CSV results; visual inspection is recorded separately in VALIDATION.md."
+}

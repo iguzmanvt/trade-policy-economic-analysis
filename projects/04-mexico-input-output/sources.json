@@ -23,7 +23,13 @@
       "url": "https://www.inegi.org.mx/programas/mip/2018/",
       "locator": "Tabulado!D196:AFE196; B196,C196,AFF196:AFM196",
       "dimensions": "symmetric product by product, class SCIAN 2018",
-      "metadata_locator": "MetaInfo!C11:C14; Tabulado!A3"
+      "metadata_locator": "MetaInfo!C11:C14; Tabulado!A3",
+      "current_download_url": "https://www.inegi.org.mx/contenidos/programas/mip/2018/tabulados/ori/MIP_19.xlsx",
+      "current_download_accessed_at_local": "2026-10-26T16:23:01.196444-06:00",
+      "current_download_sha256": "db2495edfb946340c4155e384004fa18bce1818a808215b0d49662184da86cd9",
+      "current_download_hash_matches_pinned": true,
+      "verified_locator": "Tabulado!D196:AFE196; B196,C196,AFF196:AFL196",
+      "verified_locator_note": "The historical locator above is preserved. The verified domestic/imported extraction ends at AFL196; AFM196 is used only by the combined-origin MIP_10 workbook."
     },
     {
       "file": "MIP_38.xlsx",
@@ -35,7 +41,13 @@
       "url": "https://www.inegi.org.mx/programas/mip/2018/",
       "locator": "Tabulado!D196:AFE196; B196,C196,AFF196:AFM196",
       "dimensions": "symmetric product by product, class SCIAN 2018",
-      "metadata_locator": "MetaInfo!C11:C14; Tabulado!A3"
+      "metadata_locator": "MetaInfo!C11:C14; Tabulado!A3",
+      "current_download_url": "https://www.inegi.org.mx/contenidos/programas/mip/2018/tabulados/ori/MIP_38.xlsx",
+      "current_download_accessed_at_local": "2026-10-26T16:23:01.196948-06:00",
+      "current_download_sha256": "a448da74c3b5e6416d4b1f0b8a55f3ad19119109e36214de27577ea2c530b521",
+      "current_download_hash_matches_pinned": true,
+      "verified_locator": "Tabulado!D196:AFE196; B196,C196,AFF196:AFL196",
+      "verified_locator_note": "The historical locator above is preserved. The verified domestic/imported extraction ends at AFL196; AFM196 is used only by the combined-origin MIP_10 workbook."
     },
     {
       "file": "MIP_10.xlsx",
@@ -47,7 +59,12 @@
       "url": "https://www.inegi.org.mx/programas/mip/2018/",
       "locator": "Tabulado!D196:AFE196; B196,C196,AFF196:AFM196",
       "dimensions": "symmetric product by product, class SCIAN 2018",
-      "metadata_locator": "MetaInfo!C11:C14; Tabulado!A3"
+      "metadata_locator": "MetaInfo!C11:C14; Tabulado!A3",
+      "current_download_url": "https://www.inegi.org.mx/contenidos/programas/mip/2018/tabulados/ori/MIP_10.xlsx",
+      "current_download_accessed_at_local": "2026-10-26T16:23:01.197732-06:00",
+      "current_download_sha256": "61fb9ef0697d7be3ce10a78f1a0412dcd8867448295685d2c1ed14b0ba11cd9d",
+      "current_download_hash_matches_pinned": true,
+      "verified_locator": "Tabulado!D196:AFE196; B196,C196,AFF196:AFM196"
     },
     {
       "file": "COU_177.xlsx",
@@ -59,7 +76,12 @@
       "url": "https://www.inegi.org.mx/programas/cou/2018/",
       "locator": "Tabulado!B48,C48,JG48:JM48",
       "dimensions": "product by buyer industry, branch SCIAN 2018",
-      "metadata_locator": "MetaInfo!C11:C14; Tabulado!A3"
+      "metadata_locator": "MetaInfo!C11:C14; Tabulado!A3",
+      "current_download_url": "https://www.inegi.org.mx/contenidos/programas/cou/2018/tabulados/ori/COU_177.xlsx",
+      "current_download_accessed_at_local": "2026-10-26T16:23:02.117822-06:00",
+      "current_download_sha256": "f4e75013790de0b566f620eac0b2ff754c55981d2158a9b1a2a424b29e036480",
+      "current_download_hash_matches_pinned": true,
+      "verified_locator": "Tabulado!B48,C48,JG48:JM48"
     },
     {
       "file": "COU_184.xlsx",
@@ -71,7 +93,12 @@
       "url": "https://www.inegi.org.mx/programas/cou/2018/",
       "locator": "Tabulado!B48,C48,JG48:JM48",
       "dimensions": "product by buyer industry, branch SCIAN 2018",
-      "metadata_locator": "MetaInfo!C11:C14; Tabulado!A3"
+      "metadata_locator": "MetaInfo!C11:C14; Tabulado!A3",
+      "current_download_url": "https://www.inegi.org.mx/contenidos/programas/cou/2018/tabulados/ori/COU_184.xlsx",
+      "current_download_accessed_at_local": "2026-10-26T16:23:02.326574-06:00",
+      "current_download_sha256": "60d6a9534775d314746714ce3188f9de05eded44051284e6a946ae9199f4980f",
+      "current_download_hash_matches_pinned": true,
+      "verified_locator": "Tabulado!B48,C48,JG48:JM48"
     },
     {
       "file": "COU_170.xlsx",
@@ -83,7 +110,12 @@
       "url": "https://www.inegi.org.mx/programas/cou/2018/",
       "locator": "Tabulado!B48,C48,JG48:JM48",
       "dimensions": "product by buyer industry, branch SCIAN 2018",
-      "metadata_locator": "MetaInfo!C11:C14; Tabulado!A3"
+      "metadata_locator": "MetaInfo!C11:C14; Tabulado!A3",
+      "current_download_url": "https://www.inegi.org.mx/contenidos/programas/cou/2018/tabulados/ori/COU_170.xlsx",
+      "current_download_accessed_at_local": "2026-10-26T16:23:02.561683-06:00",
+      "current_download_sha256": "5ee11c3b632368ba0d7147cd05b8e6ff693b027e371dce1adfb13ad8945f2b68",
+      "current_download_hash_matches_pinned": true,
+      "verified_locator": "Tabulado!B48,C48,JG48:JM48"
     }
   ],
   "classification": {
@@ -96,7 +128,21 @@
     "From the official MIP 2018 tables, obtain the symmetric product-by-product class-level domestic, imported, and combined-origin workbooks. Archived file identifiers are MIP_19, MIP_38, MIP_10.",
     "From the official COU 2018 tables, obtain basic-price use at branch level for domestic, imported and combined origin. Archived file identifiers are COU_177, COU_184, COU_170.",
     "Match table titles and source vintage metadata before re-extraction. Verify the SHA256 hashes listed here if reproducing the exact archived snapshot. A newer revision may differ.",
-    "Place workbooks in a source directory under the recorded basenames. Run python extract_cells.py SOURCE_DIRECTORY then python analyze.py. The latter uses only the included snapshot and works fully offline."
+    "Place workbooks in a source directory under the recorded basenames. Run python extract_cells.py SOURCE_DIRECTORY then python analyze.py. The latter uses only the included snapshot and works fully offline.",
+    "Fresh verification on 26 October 2026 resolved the six exact workbook URLs recorded as current_download_url. Download them unchanged under their recorded basenames. The revised extract_cells.py now enforces the pinned six SHA256 hashes before any output replacement; unexpected versions are rejected and require a separately documented source revision. The original provenance and extract are retained unchanged."
   ],
-  "excluded_scope": "Bilateral origins, named cheese allocation, retail channels, Leontief multipliers, price pass-through and policy counterfactuals are not estimated."
+  "excluded_scope": "Bilateral origins, named cheese allocation, retail channels, Leontief multipliers, price pass-through and policy counterfactuals are not estimated.",
+  "current_recovery_summary": "On 26 October 2026, all six official XLSX workbooks were downloaded anew from the INEGI download catalog. All six SHA256 hashes exactly match the historical pinned binaries, and all 2,557 selected cell values agree with the bundled extract. Workbook titles, product row labels, reference year 2018 and metadata update 2023-08-29 also agree. This verifies the selected extraction, not every account in the complete matrices; the data remain a 2018 observation.",
+  "current_recovery": {
+    "review_date_local": "2026-10-26",
+    "timezone": "America/Mexico_City",
+    "status": "EXACT_OFFICIAL_BINARIES_RECOVERED",
+    "audit_file": "data/source_recovery_20261026.json",
+    "binary_hash_matches": 6,
+    "official_binary_count": 6,
+    "selected_cell_values_compared": 2557,
+    "selected_cell_value_mismatches": 0,
+    "source_revision_detected": false,
+    "historical_source_verification_note": "The existing source_verification field above describes the historical preparation on 22 October 2026. It is retained verbatim; this dated recovery record supersedes only its then-uncompleted fresh-download limitation."
+  }
 }

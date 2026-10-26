@@ -20,9 +20,9 @@ Built a 24-cell panel with 19 positive evidence records and five chapter-reviewe
 
 ## Mexico input–output linkages
 
-Reconstructed dairy-product use and origin decompositions from official Mexican input–output and supply-use tables with cell-level provenance.
+Reconstructed Mexico's official dairy-product use accounts, distinguishing 41.5% imported origin in intermediate uses from 17.5% in all gross uses and identifying destination groups accounting for 74.3% of intermediate demand.
 
-Separated intermediate uses, final uses and classification levels, reporting accounting shares without attributing unsupported multipliers or product-specific effects.
+Recovered six exact official workbook binaries, preserved the 2018 extract and four tables, and strengthened validation with checks active under optimized Python and a reproducible note and figure.
 
 ## Growth and policy scenarios
 

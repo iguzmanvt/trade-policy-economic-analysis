@@ -42,6 +42,25 @@ Original metadata of the three prior core sources is preserved. The additional `
 
 Input manifests, affected relative links, code entry, coverage states, private/public separation and file identities were checked. The underlying source verification and manual review recorded in P03 are retained evidence; the four official PDF files were not downloaded again and their page-level verification was not repeated in this integration. This update is not a reconstruction of the website as of 22 October 2026.
 
+## P04 integration — 26 October 2026
+
+Executed from the repository root with Python 3.12.14:
+
+```bash
+python projects/04-mexico-input-output/analyze.py
+python -O projects/04-mexico-input-output/analyze.py
+```
+
+Both commands exited successfully and reproduced all bundled outputs without byte differences. Ten isolated acceptance cases also passed, exercising valid data, inconsistent totals, missing destinations and invalid workbook-byte rejection in normal and optimized modes. Accounting and structural checks use explicit exceptions and remain active with `python -O`; rejected inputs leave existing outputs intact.
+
+An additional `analyze.py --publication` execution in an isolated copy, with matplotlib 3.10.8 and reportlab 4.4.9, reproduced the three-page note PDF, editable note, PNG/SVG figure and publication manifest without byte differences. All 22 public P04 files remained identical to the reviewed return. The supplied three-page visual review is retained; no layout change was introduced.
+
+The reviewed CHAT04 return records six fresh official INEGI downloads on 26 October 2026, six exact pinned-hash matches and all 2,557 selected cell values without differences. That source recovery is distinct from these integration tests: no new workbook download or official re-extraction was performed here. CHAT04’s 12 source-enabled test cases and 65 independent accounting checks remain attributed to its review; this integration ran the ten cases available without the source workbooks.
+
+The public extract, historical workbook provenance and all four numerical CSV tables remain byte-identical to the preceding public commit. Imported-origin shares remain 41.5% of intermediate uses and 17.5% of all gross uses; the within-imported intermediate share is 34.5%, the overall intermediate share is 14.5%, and 17.6% belongs to the separate broader COU category. Three destination groups retain 74.3% of intermediate uses. Data year remains 2018, with source metadata dated 29 August 2023.
+
+Only P04 and necessary root references were updated. The existing general runner’s P04 entry is unchanged and was checked without running other projects. Integration-map identities, source-history preservation, publication hashes, affected relative links and the repository manifest were checked. Original execution and recovery dates remain in the historical record; this is a 26 October 2026 integration, not a 22 October source recovery or a new audit of the other projects.
+
 ## Public-release content checks
 
 The release folder contains project notes, independently prepared code, bounded public inputs, generated results, source registers and execution records. Application documents, contact details, student data, original client reports/scripts, private paths, credentials, full source PDFs and original teaching files are excluded. File inventory and SHA256 manifest identify the exact release contents.
