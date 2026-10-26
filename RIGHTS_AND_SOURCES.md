@@ -14,4 +14,8 @@ Project-specific licenses have their own scope: the [P01 license](projects/01-ob
 | Mexico input–output | Selected official National Institute of Statistics and Geography (INEGI) cells and attribution; independently written accounting analysis |
 | Growth scenarios | New implementation of a standard Solow teaching exercise, with a pinned reference to the existing public course repository; no original teaching files copied or relicensed |
 
-The portfolio is independent work. It implies no endorsement by the International Monetary Fund or any underlying source institution. Descriptive statistics, documentary coding and simulations are identified separately; none is presented as a causal trade-policy estimate.
+The portfolio is independent work. It implies no endorsement by the International Monetary Fund, the World Bank, the Fund for responding to Loss and Damage or any underlying source institution. Descriptive statistics, documentary coding and simulations are identified separately; none is presented as a causal trade-policy estimate.
+
+## Climate finance additions
+
+P06 contains original policy summaries, source locators and an analyst-designed review matrix. P07 contains original synthetic assumptions, code, results and prose; its official references supply conceptual context rather than observed numerical inputs. P08 contains a small factual extract from an official FRLD report and original reconciliation code and analysis. Full source reports, private application materials and professional client files are excluded. No broader license or rights transfer is introduced by these additions.

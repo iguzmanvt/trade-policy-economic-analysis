@@ -40,3 +40,13 @@ The information cutoff is 22 October 2026. Each source retains its own reference
 - Replaced optimization-sensitive assertions with explicit validation and added pre-extraction checks for all six pinned workbook hashes. Normal and `python -O` execution and ten extract-based acceptance cases passed at integration; no official workbook re-extraction was performed by the integrator.
 - Added the reviewed three-page note PDF, a reproducible destination-origin figure in PNG/SVG, publication builder and isolated tests. Optional publication generation reproduced the reviewed bytes in an integration copy. Economic figures and their distinct denominators are unchanged.
 - Updated only P04’s general navigation, source guide, two-line description, validation history and repository manifest. The general runner is unchanged; the other projects were not reopened or reaudited.
+
+## Climate finance work samples — 26 October 2026
+
+- Added three original independent work samples in new P06–P08 directories: access and fiduciary evidence, illustrative financing cash flows, and FRLD resource/pipeline reconciliation. No employment or client-assignment history is inferred from their preparation.
+- Added a focused climate-finance and economic-appraisal reading path, including links to an earlier authored infrastructure commentary and the existing growth exercise.
+- P06 separates eight selected policy statuses from twelve analyst-designed evidence checks. No applicant is assessed and no automated eligibility or functional-equivalency score is produced.
+- P07 includes four synthetic grant/loan packages, repayment and fiscal sensitivities, a separate monthly liquidity experiment, code, tests and a reviewed figure. The illustrative loan terms are not represented as BIM products or a country debt sustainability analysis.
+- P08 preserves two different receipt figures in the same official report, five missing financial amounts and distinct resource/intake dates. The report's 19 October publication does not update its July resource snapshot. Source and calculation checks are recorded within the project.
+- Ran the separate `reproduce_climate_finance.py` entry point successfully from the repository root. P07 and P08 tests passed in the integrated copy. The original runner and P01–P05 project files remain unchanged; they were not reaudited.
+- Updated root navigation, source/rights guidance, project summaries, validation history and the file manifest. Private application documents, full official source PDFs and private professional materials are excluded.

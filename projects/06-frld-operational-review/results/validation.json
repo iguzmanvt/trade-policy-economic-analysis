@@ -1,0 +1,21 @@
+{
+  "result": "PASS_DOCUMENT_INTEGRITY",
+  "source_records": 4,
+  "policy_records": 8,
+  "review_checks": 12,
+  "modules": {
+    "Authority and access": 4,
+    "Financing and results": 4,
+    "Funds and implementation": 4
+  },
+  "case_assessments": 0,
+  "scope": "Identifiers, source linkage, status vocabulary, required fields and non-assessment boundary",
+  "does_not_establish": [
+    "policy completeness",
+    "country eligibility",
+    "functional equivalency",
+    "fiduciary approval",
+    "debt sustainability"
+  ],
+  "source_review_date": "2026-10-26"
+}

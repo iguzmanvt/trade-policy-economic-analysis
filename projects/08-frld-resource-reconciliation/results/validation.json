@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "records": 18,
+  "missing_values_preserved": 5,
+  "input_sha256": "983096781455ae43917b7e2a73f875a1ab5ec2ef76c5b385b09eaacac3287329",
+  "source_pdf_hash_check": "not_run_local_pdf_not_requested",
+  "request_count_identity": "PASS",
+  "bim_allocation_identity": "PASS",
+  "reference_dates": [
+    "2026-06-15",
+    "2026-07-31"
+  ],
+  "source_discrepancies": [
+    {
+      "metric": "amount_received",
+      "status": "UNRESOLVED",
+      "summary_minus_body_usd_million": "0.20"
+    }
+  ],
+  "limitation": "PASS validates this bounded extract and calculations; it does not resolve the source discrepancy or certify current available financing."
+}

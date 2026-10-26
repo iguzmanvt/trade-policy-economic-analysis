@@ -1,0 +1,12 @@
+metric,value,unit,status,input_ids,interpretation
+received_summary_minus_body,0.20,USD million,unresolved_source_discrepancy,received_summary;received_body,Preserve both observations; no corrected value is inferred
+received_to_pledges_body,59.05,percent,descriptive_ratio,received_body;pledges,Reported received divided by pledges; not a cash or commitment-authority ratio
+pledges_minus_received_body,336.94,USD million,arithmetic_difference,pledges;received_body,Not arrears or necessarily amounts presently due under signed agreements
+received_to_pledges_summary,59.07,percent,descriptive_ratio,received_summary;pledges,Reported received divided by pledges; not a cash or commitment-authority ratio
+pledges_minus_received_summary,336.74,USD million,arithmetic_difference,pledges;received_summary,Not arrears or necessarily amounts presently due under signed agreements
+received_to_pledges_min,59.05,percent,range_from_source_discrepancy,received_body;received_summary;pledges,Minimum of the two reported-figure calculations
+received_to_pledges_max,59.07,percent,range_from_source_discrepancy,received_body;received_summary;pledges,Maximum of the two reported-figure calculations
+request_count_residual,0.00,requests,reconciled,requests_received;pipeline_requests;noncompliant_requests,Intake-cohort identity
+pipeline_entry_share,88.89,percent,descriptive_ratio,pipeline_requests;requests_received,Entry into pipeline is not funding approval
+bim_allocation_residual,0.00,USD million,reconciled,bim_revised;bim_initial;bim_increase,Revised funding-request allocation minus original and increment
+pipeline_to_funding_request_allocation,8.19,times,approximate_descriptive_ratio,pipeline_amount;bim_revised,Rounded requested amount relative to funding-request allocation; not an approved financing gap

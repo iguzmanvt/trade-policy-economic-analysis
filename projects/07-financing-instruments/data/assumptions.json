@@ -1,0 +1,27 @@
+{
+  "created": "2026-10-26",
+  "input_status": "All numbers are synthetic analytical assumptions. They are not FRLD lending terms, country data or estimates of climate losses.",
+  "currency_unit": "USD millions; fiscal conversion uses synthetic local-currency units (LCU)",
+  "horizon_years": 20,
+  "discount_rates": [0.03, 0.05, 0.07],
+  "main_discount_rate": 0.05,
+  "packages": [
+    {"id": "grant", "label": "Grant", "grant_usd_m": 100.0, "loan_usd_m": 0.0, "interest_rate": 0.0, "maturity_years": 0, "principal_holiday_years": 0},
+    {"id": "concessional", "label": "Illustrative concessional loan", "grant_usd_m": 0.0, "loan_usd_m": 100.0, "interest_rate": 0.01, "maturity_years": 20, "principal_holiday_years": 5},
+    {"id": "mixed", "label": "50% grant and 50% concessional loan", "grant_usd_m": 50.0, "loan_usd_m": 50.0, "interest_rate": 0.01, "maturity_years": 20, "principal_holiday_years": 5},
+    {"id": "reference", "label": "Illustrative reference loan", "grant_usd_m": 0.0, "loan_usd_m": 100.0, "interest_rate": 0.05, "maturity_years": 10, "principal_holiday_years": 0}
+  ],
+  "fiscal_scenarios": [
+    {"id": "baseline", "label": "Unchanged exchange rate and envelope", "baseline_fx_lcu_per_usd": 1.0, "baseline_envelope_lcu_m": 100.0, "stress_start_year": 6, "post_stress_fx_multiplier": 1.0, "post_stress_envelope_multiplier": 1.0},
+    {"id": "fx25", "label": "25% higher LCU per USD from year 6", "baseline_fx_lcu_per_usd": 1.0, "baseline_envelope_lcu_m": 100.0, "stress_start_year": 6, "post_stress_fx_multiplier": 1.25, "post_stress_envelope_multiplier": 1.0},
+    {"id": "fx25_envelope20", "label": "FX shock and 20% lower envelope from year 6", "baseline_fx_lcu_per_usd": 1.0, "baseline_envelope_lcu_m": 100.0, "stress_start_year": 6, "post_stress_fx_multiplier": 1.25, "post_stress_envelope_multiplier": 0.8}
+  ],
+  "timing_experiment": {
+    "description": "Separate monthly experiment. Its delayed disbursements are not applied to the annual debt or PV schedules.",
+    "opening_cash_buffer_usd_m": 10.0,
+    "funding_usd_m": 100.0,
+    "monthly_spending_usd_m": [40.0, 30.0, 20.0, 10.0, 0.0, 0.0],
+    "receipt_months": [1, 3, 6],
+    "within_month_convention": "Funding is received at the beginning of the receipt month; spending occurs at month end. No bridge financing is inserted."
+  }
+}

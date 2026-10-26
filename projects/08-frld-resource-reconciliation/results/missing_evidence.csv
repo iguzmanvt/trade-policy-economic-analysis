@@ -1,0 +1,6 @@
+metric_id,status,value,why_needed
+cash_composition,not_in_selected_passages,,Trustee reconciliation of cash and any promissory notes or other instruments
+commitment_authority,not_in_selected_passages,,Trustee statement of resources available for future commitments under the applicable basis
+commitments,not_in_selected_passages,,Commitment register with approvals and legal financial liabilities
+signed_amount,not_in_selected_passages,,Agreement-level amounts and payment schedules at a common valuation date
+transfers,not_in_selected_passages,,Transfer register matched to commitments and recipient or access entity

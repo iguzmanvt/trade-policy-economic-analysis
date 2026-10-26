@@ -1,0 +1,57 @@
+{
+  "received_summary_minus_body": {
+    "value": "0.20",
+    "unit": "USD million",
+    "status": "unresolved_source_discrepancy"
+  },
+  "received_to_pledges_body": {
+    "value": "59.05",
+    "unit": "percent",
+    "status": "descriptive_ratio"
+  },
+  "pledges_minus_received_body": {
+    "value": "336.94",
+    "unit": "USD million",
+    "status": "arithmetic_difference"
+  },
+  "received_to_pledges_summary": {
+    "value": "59.07",
+    "unit": "percent",
+    "status": "descriptive_ratio"
+  },
+  "pledges_minus_received_summary": {
+    "value": "336.74",
+    "unit": "USD million",
+    "status": "arithmetic_difference"
+  },
+  "received_to_pledges_min": {
+    "value": "59.05",
+    "unit": "percent",
+    "status": "range_from_source_discrepancy"
+  },
+  "received_to_pledges_max": {
+    "value": "59.07",
+    "unit": "percent",
+    "status": "range_from_source_discrepancy"
+  },
+  "request_count_residual": {
+    "value": "0.00",
+    "unit": "requests",
+    "status": "reconciled"
+  },
+  "pipeline_entry_share": {
+    "value": "88.89",
+    "unit": "percent",
+    "status": "descriptive_ratio"
+  },
+  "bim_allocation_residual": {
+    "value": "0.00",
+    "unit": "USD million",
+    "status": "reconciled"
+  },
+  "pipeline_to_funding_request_allocation": {
+    "value": "8.19",
+    "unit": "times",
+    "status": "approximate_descriptive_ratio"
+  }
+}

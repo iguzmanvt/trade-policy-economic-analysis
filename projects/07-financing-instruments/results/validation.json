@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "scope": "Synthetic-input validation and cash-flow accounting; not a country DSA or official concessionality certification",
+  "input_sha256": "9c8e0cb4e2ef64daf99544a5d210edfb88d5af2cf102c7c5acea1cbc878455a1",
+  "row_counts": {
+    "annual_cashflows.csv": 84,
+    "fiscal_stress.csv": 240,
+    "package_comparison.csv": 12,
+    "discount_sensitivity.csv": 12,
+    "timing_cashflows.csv": 18,
+    "timing_sensitivity.csv": 3
+  },
+  "discount_benchmark_pct": 5.0,
+  "input_status": "All numbers are synthetic analytical assumptions. They are not FRLD lending terms, country data or estimates of climate losses."
+}

@@ -1,10 +1,20 @@
 # Trade policy and economic analysis
 
-**Isaac Guzmán Valdivia Tovar** · Economist · Original portfolio reference: 22 October 2026 · P03 updated and P04 reviewed: 26 October 2026
+**Isaac Guzmán Valdivia Tovar** · Economist · Original portfolio reference: 22 October 2026 · Latest additions: 26 October 2026
 
-This portfolio presents applied trade-policy analysis and reproducible policy research. Five examples connect trade measurement, external exposure, institutional evidence, production accounts and growth mechanisms. Each addresses a different question and states what its evidence can establish. The notes and results are in English. This is independent analytical work; no institutional endorsement is implied.
+This portfolio presents applied economic analysis and reproducible policy research. Five original projects connect trade measurement, external exposure, institutional evidence, production accounts and growth mechanisms. Three additional work samples examine loss-and-damage financing, operational evidence and public financial reporting. Each addresses a different question and states what its evidence can establish. The notes and results are in English. This is independent analytical work; no institutional endorsement is implied.
 
-## Project index
+## Climate finance and economic appraisal
+
+For a focused reading path, begin with the [climate finance and economic appraisal portfolio](portfolios/climate-finance/README.md). It combines three new samples with earlier infrastructure writing and a teaching-based growth model. The new samples do not represent a history of implementing climate-finance operations.
+
+| Project | Contribution and evidence | Read / reproduce |
+|---|---|---|
+| **6. Access and fiduciary evidence** | Eight dated policy records and twelve original analytical checks distinguish institutional requirements from case evidence and unresolved decisions. No country or applicant is assessed. | [Project](projects/06-frld-operational-review/README.md) · [Policy note](projects/06-frld-operational-review/POLICY_NOTE.md) |
+| **7. Financing instruments and fiscal exposure** | A synthetic model compares grants and loans, repayment schedules, currency stress and disbursement delays. It separates present value, annual service and immediate liquidity; it is not a country debt sustainability analysis. | [Project](projects/07-financing-instruments/README.md) · [Note](projects/07-financing-instruments/NOTE.md) · [Code](projects/07-financing-instruments/analyze.py) |
+| **8. FRLD resources and funding requests** | A bounded official-report extract separates funding stages, preserves a discrepancy in reported contributions received and distinguishes missing information from zero. The snapshot is historical, not a live treasury balance. | [Project](projects/08-frld-resource-reconciliation/README.md) · [Note](projects/08-frld-resource-reconciliation/NOTE.md) · [Code](projects/08-frld-resource-reconciliation/analyze.py) |
+
+## Trade policy and growth project index
 
 | Project and question | Verifiable result | Evidence and method | Read / reproduce |
 |---|---|---|---|
@@ -14,7 +24,7 @@ This portfolio presents applied trade-policy analysis and reproducible policy re
 | **4. Mexico input–output uses.** How does imported-origin exposure differ between intermediate and total uses of Mexico's dairy-derivatives category? | In 2018, imported origin accounts for 41.5% of intermediate uses and 17.5% of all gross uses of product category 311513. Three destination product groups account for 74.3% of intermediate demand. | Official INEGI product-use accounts at basic prices; 2,557 cells, 834 MIP destinations per origin and a separate broader COU 3115 comparison. Six official workbook hashes reverified on 26 October 2026; accounting exposure, with no causal policy estimate. | [Project](projects/04-mexico-input-output/README.md) · [Three-page note](projects/04-mexico-input-output/NOTE.pdf) · [Editable note](projects/04-mexico-input-output/NOTE.md) · [Figure](projects/04-mexico-input-output/figures/intermediate_destination_origins.svg) · [Code](projects/04-mexico-input-output/analyze.py) |
 | **5. Growth and policy horizons.** How do investment and efficiency-growth scenarios differ in transition costs and long-run mechanisms? | In an illustrative Solow exercise, the year-25 output gap is 3.83% for higher investment and 11.10% for faster efficiency growth. The investment scenario initially reduces consumption. | New exact transition implementation of a model developed in existing public teaching materials; four scenarios, 204 annual model rows. No empirical policy estimate or Mexico forecast. | [Project](projects/05-growth-scenarios/README.md) · [Note](projects/05-growth-scenarios/NOTE.md) · [Code](projects/05-growth-scenarios/analyze.py) |
 
-## Reproduce everything
+## Reproduce the original trade and growth projects
 
 Python 3.11 or later. Core reproduction uses only the standard library, included small inputs and no credentials or network access:
 
@@ -23,6 +33,14 @@ python reproduce.py
 ```
 
 The command runs seven components of five projects: P01, the partner and product views of P02, the shared Census flow bridge, and P03–P05. It regenerates the included tables and figures. [Census common](projects/census-common/README.md) supplies a [shared dictionary](projects/census-common/DATA_DICTIONARY.md) and a bridge between general imports and imports for consumption; it is support, not an additional project. Individual project READMEs document grain, definitions, denominators, execution checks and upstream source-reconstruction limits. Optional source downloads/extractions may require extra tools and are distinguished from offline reproduction. No dependency file is needed for core reproduction. P04’s note PDF and PNG/SVG figure use optional presentation dependencies and `analyze.py --publication`, as documented in its README; core execution reproduces its four tables and validation record.
+
+The three additional climate-finance samples have a separate offline entry point:
+
+```bash
+python reproduce_climate_finance.py
+```
+
+This runs P06's document-integrity checks and P07–P08 calculations without changing the original runner. P07 figure generation uses the optional dependencies documented in its README. Policy status, data freshness, missing values and the synthetic nature of the financing model remain explicit in the project notes.
 
 ## Read the evidence correctly
 

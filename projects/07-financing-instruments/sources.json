@@ -1,0 +1,49 @@
+{
+  "as_of": "2026-10-26",
+  "numerical_data": "No external numerical dataset. All model inputs are synthetic and disclosed in data/assumptions.json.",
+  "sources": [
+    {
+      "id": "GI",
+      "publisher": "UNFCCC",
+      "title": "Decision 1/CP.28 Annex I Governing Instrument of the Fund",
+      "url": "https://unfccc.int/sites/default/files/resource/cp2023_11a01E.pdf",
+      "document_date": "2024-03-15",
+      "decision_year": 2023,
+      "locators": "Annex I paragraphs 49-50 (printed pages 12-13) and 57-59 (printed pages 13-14)",
+      "use": "Distinguish access modalities, the broad financial-instrument mandate, Board policy and debt sustainability considerations.",
+      "status": "Adopted Governing Instrument; it does not establish the synthetic terms used here."
+    },
+    {
+      "id": "BOARD2026",
+      "publisher": "FRLD Board / UNFCCC",
+      "title": "Report of the Board to COP 31/CMA 8",
+      "url": "https://unfccc.int/sites/default/files/resource/cp2026_07_cma2016_12_adv.pdf",
+      "document_date": "2026-10-19",
+      "reporting_period": "2025-10-10 to 2026-07-31",
+      "locators": "Printed page 6, PDF page 8, guidance table for decision 4/CP.30 point 2",
+      "use": "Confirms BIM context as a first set of grant interventions for 2025-2026.",
+      "status": "Official report of decisions and implementation. The URL spelling cma2016 is retained as served by UNFCCC; later decisions may not be covered by the reporting period.",
+      "verification": "Relevant page read from the downloaded official PDF during preparation."
+    },
+    {
+      "id": "IDA_PV",
+      "publisher": "International Development Association / World Bank",
+      "title": "Grant Element Calculations",
+      "url": "https://ida.worldbank.org/en/financing/debt/grant-element-calculations",
+      "accessed": "2026-10-26",
+      "locators": "Definition and discount-rate sections",
+      "use": "Conceptual relationship between face value, discounted debt service and concessionality.",
+      "status": "Methodological reference; this code does not certify reproduction of an official calculator or its conventions."
+    },
+    {
+      "id": "WB_DSF",
+      "publisher": "World Bank",
+      "title": "Debt Sustainability Framework",
+      "url": "https://www.worldbank.org/en/programs/debt-toolkit/dsf",
+      "accessed": "2026-10-26",
+      "locators": "Overview and How Does the LIC DSF Template Work",
+      "use": "Explain why a single incremental-loan model is insufficient to assign a country debt-distress risk rating.",
+      "status": "Official methodological overview. At access, distinguishes the September 2026 approved review from expected implementation in mid-2027."
+    }
+  ]
+}

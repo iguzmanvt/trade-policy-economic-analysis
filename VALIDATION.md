@@ -77,4 +77,18 @@ These exclusions are not additional completed projects:
 - The growth exercise does not estimate reform effects or forecast Mexico. Parameters are disclosed teaching assumptions.
 - Archived Census inputs and recovered INEGI workbook vintages are reproducible here; a successful fresh binary/statistical download is not claimed where it was not completed.
 
-No unfinished folder, empty proposal or duplicated tariff analysis is counted in the five-project total.
+No unfinished folder, empty proposal or duplicated tariff analysis is counted in the original five-project total.
+
+## Climate finance additions — 26 October 2026
+
+The new `reproduce_climate_finance.py` entry point ran successfully with Python 3.12 in the integrated repository. It checks P06's document integrity and reproduces P07–P08 calculations with bundled inputs and the standard library. The original seven-component runner and P01–P05 project files remain unchanged; this review did not repeat their analytical audits.
+
+| New sample | Completed checks | Scope and material limits |
+|---|---|---|
+| P06 operational review | Eight policy records, twelve analyst-designed checks and four source records; identifier, source linkage, status and non-assessment checks passed in normal and optimized execution. | The official annual report was read in full at the relevant pages; B.8 decision details use official indexed excerpts, with direct-PDF retrieval limitations disclosed. File validation does not establish policy completeness, eligibility or fiduciary approval. |
+| P07 financing instruments | Eleven tests passed in normal and optimized execution; an independent Decimal-based recomputation compared 2,046 numeric result fields, with zero differences greater than 1e-8. The two-panel figure was visually reviewed. | All quantitative inputs are synthetic. Cash-flow identities and scenario results do not establish country affordability, debt sustainability or official instrument availability. Core reproduction excludes optional figure regeneration. |
+| P08 resource reconciliation | Eighteen metric records, including five preserved missing values. Ten named tests exercise twenty normal/optimized cases. Count and allocation identities and the reported ratios were independently recomputed with exact fraction arithmetic. Both conflicting receipt figures were visually inspected in the official source. | The source discrepancy remains unresolved. Data represent dated report passages, not a current cash balance or transaction audit. Missing amounts are not zero. |
+
+The official annual-report PDF was downloaded and matched the source hash recorded in P06 and P08. P08's optional `--source-pdf` verification was also exercised; the public source PDF itself is not bundled. Its default output truthfully records that optional verification as not run during offline reproduction. The dated source-review evidence is retained separately in the source register and execution record.
+
+The integrated copy passed P07's eleven tests and P08's ten tests (twenty subprocess cases). Public narrative was checked against the results and source scope. New relative links, privacy-sensitive patterns and manifest entries were checked before publication. The portfolio now has eight projects, with the original shared Census component still classified as support.

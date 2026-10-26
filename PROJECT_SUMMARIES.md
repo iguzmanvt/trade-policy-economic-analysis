@@ -29,3 +29,21 @@ Recovered six exact official workbook binaries, preserved the 2018 extract and f
 Developed a reproducible Solow-model scenario exercise extending my public economic-growth teaching materials.
 
 Compared investment and efficiency-growth paths, separating transition costs, long-run mechanisms and illustrative assumptions from empirical forecasts.
+
+## Access and fiduciary evidence for loss and damage finance
+
+Mapped eight selected FRLD policy statuses to twelve original evidence-review checks, preserving the distinction between adopted authority, draft development and case evidence.
+
+Prepared a concise operational note without assigning country readiness scores or making funding or functional-equivalency decisions.
+
+## Financing instruments and fiscal exposure
+
+Built a reproducible comparison of illustrative grant–loan packages, annual repayments, exchange-rate sensitivity and a separate disbursement-delay experiment.
+
+Distinguished immediate liquidity, discounted repayment obligations and incremental fiscal exposure without presenting synthetic terms as FRLD products or a country debt assessment.
+
+## FRLD resource and pipeline reconciliation
+
+Reconciled selected public reporting figures while preserving an internal discrepancy in reported contributions received and the report's historical cutoff.
+
+Separated pledges, receipts, allocations and funding requests, with missing evidence left visible rather than inferred as zero or spendable resources.

@@ -1,0 +1,34 @@
+{
+  "review_date": "2026-10-26",
+  "sources": [
+    {
+      "id": "R1",
+      "title": "Report of the Board of the Fund for responding to Loss and Damage",
+      "document_symbol": "FCCC/CP/2026/7–FCCC/PA/CMA/2026/12",
+      "version": "Advance version dated 19 October 2026",
+      "url": "https://unfccc.int/sites/default/files/resource/cp2026_07_cma2016_12_adv.pdf",
+      "sha256": "8c9c375557a62aedb7aeb6d1f0b1f6d6d67f07c5a199dcf42e7a5ab2890deaea",
+      "reporting_period_start": "2025-10-10",
+      "reporting_period_end": "2026-07-31",
+      "submission_cohort_cutoff": "2026-06-15",
+      "locators": [
+        {"pdf_page": 5, "printed_page": 3, "paragraph": "5", "purpose": "Summary reported receipts; differs from body"},
+        {"pdf_page": 12, "printed_page": 10, "paragraph": "8", "purpose": "BIM funding-request allocation bridge"},
+        {"pdf_page": 13, "printed_page": 11, "paragraph": "10(c)", "purpose": "Total oversight fees separate from funding-request allocation"},
+        {"pdf_page": 14, "printed_page": 12, "paragraph": "10(k)", "purpose": "Oversight increment already contained in total"},
+        {"pdf_page": 15, "printed_page": 13, "paragraph": "17-20", "purpose": "Resource figures and submission-cohort pipeline"}
+      ],
+      "extraction": "Bounded manual transcription checked against PDF text; the two conflicting receipt figures were visually checked on their respective pages.",
+      "distribution": "Original PDF is linked but not redistributed. The CSV contains selected factual observations with locators.",
+      "url_note": "The official URL contains cma2016; retained exactly as served. The document itself is labelled CMA/2026/12."
+    },
+    {
+      "id": "R2",
+      "title": "World Bank Financial Intermediary Funds Trustee Glossary",
+      "url": "https://fiftrustee.worldbank.org/en/about/unit/pim/fiftrustee/glossary",
+      "accessed": "2026-10-26",
+      "terms": ["Pledge", "Contribution Agreement/Arrangement", "Contribution Paid", "Contribution Unpaid", "Contribution Past Due", "Allocation", "Commitment", "Commitment Authority", "Cash Transfer"],
+      "purpose": "Terminology guide; does not by itself establish the composition of FRLD's reported receipts."
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "as_of_date": "2026-10-26",
+  "purpose": "Source register for an independent operational policy analysis",
+  "sources": [
+    {
+      "source_id": "GI",
+      "title": "Decision 1/CP.28 Annex I Governing Instrument of the Fund",
+      "publisher": "UNFCCC",
+      "url": "https://unfccc.int/sites/default/files/resource/cp2023_11a01E.pdf",
+      "document_id": "FCCC/CP/2023/11/Add.1",
+      "publication_date": "2024-03-15",
+      "policy_status": "adopted_governing_instrument",
+      "locator": "Annex I paras 41, 43-50, 57-59, 62-69; printed pages 12-15",
+      "verification": "Full official PDF text retrieved; relevant paragraphs read",
+      "accessed_date": "2026-10-26"
+    },
+    {
+      "source_id": "B8",
+      "title": "Decisions of the Board eighth meeting 22-24 April 2026",
+      "publisher": "FRLD",
+      "url": "https://www.frld.org/sites/default/files/FRLD_B.8_19_Decisions%20of%20the%20Board_eighth%20meeting%20of%20the%20Board%2022-24%20April%202026.pdf",
+      "document_id": "FRLD/B.8/19",
+      "decision_date": "2026-04-24",
+      "policy_status": "adopted_decisions",
+      "locator": "Decision B.8/D.3(a)-(e), printed page 7; Annex I paras 1-5, page 14; Annex III paras 1-2, page 21",
+      "verification": "Official indexed excerpts at the stated locators read; direct PDF download returned HTTP403. Adoption and review routes cross-checked against AR2026 para10(a)-(b)",
+      "accessed_date": "2026-10-26"
+    },
+    {
+      "source_id": "AR2026",
+      "title": "Report of the Board of the Fund for responding to Loss and Damage",
+      "publisher": "UNFCCC and FRLD",
+      "url": "https://unfccc.int/sites/default/files/resource/cp2026_07_cma2016_12_adv.pdf",
+      "document_id": "FCCC/CP/2026/7-FCCC/PA/CMA/2026/12",
+      "publication_date": "2026-10-19",
+      "reporting_period_end": "2026-07-31",
+      "policy_status": "board_adopted_report_advance_UNFCCC_version",
+      "locator": "Report adoption BM-2026/05 PDF page3; guidance table point2 printed page6/PDF8; para10(a)-(k) printed pages10-12/PDF12-14; para16 printed page13/PDF15",
+      "verification": "Full official PDF downloaded and relevant pages read; filename contains cma2016 but header identifies CMA2026/12",
+      "sha256": "8c9c375557a62aedb7aeb6d1f0b1f6d6d67f07c5a199dcf42e7a5ab2890deaea",
+      "accessed_date": "2026-10-26"
+    },
+    {
+      "source_id": "B2-INSTRUMENTS",
+      "title": "Background paper on financial instruments modalities and facilities",
+      "publisher": "FRLD Interim Secretariat via UNFCCC",
+      "url": "https://unfccc.int/sites/default/files/resource/LDF_Financial_Instruments.pdf",
+      "document_id": "FLD/B.2/12",
+      "publication_date": "2024-07-03",
+      "policy_status": "background_paper_not_adopted_instrument_policy",
+      "locator": "Cover page and paras7-18; instrument comparison on printed pages5-6",
+      "verification": "Full official PDF text retrieved; instrument discussion and its informational status read",
+      "accessed_date": "2026-10-26"
+    }
+  ]
+}

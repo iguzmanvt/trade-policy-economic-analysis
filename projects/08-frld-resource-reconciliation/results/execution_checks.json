@@ -1,0 +1,16 @@
+{
+  "review_date": "2026-10-26",
+  "status": "PASS",
+  "normal_run": "PASS",
+  "optimized_run": "PASS",
+  "run_from_outside_project_directory": "PASS",
+  "normal_and_optimized_generated_outputs_byte_identical": true,
+  "unit_test_methods": 10,
+  "unit_test_subprocess_cases": 20,
+  "all_unit_tests_passed": true,
+  "wrong_source_pdf_hash_normal_rejected": true,
+  "wrong_source_pdf_hash_optimized_rejected": true,
+  "wrong_source_pdf_hash_prior_outputs_preserved": true,
+  "numeric_source_discrepancy_resolved": false,
+  "official_source_pdf_redistributed": false
+}

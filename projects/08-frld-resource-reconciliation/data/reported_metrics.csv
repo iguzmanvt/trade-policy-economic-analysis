@@ -1,0 +1,19 @@
+metric_id,metric,value,unit,reference_date,date_basis,source_id,pdf_page,printed_page,paragraph,evidence_status,precision,note
+pledges,Pledges in USD equivalent,822.71,USD million,2026-07-31,Resource snapshot,R1,15,13,17,reported,0.01 million,Donor pledges are not commitment authority
+received_body,Amount received from contributors body,485.77,USD million,2026-07-31,Resource snapshot,R1,15,13,17,reported_discrepancy,0.01 million,Retained separately from summary figure
+received_summary,Amount received from contributors summary,485.97,USD million,2026-07-31,Reporting period end,R1,5,3,5,reported_discrepancy,0.01 million,Retained separately from body figure
+signed_contributors,Contributors with signed contribution agreements,25,contributors,2026-07-31,Resource snapshot,R1,15,13,18,reported,integer,Count of contributors not an agreement dollar amount
+signed_amount,Value covered by signed contribution agreements,,USD million,2026-07-31,Resource snapshot,R1,15,13,17-18,not_in_selected_passages,unknown,Missing in the selected resource passages does not mean zero
+requests_received,Funding requests received,198,requests,2026-06-15,Submission cohort cutoff,R1,15,13,19,reported,integer,Submission cohort described in report ending 31 July
+pipeline_requests,Requests entering BIM pipeline,176,requests,2026-06-15,Submission cohort cutoff,R1,15,13,19,reported,integer,Not a count of approved projects
+noncompliant_requests,Requests not entering BIM pipeline,22,requests,2026-06-15,Submission cohort cutoff,R1,15,13,19,reported,integer,Marked non-compliant in reported cohort
+pipeline_amount,Amount requested in BIM pipeline,2800,USD million,2026-07-31,Reporting period end,R1,15,13,20,reported_rounded,0.1 billion,Converted from reported USD 2.8 billion and retains its coarse precision
+bim_initial,Initial BIM funding request allocation,250,USD million,2026-07-31,Historical decisions reported by period end,R1,12,10,8,reported,1 million,Original allocation at B.5 not a current cash balance
+bim_increase,Increase in BIM funding request allocation,92,USD million,2026-07-31,Historical decisions reported by period end,R1,12,10,8,reported,1 million,Increment at B.9 already included in revised total
+bim_revised,Revised BIM funding request allocation,342,USD million,2026-07-31,Historical decisions reported by period end,R1,12,10,8,reported,1 million,Funding request allocation not project commitments or transfers
+oversight_total,Total set aside for oversight fees,28,USD million,2026-07-31,Historical decisions reported by period end,R1,13,11,10(c),reported,1 million,Separate from 342 for funding requests
+oversight_increase,Supplemental oversight fee increase,8,USD million,2026-07-31,Historical decisions reported by period end,R1,14,12,10(k),reported,1 million,Included in the total 28; do not add twice
+cash_composition,Cash component of amount reported as received,,USD million,2026-07-31,Resource snapshot,R1,15,13,17-18,not_in_selected_passages,unknown,Selected passages do not separate cash from other accepted instruments
+commitment_authority,Trustee commitment authority,,USD million,2026-07-31,Resource snapshot,R1,15,13,17-18,not_in_selected_passages,unknown,No amount extracted; do not infer from pledges or receipts
+commitments,Trustee commitments,,USD million,2026-07-31,Resource snapshot,R1,15,13,17-18,not_in_selected_passages,unknown,No amount extracted; not zero
+transfers,Cash transfers to entities or recipients,,USD million,2026-07-31,Resource snapshot,R1,15,13,17-18,not_in_selected_passages,unknown,No amount extracted; not zero
