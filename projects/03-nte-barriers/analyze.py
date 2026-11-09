@@ -303,9 +303,9 @@ def main():
     output.mkdir(parents=True, exist_ok=True)
     validation = {"status": "FAIL" if errors else "PASS", "errors": errors,
                   "scope": "Structural consistency, documentary coverage and locator metadata. No semantic or legal adjudication."}
-    (output / "validation.json").write_text(json.dumps(validation, indent=2) + "\n", encoding="utf-8")
+    (output / "validation.json").write_text(json.dumps(validation, indent=2) + "\n", encoding="utf-8", newline="\n")
     if errors:
-        (output / "summary.json").write_text(json.dumps({"status": "FAIL", "errors": errors, "validation": "FAILED; other result tables have not been refreshed."}, indent=2) + "\n", encoding="utf-8")
+        (output / "summary.json").write_text(json.dumps({"status": "FAIL", "errors": errors, "validation": "FAILED; other result tables have not been refreshed."}, indent=2) + "\n", encoding="utf-8", newline="\n")
         print(json.dumps(validation, indent=2), file=sys.stderr)
         return 1
     rows, issues, coverage = data["rows"], data["issues"], data["coverage"]
@@ -352,7 +352,7 @@ def main():
              "input_hashes": {name: hashlib.sha256((root / name).read_bytes()).hexdigest() for name in inputs},
              "interpretation": "Purposive coded sample counts, not barrier prevalence, severity, economic cost or legal findings. No-mention cells describe documented review, not zero barriers or repeal.",
              "validation": "Passed explicit structural, date, catalogue, source, page-range and complete selected-issue coverage checks. PDF bytes and page anchors are checked separately by verify_sources.py."}
-    (output / "summary.json").write_text(json.dumps(stats, indent=2) + "\n", encoding="utf-8")
+    (output / "summary.json").write_text(json.dumps(stats, indent=2) + "\n", encoding="utf-8", newline="\n")
     print(json.dumps(stats, indent=2))
     return 0
 

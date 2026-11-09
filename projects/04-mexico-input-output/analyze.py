@@ -275,7 +275,7 @@ def write_outputs(outputs, summary, out=OUT):
                 writer = csv.DictWriter(stream, fieldnames=rows[0])
                 writer.writeheader()
                 writer.writerows(rows)
-        (stage / 'validation.json').write_text(json.dumps(summary, indent=2, default=str) + '\n', encoding='utf-8')
+        (stage / 'validation.json').write_text(json.dumps(summary, indent=2, default=str) + '\n', encoding='utf-8', newline="\n")
         out.mkdir(parents=True, exist_ok=True)
         for name in [*outputs, 'validation.json']:
             (stage / name).replace(out / name)

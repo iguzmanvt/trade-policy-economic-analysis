@@ -193,8 +193,8 @@ def run(input_path=ROOT / "data/assumptions.json", output_dir=ROOT / "results"):
     output_dir = Path(output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
     for name, body in texts.items():
-        (output_dir / name).write_text(body, encoding="utf-8")
-    (output_dir / "validation.json").write_text(json.dumps(verification, indent=2) + "\n", encoding="utf-8")
+        (output_dir / name).write_text(body, encoding="utf-8", newline="\n")
+    (output_dir / "validation.json").write_text(json.dumps(verification, indent=2) + "\n", encoding="utf-8", newline="\n")
     return verification
 
 

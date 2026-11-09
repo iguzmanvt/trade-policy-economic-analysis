@@ -69,7 +69,7 @@ def main():
         "source_review_date": source_document["as_of_date"],
     }
     (ROOT / "results").mkdir(exist_ok=True)
-    (ROOT / "results/validation.json").write_text(json.dumps(report, indent=2) + "\n")
+    (ROOT / "results/validation.json").write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8", newline="\n")
     print(json.dumps(report, indent=2))
 
 

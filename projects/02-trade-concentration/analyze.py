@@ -56,7 +56,7 @@ def make_chart(rows, path):
           '<path d="M470 417H502" stroke="#00857d" stroke-width="3"/><text x="512" y="421" font-size="13">Total exports</text>',
           '<text x="450" y="452" text-anchor="middle" font-size="12">Source: archived U.S. Census statistics; author’s calculations. The vertical axes are truncated.</text>',
           '<text x="450" y="474" text-anchor="middle" font-size="12">HHI squares each individual partner share before summing; Canada and Mexico are pooled only in the share panel.</text>', '</g></svg>']
-    path.write_text('\n'.join(s)+'\n', encoding='utf-8')
+    path.write_text('\n'.join(s)+'\n', encoding='utf-8', newline="\n")
 
 
 def main():
@@ -126,7 +126,7 @@ def main():
                unique_keys=len(seen),groups=len(groups),nonnegative_values=True,
                shares_sum_to_100=True,hhi_individual_partners=True,
                growth_contributions_sum_to_100=True,basis='JAN_AUG_ARCHIVED_MONTHLY_SUM')
-    (args.output/'validation.json').write_text(json.dumps(check,indent=2)+'\n')
+    (args.output/'validation.json').write_text(json.dumps(check,indent=2)+'\n', encoding="utf-8", newline="\n")
     print(f'Validated {len(raw)} partner-flow-period rows; reproduced 8 concentration summaries.')
 
 

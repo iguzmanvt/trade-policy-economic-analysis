@@ -68,7 +68,7 @@ def gap_figure(path: Path, rates):
       '<text x="38" y="669" class="lab">Ratio: 100 × calculated duties / customs value of imports for consumption. No new monthly-source verification.</text>',
       '</svg>']
     path.parent.mkdir(parents=True,exist_ok=True)
-    path.write_text('\n'.join(parts),encoding='utf-8')
+    path.write_text('\n'.join(parts),encoding='utf-8', newline="\n")
 
 def decimal_value(text: str, field: str, row: int) -> Decimal:
     try:
@@ -188,7 +188,7 @@ def analyze(path: Path, output: Path):
             'Coverage checks do not independently verify the original statistical source.'
         ]
     }
-    (output/'results.json').write_text(json.dumps(results,indent=2,ensure_ascii=False),encoding='utf-8')
+    (output/'results.json').write_text(json.dumps(results,indent=2,ensure_ascii=False),encoding='utf-8', newline="\n")
     print(f'Validated {len(rows)} records; wrote reproducible results to {output}')
     return results
 

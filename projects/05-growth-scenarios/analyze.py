@@ -62,7 +62,7 @@ def chart(rows: list[dict], scenarios: list[dict], path: Path) -> None:
         dash = f' stroke-dasharray="{dashes[i]}"' if dashes[i] else ""
         parts.append(f'<polyline points="{points}" fill="none" stroke="{colors[i]}" stroke-width="2.7"{dash}/>')
     parts += ['<text x="85" y="574" font-size="13">Source: author’s exact Solow model calculation. Illustrative parameters; no country forecast or confidence interval.</text>', '</g></svg>']
-    path.write_text("\n".join(parts) + "\n", encoding="utf-8")
+    path.write_text("\n".join(parts) + "\n", encoding="utf-8", newline="\n")
 
 
 def main() -> None:
@@ -141,7 +141,7 @@ def main() -> None:
             "max_ode_residual":max_ode_residual,"max_accounting_residual":max_accounting_residual,
             "baseline_stationarity_checked":True,"same_initial_output_checked":True,
             "method":"Closed-form continuous-time transition; no discretization step or numerical solver"}
-    (out/"validation.json").write_text(json.dumps(record,indent=2)+"\n",encoding="utf-8")
+    (out/"validation.json").write_text(json.dumps(record,indent=2)+"\n",encoding="utf-8", newline="\n")
     print(json.dumps({"status":"passed",**record},indent=2))
 
 

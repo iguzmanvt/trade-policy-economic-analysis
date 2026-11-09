@@ -2,6 +2,18 @@
 
 Prepared 22 October 2026 (Mexico City). **Ready within the reviewed, bounded scope.** Statistical vintage and inference limits remain part of the results.
 
+## Cross-platform reproduction — 9 November 2026
+
+At commit `eee969d3e521361a8db9cc5982448c17dc36d5d8`, both offline coordinators reproduced the 163 tracked files byte for byte on Linux with Python 3.12.14. On Windows with Python 3.13.3, 24 outputs differed only in line endings. P05's `paths.csv` had five differing derived values across two rows, with a maximum absolute difference of about `3e-14`.
+
+| Requirement | Acceptance criterion |
+| --- | --- |
+| Preserve the release | The manifest matches the clean checkout. Git preserves the stored bytes with automatic line-ending conversion enabled. The published inputs and outputs retain their hashes. |
+| Write portable outputs | Both offline coordinators run in an isolated copy. All files except P05's `paths.csv` match the reference byte for byte. |
+| Bound P05 differences | The CSV keeps its header, row count, row order, scenario-year keys, parameter text and line endings. Only finite derived values within `1e-12` absolute difference pass. Missing or additional files, altered structure, changed parameters and differences above the limit fail. |
+
+The generators write LF explicitly for the affected text outputs. P05's CSV retains its CRLF terminators. The absolute tolerance is above the observed differences and below the model's `1e-11` accounting residual check. It is a comparison rule for offline reproduction of these bundled scenarios. The model assumptions and source audits retain their separate validation records below.
+
 ## Initial execution and review — 22 October 2026
 
 Executed successfully with Python 3.12:

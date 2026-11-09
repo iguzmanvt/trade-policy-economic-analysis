@@ -1,5 +1,10 @@
 # Preparation record
 
+## Cross-platform reproduction — 9 November 2026
+
+- Preserve the manifest's published file bytes across Git checkouts and write LF explicitly in the affected generators.
+- Add an offline comparator with an absolute tolerance limited to the derived values in P05's `paths.csv`. Record the acceptance criteria in `VALIDATION.md`.
+
 ## 22 October 2026
 
 - Continued from the completed tariff sample, preserving its data, code and analytical results. Added a dictionary and a fresh execution record; omitted the redundant Word copy.

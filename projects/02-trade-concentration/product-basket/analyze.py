@@ -125,8 +125,8 @@ def main():
     write_csv('reported_hts10_sums.csv', hts_rows)
     write_csv('concentration.csv', hhi_rows)
     write_csv('monthly_totals.csv', [{'period': p, 'general_imports_usd': month_values[p]} for p in sorted(periods)])
-    (ROOT / 'results/summary.json').write_text(json.dumps(summary, indent=2) + '\n')
-    (ROOT / 'results/checks.json').write_text(json.dumps(checks, indent=2) + '\n')
+    (ROOT / 'results/summary.json').write_text(json.dumps(summary, indent=2) + '\n', encoding="utf-8", newline="\n")
+    (ROOT / 'results/checks.json').write_text(json.dumps(checks, indent=2) + '\n', encoding="utf-8", newline="\n")
     draw_contributions(contributions, summary)
     print(json.dumps(summary, indent=2))
 
@@ -157,7 +157,7 @@ def draw_contributions(rows, summary):
             f'<text x="40" y="512" font-size="18" font-weight="bold">Total increase: +{summary["change_usd"]/1e9:.3f} billion dollars ({float(summary["growth_percent"]):.1f}%)</text>',
             '<text x="40" y="547" font-size="14">Source: U.S. Census Bureau archived monthly records; author calculations. Recovered archive; no fresh API verification.</text>',
             '<text x="40" y="570" font-size="14">The basket is selected and retrospective. Gross values do not identify final use, domestic value added or causality.</text>', '</g></svg>']
-    (ROOT / 'figures/contributions.svg').write_text('\n'.join(svg) + '\n')
+    (ROOT / 'figures/contributions.svg').write_text('\n'.join(svg) + '\n', encoding="utf-8", newline="\n")
 
 if __name__ == '__main__':
     main()

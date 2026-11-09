@@ -157,7 +157,7 @@ def main():
                'metrics.json':json.dumps(metrics,indent=2)+'\n', 'validation.json':json.dumps(validation,indent=2)+'\n'}
     args.output.mkdir(parents=True, exist_ok=True)
     for name, content in outputs.items():
-        (args.output/name).write_text(content, encoding='utf-8')
+        (args.output/name).write_text(content, encoding='utf-8', newline="\n")
     print(json.dumps({'status':'PASS','records':len(records),'missing':len(missing),
                       'received_ratio_range_percent':[metrics['received_to_pledges_min']['value'],metrics['received_to_pledges_max']['value']]}))
 

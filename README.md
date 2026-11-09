@@ -42,6 +42,14 @@ python reproduce_climate_finance.py
 
 This runs P06's document-integrity checks and P07–P08 calculations without changing the original runner. P07 figure generation uses the optional dependencies documented in its README. Policy status, data freshness, missing values and the synthetic nature of the financing model remain explicit in the project notes.
 
+To check reproduction, start with two clean checkouts of the same commit. Run both commands in one checkout and compare it with the untouched reference from their parent directory.
+
+```bash
+python -B reference/compare_reproduction.py reference reproduced
+```
+
+The comparison checks file inventory and bytes. The sole numerical exception is an absolute tolerance of `1e-12` in the seven derived columns of P05's `paths.csv`. See [cross-platform validation](VALIDATION.md#cross-platform-reproduction--9-november-2026) for the acceptance criteria.
+
 ## Read the evidence correctly
 
 Projects 1 and 2 retain archived January–August monthly vintages, which can differ from subsequently revised official year-to-date totals. P01 includes 30 consumption-import aggregates; its 240 upstream monthly records are not bundled or newly revalidated. P02 keeps partner concentration for all goods separate from concentration within a retrospective product selection. The product view includes its own 4,794 monthly general-import records. The shared bridge compares the two import definitions without adding them or forcing differences to zero. Gross trade does not identify domestic value added, transshipment or final use.
