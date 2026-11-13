@@ -19,3 +19,8 @@ The portfolio is independent work. It implies no endorsement by the Internationa
 ## Climate finance additions
 
 P06 contains original policy summaries, source locators and an analyst-designed review matrix. P07 contains original synthetic assumptions, code, results and prose; its official references supply conceptual context rather than observed numerical inputs. P08 contains a small factual extract from an official FRLD report and original reconciliation code and analysis. Full source reports, private application materials and professional client files are excluded. No broader license or rights transfer is introduced by these additions.
+
+## Mexico investment and labor samples — 13 November 2026
+
+The two additional samples contain bounded national public statistical extracts and independently prepared analysis. Official spreadsheets and PDF reports, logos, company records and private working materials are excluded. Source-specific attribution and terms are recorded in the [FDI rights notice](samples/mexico-fdi-composition/RIGHTS.md) and [labor sample](samples/mexico-labor-participation/README.md#interpretación-y-atribución). The FDI code license applies only to its original Python programs. No repository-wide license or institutional endorsement is introduced.
+

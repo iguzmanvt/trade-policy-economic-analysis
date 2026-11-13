@@ -1,0 +1,46 @@
+{
+  "prepared_at": "2026-11-13",
+  "environment": {
+    "os": "Linux",
+    "python": "3.12.14",
+    "matplotlib": "3.10.8"
+  },
+  "executed": [
+    {
+      "command": "python -B analyze.py --output NEW_EXTERNAL_DIRECTORY",
+      "result": "PASS",
+      "output_files": 5
+    },
+    {
+      "command": "python -B verify.py --results EXTERNAL_DIRECTORY",
+      "result": "PASS",
+      "rows_checked": 160
+    },
+    {
+      "command": "python -B -m unittest discover -s tests -v",
+      "result": "PASS",
+      "distinct_tests": 13
+    },
+    {
+      "command": "python -B -O -m unittest discover -s tests -v",
+      "result": "PASS",
+      "distinct_tests": 13
+    },
+    {
+      "command": "python -B build_figures.py --results EXTERNAL_DIRECTORY --output NEW_FIGURE_DIRECTORY",
+      "result": "PASS",
+      "figures": 2,
+      "formats": [
+        "PNG",
+        "SVG"
+      ]
+    }
+  ],
+  "normal_optimized_outputs_byte_identical": true,
+  "input_rows_identical_to_archived_extract": 84,
+  "visual_review": "Two full PNGs inspected; annual endpoint labels separated and regenerated final reviewed. Independent reviewer confirmed.",
+  "source_recovery_inherited_date": "2026-11-05",
+  "new_official_workbook_download": false,
+  "new_windows_execution": false,
+  "independent_editorial_review": "README, NOTE, English summary, dictionary, rights and figure correction reviewed; no economic/editorial blockers."
+}

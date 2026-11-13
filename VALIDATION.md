@@ -104,3 +104,13 @@ The new `reproduce_climate_finance.py` entry point ran successfully with Python 
 The official annual-report PDF was downloaded and matched the source hash recorded in P06 and P08. P08's optional `--source-pdf` verification was also exercised; the public source PDF itself is not bundled. Its default output truthfully records that optional verification as not run during offline reproduction. The dated source-review evidence is retained separately in the source register and execution record.
 
 The integrated copy passed P07's eleven tests and P08's ten tests (twenty subprocess cases). Public narrative was checked against the results and source scope. New relative links, privacy-sensitive patterns and manifest entries were checked before publication. The portfolio now has eight projects, with the original shared Census component still classified as support.
+
+## Mexico investment and labor samples — 13 November 2026
+
+The new samples were prepared and tested on Linux with Python 3.12.14; this round does not claim Windows execution. Their separate entry points leave all original project code and outputs unchanged.
+
+- **FDI composition:** 84 archived public figures, source/cell metadata and input hashes preserved. Independent rational arithmetic checks 160 derived rows. Thirteen acceptance tests passed in normal and optimized execution; figures were rendered and visually reviewed. These checks reproduce the archived extract; no new official workbook download is claimed. [Detailed validation](samples/mexico-fdi-composition/VALIDATION.md).
+- **Labor participation:** 84 numerical cells were re-extracted from two official PDFs with matching pinned hashes. Eight stored outputs matched normal and optimized reproduction; eight deliberately altered inputs were rejected. Person-count identities, rates and the symmetric labor-force bridge were checked; both figures were visually reviewed. [Calculation validation](samples/mexico-labor-participation/VALIDATION.json) · [Source audit](samples/mexico-labor-participation/SOURCE_AUDIT.json).
+
+The samples use distinct historical reference periods. FDI categories are financing classifications, not a count of physical investment projects; labor changes are descriptive aggregates, not individual transitions or statistical-significance results. The publication selection excludes private coordination materials and the original private repositories' histories. Relative links and file hashes were checked during integration. The original eight-project analytical audits were not rerun for this addition.
+

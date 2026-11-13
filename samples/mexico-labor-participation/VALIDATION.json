@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "python": "3.12.14",
+  "platform": "Linux",
+  "national_count_anchors": 12,
+  "negative_tests_rejected": [
+    "duplicate",
+    "missing",
+    "negative",
+    "identity",
+    "sex_sum",
+    "frequency",
+    "source",
+    "published_rate"
+  ],
+  "byte_identical_normal_optimized_stored_outputs": 8,
+  "independent_fraction_bridge": "PASS",
+  "validated_input_records": 12,
+  "limits": "This validates calculations and reproducibility, not survey sampling significance."
+}

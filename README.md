@@ -1,8 +1,19 @@
 # Trade policy and economic analysis
 
-**Isaac Guzmán Valdivia Tovar** · Economist · Original portfolio reference: 22 October 2026 · Latest additions: 26 October 2026
+**Isaac Guzmán Valdivia Tovar** · Economist · Original portfolio reference: 22 October 2026 · Latest additions: 13 November 2026
 
-This portfolio presents applied economic analysis and reproducible policy research. Five original projects connect trade measurement, external exposure, institutional evidence, production accounts and growth mechanisms. Three additional work samples examine loss-and-damage financing, operational evidence and public financial reporting. Each addresses a different question and states what its evidence can establish. The notes and results are in English. This is independent analytical work; no institutional endorsement is implied.
+This portfolio presents applied economic analysis and reproducible policy research. Five original projects connect trade measurement, external exposure, institutional evidence, production accounts and growth mechanisms. Three additional work samples examine loss-and-damage financing, operational evidence and public financial reporting. Each addresses a different question and states what its evidence can establish. The original eight projects have notes and results in English. The additional Mexico samples below have Spanish notes and English summaries. This is independent analytical work; no institutional endorsement is implied.
+
+## Mexico: investment and labor — additional samples
+
+Two self-contained public-data samples were added on 13 November 2026. Each has its own code, source register, validation and historical cutoff. They retain separate monthly, quarterly and annual reference periods.
+
+| Sample | Question and evidence | Read / reproduce |
+|---|---|---|
+| **FDI composition** | How do the size of a financing component and its contribution to total growth differ? A bounded SE/RNIE extract contains 2006–2025 annual totals and a separate January–June 2026 snapshot. | [Project](samples/mexico-fdi-composition/README.md) · [Spanish note](samples/mexico-fdi-composition/NOTE.md) · [English summary](samples/mexico-fdi-composition/SUMMARY_EN.md) |
+| **Employment and participation** | How can employment increase while participation declines? Two independent ENOE comparisons separate person counts and rates: second quarters and Septembers of 2025/2026. | [Project](samples/mexico-labor-participation/README.md) · [Spanish note](samples/mexico-labor-participation/NOTE_ES.md) · [English summary](samples/mexico-labor-participation/SUMMARY_EN.md) |
+
+These samples are independent analytical work using bounded public aggregates. Follow each sample's reproduction instructions; the original two portfolio runners retain their existing eight-project scope.
 
 ## Climate finance and economic appraisal
 
@@ -61,3 +72,4 @@ NTE records express the reporting perspective of the United States; they do not 
 The statistical sources are the U.S. Census Bureau and Mexico's National Institute of Statistics and Geography (INEGI); documentary sources are official U.S. Trade Representative reports. Project 5 links to the existing [Crecimiento course repository](https://github.com/iguzmanvt/Crecimiento) at a pinned commit and adds a new implementation without altering that repository's history.
 
 See [source guide](SOURCES.md), [rights and attribution](RIGHTS_AND_SOURCES.md), [execution and validation](VALIDATION.md), [preparation record](CHANGELOG.md) and [two-line project descriptions](PROJECT_SUMMARIES.md). Only public inputs and independently prepared portfolio code/text are included.
+

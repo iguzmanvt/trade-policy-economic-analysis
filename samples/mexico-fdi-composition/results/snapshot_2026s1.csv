@@ -1,0 +1,4 @@
+segment,year,source_period,component,amount_usdm,published_total_usdm,share_pct,source_file,source_sheet,component_cell,total_cell
+semestre_2026_original,2026,2026-2,Nuevas inversiones,2725.5141825999999,34967.546640009998,7.794410659287,tipo_original.xlsx,Por Tipo de Inversión,AI6,AI5
+semestre_2026_original,2026,2026-2,Reinversión de utilidades,30956.74988942,34967.546640009998,88.529945232129,tipo_original.xlsx,Por Tipo de Inversión,AI7,AI5
+semestre_2026_original,2026,2026-2,Cuentas entre compañías,1285.28256799,34967.546640009998,3.675644108584,tipo_original.xlsx,Por Tipo de Inversión,AI8,AI5

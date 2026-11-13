@@ -1,0 +1,61 @@
+segment,year,source_period,component,amount_usdm,published_total_usdm,share_pct,source_file,source_sheet,component_cell,total_cell
+anual_actualizada,2006,2006-4,Nuevas inversiones,6972.9567632358221,21236.853631705799,32.834227160776,tipo_actualizado.xlsx,Por Tipo de Inversión,E6,E5
+anual_actualizada,2006,2006-4,Reinversión de utilidades,8102.9187384699644,21236.853631705799,38.154986981558,tipo_actualizado.xlsx,Por Tipo de Inversión,E7,E5
+anual_actualizada,2006,2006-4,Cuentas entre compañías,6160.9781300000113,21236.853631705799,29.010785857665,tipo_actualizado.xlsx,Por Tipo de Inversión,E8,E5
+anual_actualizada,2007,2007-4,Nuevas inversiones,18027.49870176422,32394.040099684222,55.650664894806,tipo_actualizado.xlsx,Por Tipo de Inversión,I6,I5
+anual_actualizada,2007,2007-4,Reinversión de utilidades,8509.9779659199903,32394.040099684222,26.270196430370,tipo_actualizado.xlsx,Por Tipo de Inversión,I7,I5
+anual_actualizada,2007,2007-4,Cuentas entre compañías,5856.5634320000054,32394.040099684222,18.079138674824,tipo_actualizado.xlsx,Por Tipo de Inversión,I8,I5
+anual_actualizada,2008,2008-4,Nuevas inversiones,13073.232997689111,29522.229957149091,44.282674502111,tipo_actualizado.xlsx,Por Tipo de Inversión,M6,M5
+anual_actualizada,2008,2008-4,Reinversión de utilidades,9328.8890294599842,29522.229957149091,31.599540559777,tipo_actualizado.xlsx,Por Tipo de Inversión,M7,M5
+anual_actualizada,2008,2008-4,Cuentas entre compañías,7120.1079300000019,29522.229957149091,24.117784938112,tipo_actualizado.xlsx,Por Tipo de Inversión,M8,M5
+anual_actualizada,2009,2009-4,Nuevas inversiones,11009.69082225194,17851.26029961196,61.674585645313,tipo_actualizado.xlsx,Por Tipo de Inversión,Q6,Q5
+anual_actualizada,2009,2009-4,Reinversión de utilidades,5365.2211173599999,17851.26029961196,30.055139117974,tipo_actualizado.xlsx,Por Tipo de Inversión,Q7,Q5
+anual_actualizada,2009,2009-4,Cuentas entre compañías,1476.3483600000261,17851.26029961196,8.270275236713,tipo_actualizado.xlsx,Por Tipo de Inversión,Q8,Q5
+anual_actualizada,2010,2010-4,Nuevas inversiones,15645.98090887213,27199.002382002131,57.524098454527,tipo_actualizado.xlsx,Por Tipo de Inversión,U6,U5
+anual_actualizada,2010,2010-4,Reinversión de utilidades,5305.8151647799978,27199.002382002131,19.507388875009,tipo_actualizado.xlsx,Por Tipo de Inversión,U7,U5
+anual_actualizada,2010,2010-4,Cuentas entre compañías,6247.2063083500016,27199.002382002131,22.968512670464,tipo_actualizado.xlsx,Por Tipo de Inversión,U8,U5
+anual_actualizada,2011,2011-4,Nuevas inversiones,9699.188472932814,25632.578587052802,37.839300638415,tipo_actualizado.xlsx,Por Tipo de Inversión,Y6,Y5
+anual_actualizada,2011,2011-4,Reinversión de utilidades,10756.34630374996,25632.578587052802,41.963574859312,tipo_actualizado.xlsx,Por Tipo de Inversión,Y7,Y5
+anual_actualizada,2011,2011-4,Cuentas entre compañías,5177.0438103700199,25632.578587052802,20.197124502273,tipo_actualizado.xlsx,Por Tipo de Inversión,Y8,Y5
+anual_actualizada,2012,2012-4,Nuevas inversiones,4316.8766179697532,21770.129704685529,19.829356446327,tipo_actualizado.xlsx,Por Tipo de Inversión,AC6,AC5
+anual_actualizada,2012,2012-4,Reinversión de utilidades,10664.13040025579,21770.129704685529,48.985148664321,tipo_actualizado.xlsx,Por Tipo de Inversión,AC7,AC5
+anual_actualizada,2012,2012-4,Cuentas entre compañías,6789.1226864599876,21770.129704685529,31.185494889352,tipo_actualizado.xlsx,Por Tipo de Inversión,AC8,AC5
+anual_actualizada,2013,2013-4,Nuevas inversiones,22041.299195012391,48357.108387334767,45.580267162511,tipo_actualizado.xlsx,Por Tipo de Inversión,AG6,AG5
+anual_actualizada,2013,2013-4,Reinversión de utilidades,18496.59878832231,48357.108387334767,38.250009988535,tipo_actualizado.xlsx,Por Tipo de Inversión,AG7,AG5
+anual_actualizada,2013,2013-4,Cuentas entre compañías,7819.2104040000586,48357.108387334767,16.169722848953,tipo_actualizado.xlsx,Por Tipo de Inversión,AG8,AG5
+anual_actualizada,2014,2014-4,Nuevas inversiones,5763.9411894652667,30352.408991116619,18.990061682261,tipo_actualizado.xlsx,Por Tipo de Inversión,AK6,AK5
+anual_actualizada,2014,2014-4,Reinversión de utilidades,18036.729514821291,30352.408991116619,59.424375574605,tipo_actualizado.xlsx,Por Tipo de Inversión,AK7,AK5
+anual_actualizada,2014,2014-4,Cuentas entre compañías,6551.7382868300601,30352.408991116619,21.585562743134,tipo_actualizado.xlsx,Por Tipo de Inversión,AK8,AK5
+anual_actualizada,2015,2015-4,Nuevas inversiones,13450.828489130459,35945.607983971007,37.419949872954,tipo_actualizado.xlsx,Por Tipo de Inversión,AO6,AO5
+anual_actualizada,2015,2015-4,Reinversión de utilidades,11955.44229204053,35945.607983971007,33.259813820291,tipo_actualizado.xlsx,Por Tipo de Inversión,AO7,AO5
+anual_actualizada,2015,2015-4,Cuentas entre compañías,10539.33720280001,35945.607983971007,29.320236306755,tipo_actualizado.xlsx,Por Tipo de Inversión,AO8,AO5
+anual_actualizada,2016,2016-4,Nuevas inversiones,10994.936902817621,31192.354981810699,35.248819491921,tipo_actualizado.xlsx,Por Tipo de Inversión,AS6,AS5
+anual_actualizada,2016,2016-4,Reinversión de utilidades,10682.51622727297,31192.354981810699,34.247225749714,tipo_actualizado.xlsx,Por Tipo de Inversión,AS7,AS5
+anual_actualizada,2016,2016-4,Cuentas entre compañías,9514.901851720113,31192.354981810699,30.503954758365,tipo_actualizado.xlsx,Por Tipo de Inversión,AS8,AS5
+anual_actualizada,2017,2017-4,Nuevas inversiones,11987.287906399961,34064.567813291673,35.189901636511,tipo_actualizado.xlsx,Por Tipo de Inversión,AW6,AW5
+anual_actualizada,2017,2017-4,Reinversión de utilidades,11981.194563061699,34064.567813291673,35.172014008018,tipo_actualizado.xlsx,Por Tipo de Inversión,AW7,AW5
+anual_actualizada,2017,2017-4,Cuentas entre compañías,10096.085343830009,34064.567813291673,29.638084355471,tipo_actualizado.xlsx,Por Tipo de Inversión,AW8,AW5
+anual_actualizada,2018,2018-4,Nuevas inversiones,11336.987946193731,34114.123374415372,33.232534870575,tipo_actualizado.xlsx,Por Tipo de Inversión,BA6,BA5
+anual_actualizada,2018,2018-4,Reinversión de utilidades,13312.95873943165,34114.123374415372,39.024771627038,tipo_actualizado.xlsx,Por Tipo de Inversión,BA7,BA5
+anual_actualizada,2018,2018-4,Cuentas entre compañías,9464.1766887899976,34114.123374415372,27.742693502386,tipo_actualizado.xlsx,Por Tipo de Inversión,BA8,BA5
+anual_actualizada,2019,2019-4,Nuevas inversiones,13750.50715938245,34798.525033764687,39.514626398793,tipo_actualizado.xlsx,Por Tipo de Inversión,BE6,BE5
+anual_actualizada,2019,2019-4,Reinversión de utilidades,18178.993149842241,34798.525033764687,52.240700237160,tipo_actualizado.xlsx,Por Tipo de Inversión,BE7,BE5
+anual_actualizada,2019,2019-4,Cuentas entre compañías,2869.0247245400001,34798.525033764687,8.244673364047,tipo_actualizado.xlsx,Por Tipo de Inversión,BE8,BE5
+anual_actualizada,2020,2020-4,Nuevas inversiones,6829.6320978482172,28284.246032750671,24.146417372908,tipo_actualizado.xlsx,Por Tipo de Inversión,BI6,BI5
+anual_actualizada,2020,2020-4,Reinversión de utilidades,16135.41230032322,28284.246032750671,57.047348130262,tipo_actualizado.xlsx,Por Tipo de Inversión,BI7,BI5
+anual_actualizada,2020,2020-4,Cuentas entre compañías,5319.2016345792354,28284.246032750671,18.806234496829,tipo_actualizado.xlsx,Por Tipo de Inversión,BI8,BI5
+anual_actualizada,2021,2021-4,Nuevas inversiones,15486.897460973591,33855.047158456131,45.744722754301,tipo_actualizado.xlsx,Por Tipo de Inversión,BM6,BM5
+anual_actualizada,2021,2021-4,Reinversión de utilidades,12913.13838794816,33855.047158456131,38.142432138727,tipo_actualizado.xlsx,Por Tipo de Inversión,BM7,BM5
+anual_actualizada,2021,2021-4,Cuentas entre compañías,5455.011309534385,33855.047158456131,16.112845106972,tipo_actualizado.xlsx,Por Tipo de Inversión,BM8,BM5
+anual_actualizada,2022,2022-4,Nuevas inversiones,18190.772321484139,36420.581941707896,49.946407640051,tipo_actualizado.xlsx,Por Tipo de Inversión,BQ6,BQ5
+anual_actualizada,2022,2022-4,Reinversión de utilidades,16202.30091020797,36420.581941707896,44.486661240450,tipo_actualizado.xlsx,Por Tipo de Inversión,BQ7,BQ5
+anual_actualizada,2022,2022-4,Cuentas entre compañías,2027.5087100157789,36420.581941707896,5.566931119500,tipo_actualizado.xlsx,Por Tipo de Inversión,BQ8,BQ5
+anual_actualizada,2023,2023-4,Nuevas inversiones,5315.8760129002903,36507.390076674987,14.561095717156,tipo_actualizado.xlsx,Por Tipo de Inversión,BU6,BU5
+anual_actualizada,2023,2023-4,Reinversión de utilidades,26639.249307182941,36507.390076674987,72.969470705064,tipo_actualizado.xlsx,Por Tipo de Inversión,BU7,BU5
+anual_actualizada,2023,2023-4,Cuentas entre compañías,4552.2647565917596,36507.390076674987,12.469433577779,tipo_actualizado.xlsx,Por Tipo de Inversión,BU8,BU5
+anual_actualizada,2024,2024-4,Nuevas inversiones,4144.1121926750466,37969.171663407971,10.914412959577,tipo_actualizado.xlsx,Por Tipo de Inversión,BY6,BY5
+anual_actualizada,2024,2024-4,Reinversión de utilidades,28710.314866537119,37969.171663407971,75.614804349830,tipo_actualizado.xlsx,Por Tipo de Inversión,BY7,BY5
+anual_actualizada,2024,2024-4,Cuentas entre compañías,5114.7446041958037,37969.171663407971,13.470782690593,tipo_actualizado.xlsx,Por Tipo de Inversión,BY8,BY5
+anual_actualizada,2025,2025-4,Nuevas inversiones,7009.8507933691371,41916.68016358374,16.723296706735,tipo_actualizado.xlsx,Por Tipo de Inversión,CC6,CC5
+anual_actualizada,2025,2025-4,Reinversión de utilidades,28083.796713755011,41916.68016358374,66.999095835251,tipo_actualizado.xlsx,Por Tipo de Inversión,CC7,CC5
+anual_actualizada,2025,2025-4,Cuentas entre compañías,6823.0326564595962,41916.68016358374,16.277607458015,tipo_actualizado.xlsx,Por Tipo de Inversión,CC8,CC5

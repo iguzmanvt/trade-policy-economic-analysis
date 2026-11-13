@@ -24,3 +24,9 @@ Reproduction from included inputs is distinct from a live refresh. Project sourc
 | 8. Resource reconciliation | Bounded numerical extract from the official 2026 FRLD Board report; report published 19 October, reporting period ending 31 July. Two reported received-contribution values remain separate. | [Source register](projects/08-frld-resource-reconciliation/sources.json) · [Method and outputs](projects/08-frld-resource-reconciliation/README.md) |
 
 The July reporting cutoff is not extended to October by the publication or retrieval date. The official report's source hash and PDF/printed-page locators permit inspection of the retained evidence. Source documents are linked, not republished in full.
+
+## Mexico investment and labor samples — 13 November 2026
+
+- **FDI:** SE/RNIE, publication 2T2026. The sample separates 2006–2025 annual revised data from original January–June 2026 data. It reproduces an archived numerical extract; official workbooks were not downloaded again in this preparation. [Sources and workbook/cell locators](samples/mexico-fdi-composition/data/sources.json).
+- **Labor:** INEGI ENOE bulletins 503/26 and 634/26. Two PDFs were retrieved on 13 November 2026, matched their pinned hashes, and 84 selected numerical cells were re-extracted exactly. Second-quarter and September year-on-year comparisons remain separate. [Sources](samples/mexico-labor-participation/data/sources.json) · [Source audit](samples/mexico-labor-participation/SOURCE_AUDIT.json).
+

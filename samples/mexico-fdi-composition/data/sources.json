@@ -1,0 +1,77 @@
+{
+  "title": "Mexico: national foreign direct investment by financing component",
+  "edition_id": "SE_PUBLICACION_2T2026_CAPTURA_20261105",
+  "producer": "Secretaría de Economía / Registro Nacional de Inversiones Extranjeras (RNIE)",
+  "statistical_unit": "millions of current USD; notified net FDI flows",
+  "geography": "Mexico, national aggregate",
+  "official_publication": "Second quarter 2026",
+  "source_recovery_date": "2026-11-05",
+  "source_information_date": "2026-06-30",
+  "public_sample_prepared": "2026-11-13",
+  "source_page": "https://www.gob.mx/se/acciones-y-programas/competitividad-y-normatividad-inversion-extranjera-directa?lt=&state=published",
+  "source_page_date_observed_in_prior_review": "2026-10-16",
+  "workbooks": {
+    "tipo_actualizado.xlsx": {
+      "original_filename": "2026_2T_Flujos_TI_AC_3.xlsx",
+      "url": "https://www.gob.mx/cms/uploads/attachment/file/1100604/2026_2T_Flujos_TI_AC_3.xlsx",
+      "sha256": "b455e2d8b4b2a6e7631f46a9f736266c73fc5af2440a075103a1d0348595706a",
+      "bytes": 547284,
+      "sheet": "Por Tipo de Inversión",
+      "retrieved_at_prior_review": "2026-11-05T18:43:54.570900+00:00"
+    },
+    "tipo_original.xlsx": {
+      "original_filename": "2026_2T_Flujos_TI_OR_2.xlsx",
+      "url": "https://www.gob.mx/cms/uploads/attachment/file/1100605/2026_2T_Flujos_TI_OR_2.xlsx",
+      "sha256": "237075853fe6b72b5ea5473dc53b5849bfe3220840de293a72c7e15053f283ce",
+      "bytes": 449455,
+      "sheet": "Por Tipo de Inversión",
+      "retrieved_at_prior_review": "2026-11-05T18:43:59.072923+00:00"
+    }
+  },
+  "segments": {
+    "annual_2006_2025.csv": {
+      "source_status": "revised annual totals (AC)",
+      "years": [
+        2006,
+        2025
+      ],
+      "source_periods": "year-4 only",
+      "observations": 80,
+      "source_file": "tipo_actualizado.xlsx"
+    },
+    "snapshot_2026s1.csv": {
+      "source_status": "originally reported partial-year total (OR)",
+      "period": "January–June 2026",
+      "source_periods": "2026-2",
+      "observations": 4,
+      "source_file": "tipo_original.xlsx"
+    }
+  },
+  "conceptual_reference": {
+    "url": "https://gaceta.diputados.gob.mx/PDF/66/2026/sep/InvExt-20260929.pdf",
+    "locators": "CNIE 2T2026 report, sections 4.1–4.3, printed pp. 14–15 / PDF pp. 15–16 (universe/categories); section 4.8, printed p.17 / PDF p.18 (revisions)",
+    "review_scope": "Locators retained from the prior source review; not freshly downloaded during this preparation."
+  },
+  "input_sha256": {
+    "annual_2006_2025.csv": "9f186a5811e461c80338434097eef92977c23ffd86421528afc7e7fbf57af9a0",
+    "snapshot_2026s1.csv": "aaac961e34b9a5b50d3d1bf501558c6402e579bb3d1f72e5214f0228fe79ab32"
+  },
+  "extraction_history": {
+    "national_extract_sha256": "b77ae3bae4f9b93469ee18af11cf43cfef9bb8bee85bd767283a0e71e98b6696",
+    "original_extract_rows": 84,
+    "preparation": "The archived 84-row national extract was hash-checked and split into two files without changing field values. Original workbooks were not downloaded or re-extracted in this preparation."
+  },
+  "rights": {
+    "official_originals_redistributed": false,
+    "official_data_license": "No XLSX-specific open license was identified in the prior review. No blanket open-data license is asserted.",
+    "terms": "https://www.gob.mx/terminos",
+    "attribution": "Partial numerical extract from Secretaría de Economía/RNIE, 2T2026 edition, recovered 5 November 2026. Analysis, code and figures independently prepared; no official endorsement."
+  },
+  "limits": [
+    "This is a fixed historical edition, not a live data feed or a claim of the latest release.",
+    "Annual AC and partial-year OR segments remain separate. No growth rate compares 2026H1 with full-year 2025.",
+    "New investments do not equal greenfield projects, announcements or physical investment.",
+    "National published totals only; no confidential state-level cells or inferred residual values are included.",
+    "Stored decimal lexemes are preserved; exact residuals are reported rather than allocated or explained."
+  ]
+}

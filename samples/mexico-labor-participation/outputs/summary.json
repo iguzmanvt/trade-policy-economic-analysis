@@ -1,0 +1,62 @@
+{
+  "scope": "Two independent national year-on-year comparisons, Q2 and September 2025–2026",
+  "national_changes": [
+    {
+      "base_period": "2025-T2",
+      "comparison_period": "2026-T2",
+      "frequency": "quarterly",
+      "sex": "total",
+      "change_population_15plus_persons": 1689822,
+      "change_labor_force_persons": 611693,
+      "change_employed_persons": 599334,
+      "change_unemployed_persons": 12359,
+      "change_outside_labor_force_persons": 1078129,
+      "change_participation_pp": "-0.377641122",
+      "change_employment_population_pp": "-0.363846626",
+      "change_unemployment_pp": "-0.006341440"
+    },
+    {
+      "base_period": "2025-09",
+      "comparison_period": "2026-09",
+      "frequency": "monthly",
+      "sex": "total",
+      "change_population_15plus_persons": 1377400,
+      "change_labor_force_persons": -358839,
+      "change_employed_persons": -267333,
+      "change_unemployed_persons": -91506,
+      "change_outside_labor_force_persons": 1736239,
+      "change_participation_pp": "-1.116612690",
+      "change_employment_population_pp": "-1.006831530",
+      "change_unemployment_pp": "-0.130908182"
+    }
+  ],
+  "national_labor_force_bridge": [
+    {
+      "base_period": "2025-T2",
+      "comparison_period": "2026-T2",
+      "sex": "total",
+      "change_labor_force_persons": 611693,
+      "population_component_persons": "1002400.924424653",
+      "participation_component_persons": "-390707.924424653",
+      "identity_residual_persons": "0.000000000"
+    },
+    {
+      "base_period": "2025-09",
+      "comparison_period": "2026-09",
+      "sex": "total",
+      "change_labor_force_persons": -358839,
+      "population_component_persons": "812806.392996184",
+      "participation_component_persons": "-1171645.392996184",
+      "identity_residual_persons": "0.000000000"
+    }
+  ],
+  "input_sha256": "9ef1310914af8cb7b1eea9bb8f81ddb89dd4c777a4b87e1ee629e5dbb7365e4d",
+  "input_records": 12,
+  "raw_count_cells": 60,
+  "published_rate_cells": 24,
+  "limits": [
+    "No statistical significance test",
+    "No causal or individual-transition interpretation",
+    "September is not the third quarter"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "pdfs": [
+    {
+      "source_id": "enoe_2026t2",
+      "sha256": "74cfc4f19f98ea25ba20d0e0dc70557855050cc3399bbdc25dd46e066a0b8fca",
+      "match": "PASS"
+    },
+    {
+      "source_id": "enoe_202609",
+      "sha256": "44727848a17ce04c95395b00f3634889a9129805d854dc5aee240aa7f9605b21",
+      "match": "PASS"
+    }
+  ],
+  "source_numeric_cells_verified": 84,
+  "counts": 60,
+  "published_rates": 24,
+  "extraction": "pdftotext -layout; exact string/integer comparisons"
+}

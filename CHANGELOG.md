@@ -1,5 +1,13 @@
 # Preparation record
 
+## Mexico investment and labor samples — 13 November 2026
+
+- Add two self-contained samples under `samples/`, using bounded national public statistics, Spanish notes and English summaries.
+- Separate FDI annual revised figures from its original-publication semester snapshot; retain explicit source locators and inherited extraction limits.
+- Recheck 84 ENOE numerical cells against two official PDFs and preserve separate monthly and quarterly comparisons.
+- Add independent calculation/validation scripts, four figures in PNG/SVG and source-specific rights information. Original project code, results and runner scope are unchanged.
+- Update navigation, source and validation summaries and the repository manifest. Publication of a historical sample does not refresh its statistical vintage.
+
 ## Cross-platform reproduction — 9 November 2026
 
 - Preserve the manifest's published file bytes across Git checkouts and write LF explicitly in the affected generators.
@@ -55,3 +63,4 @@ The information cutoff is 22 October 2026. Each source retains its own reference
 - P08 preserves two different receipt figures in the same official report, five missing financial amounts and distinct resource/intake dates. The report's 19 October publication does not update its July resource snapshot. Source and calculation checks are recorded within the project.
 - Ran the separate `reproduce_climate_finance.py` entry point successfully from the repository root. P07 and P08 tests passed in the integrated copy. The original runner and P01–P05 project files remain unchanged; they were not reaudited.
 - Updated root navigation, source/rights guidance, project summaries, validation history and the file manifest. Private application documents, full official source PDFs and private professional materials are excluded.
+
